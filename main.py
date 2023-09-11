@@ -15,36 +15,35 @@ current_dir = Path.cwd()
 data_dir = current_dir / 'data'
 md_dir = current_dir / 'md'
 
-def get_all_subdirs(path):
-    subdirs = []
-    for p in path.iterdir():
-        if p.is_dir(): 
-            subdirs.append(p.name)
-            subdirs.extend(get_all_subdirs(p))
-    return subdirs
+all_subdirs = []
 
-all_subdirs = get_all_subdirs(data_dir) + get_all_subdirs(md_dir)
+def get_all_subdirs(path):
+    for p in path.iterdir():
+        if p.is_dir():
+            all_subdirs.append(p)
+            get_all_subdirs(p)
+            
+get_all_subdirs(data_dir)
+get_all_subdirs(md_dir)
 
 with open('README.md', 'w') as f:
-    f.write('# Contents\n')
+    f.write('# 目录\n')
     
     for d in all_subdirs:
-        name = re.sub(r"[-_]", " ", d) 
-        f.write(f' - <a href="/{d}">{name}</a>\n')
+        name = re.sub(r"[-_]", " ", d.name)
+        f.write(f' - <a href="/{d.relative_to(current_dir)}">{name}</a>\n')
 
-    def process_subdir(path):
-        f.write(f'\n## {path.name}\n')
-
-        for file in path.iterdir():
-            if file.suffix in ['.md', '.json','.pdf']:
-                name = re.sub(r"\.(md|json|pdf)$", "", file.name)
-                name = re.sub(r"[-_]", " ", name) 
-                f.write(f' - <a target=_black href="/{data_dir.name}/{path.name}/{file.name}">{name}</a>\n')
-
-    for p in [data_dir, md_dir]:
-        for subpath in p.iterdir():
-            if subpath.is_dir():
-                process_subdir(subpath)
-                for subsubdir in subpath.iterdir():
-                    if subsubdir.is_dir():
-                        process_subdir(subsubdir)
+    for subdir in all_subdirs:
+        has_files = False
+        for file in subdir.iterdir():
+            if file.suffix in ['.md', '.json', '.pdf']:
+                has_files = True
+                break 
+        if has_files or any(p.is_dir() for p in subdir.iterdir()):
+            f.write(f'\n## {subdir.name}\n')
+            
+            for file in subdir.iterdir():
+                if file.suffix in ['.md', '.json', '.pdf']:
+                    name = re.sub(r"\.(md|json|pdf)$", "", file.name)
+                    name = re.sub(r"[-_]", " ", name)
+                    f.write(f' - <a target=_blank href="/{subdir.relative_to(current_dir)}/{file.name}">{name}</a>\n')
