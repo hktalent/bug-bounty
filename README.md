@@ -27,7 +27,21 @@
  - <a target=_black href="/md/Galaxy-Bugbounty-Checklist/README.md">README.md</a>
 
 ## BugBountyBooks
+ - <a target=_black href="/md/BugBountyBooks/The tangled Web_ a guide to securing modern Web applications ( PDFDrive ).pdf">The tangled Web_ a guide to securing modern Web applications ( PDFDrive ).pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/The Web Application Hacker's Handbook_ Finding and Exploiting Security Flaws.pdf">The Web Application Hacker's Handbook_ Finding and Exploiting Security Flaws.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/OTGv4.pdf">OTGv4.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Web Hacking 101.pdf">Web Hacking 101.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/wstg-v4.2.pdf">wstg-v4.2.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Bug Bounty Bootcamp The Guide to Finding and Reporting Web Vulnerabilities by Vickie Li.pdf">Bug Bounty Bootcamp The Guide to Finding and Reporting Web Vulnerabilities by Vickie Li.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Web Application Hacking Advanced SQL Injection and Data Store Attacks.pdf">Web Application Hacking Advanced SQL Injection and Data Store Attacks.pdf</a>
  - <a target=_black href="/md/BugBountyBooks/README.md">README.md</a>
+ - <a target=_black href="/md/BugBountyBooks/owasp-api-security-top-10.pdf">owasp-api-security-top-10.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/zseanos-methodology.pdf">zseanos-methodology.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/XSS Cheat Sheet.pdf">XSS Cheat Sheet.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/The Web Application Hackers Handbook Discovering And Exploiting.pdf">The Web Application Hackers Handbook Discovering And Exploiting.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Bug-Bounty-Playbook-V2.pdf">Bug-Bounty-Playbook-V2.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Hacking APIs - Early Access.pdf">Hacking APIs - Early Access.pdf</a>
+ - <a target=_black href="/md/BugBountyBooks/Modern-WAF-bypass-methods.pdf">Modern-WAF-bypass-methods.pdf</a>
 
 ## Findsploit
  - <a target=_black href="/md/Findsploit/README.md">README.md</a>
@@ -47,6 +61,7 @@
 ## bugbounty
  - <a target=_black href="/md/bugbounty/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a>
  - <a target=_black href="/md/bugbounty/remote_code_execution_checklist.md">remote_code_execution_checklist.md</a>
+ - <a target=_black href="/md/bugbounty/Insecure Deserialization.pdf">Insecure Deserialization.pdf</a>
  - <a target=_black href="/md/bugbounty/account_takeover_checklist.md">account_takeover_checklist.md</a>
  - <a target=_black href="/md/bugbounty/README.md">README.md</a>
  - <a target=_black href="/md/bugbounty/web_applications_fingerprinting_tools.md">web_applications_fingerprinting_tools.md</a>
