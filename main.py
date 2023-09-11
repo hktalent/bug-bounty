@@ -29,4 +29,4 @@ with open('README.md', 'w') as f:
                 f.write(f'\n## {subpath.name}\n') 
                 for file in subpath.iterdir():
                     if file.suffix in ['.md', '.json']:
-                        f.write(f' - [{file.name}](/{p.name}/{subpath.name}/{file.name})\n')
+                        f.write(f' - <a target=_black href="/{p.name}/{subpath.name}/{file.name}">{file.name}</a>\n')
