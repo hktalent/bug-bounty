@@ -1,0 +1,9 @@
+AUTHOR='@xer0dayz'
+VULN_NAME='Jetty Version Disclosure Detected'
+URI='/'
+METHOD='GET'
+MATCH='Powered by Jetty'
+SEVERITY='P4 - LOW'
+CURL_OPTS="--user-agent '' -s -L --insecure"
+SECONDARY_COMMANDS=''
+GREP_OPTIONS='-i'

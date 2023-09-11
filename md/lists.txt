@@ -1,0 +1,8 @@
+https://github.com/search?q=bugbounty&type=repositories&s=stars&o=desc
+https://github.com/swisskyrepo/PayloadsAllTheThings
+https://github.com/projectdiscovery/public-bugbounty-programs/raw/main/chaos-bugbounty-list.json
+https://github.com/vavkamil/awesome-bugbounty-tools
+
+https://github.com/WeiChiaChang/stacks-cli
+
+https://github.com/search?q=wappalyzer&type=repositories&s=stars&o=desc
