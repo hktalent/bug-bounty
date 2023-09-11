@@ -13,7 +13,7 @@ on:
 jobs:
   templates:
     runs-on: ubuntu-latest
-    if: github.repository == 'hktalent/TOP'
+    if: github.repository == 'hktalent/bug-bounty'
     steps:
       - uses: actions/checkout@master
         with:
@@ -29,11 +29,14 @@ jobs:
           git pull
           chmod +x .run.sh
           ./.run.sh
-          ls -lah
-          cat Top_Codqql1.md
-          cat hecdql.md Top_Codqql1.md ed.md >Top_Codeql.md
       - name: Commit files
         run: |
+          git add md
+          git add data
+          find . -type f -name ".DS_Store" -delete
+          find . -type f -name "LICENSE" -delete
+          find . -type f -name "LICENSE.*" -delete
+          find . -type f -name "CHANGELOG.*" -delete
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit --allow-empty -m "Auto update md PoCs lists [$(date)] :robot:" -a
