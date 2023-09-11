@@ -1,4 +1,4 @@
-import os
+import os,re
 from pathlib import Path
 
 """
@@ -29,4 +29,6 @@ with open('README.md', 'w') as f:
                 f.write(f'\n## {subpath.name}\n') 
                 for file in subpath.iterdir():
                     if file.suffix in ['.md', '.json',".pdf"]:
-                        f.write(f' - <a target=_black href="/{p.name}/{subpath.name}/{file.name}">{file.name}</a>\n')
+                        ss1 = str({file.name}).removesuffix(".md")
+                        ss1 = re.sub(r"[-_]", " ", ss1)
+                        f.write(f' - <a target=_black href="/{p.name}/{subpath.name}/{file.name}">{ss1}</a>\n')
