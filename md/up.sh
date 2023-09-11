@@ -3,7 +3,7 @@ function doDldZip {
   userName="$1"
   pName="$2"
   main="$3"
-  wget -c -O bugbounty.zip "https://github.com/${userName}/${pName}/archive/refs/heads/${main}.zip"
+  wget -c -O "${pName}.zip" "https://github.com/${userName}/${pName}/archive/refs/heads/${main}.zip"
   unzip -x -o "${pName}.zip"
   mv "${pName}-${main}" "${pName}"
   rm -rf "${pName}.zip" "${pName}/.github"
