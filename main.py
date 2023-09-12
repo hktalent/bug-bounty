@@ -34,7 +34,7 @@ all_subdirs.append(data_dir)
 all_subdirs.append(md_dir)
 
 with open('README.md', 'w') as f:
-    f.write('# 目录\n')
+    f.write('# Contents\n')
     
     for d in all_subdirs:
         name = re.sub(r"[-_]", " ", d.name)
