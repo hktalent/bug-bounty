@@ -1,4 +1,4 @@
-# 目录
+# Contents
  - <a href="/data/bounty-targets-data">bounty targets data</a>
  - <a href="/data/bounty-targets-data/data">data</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
