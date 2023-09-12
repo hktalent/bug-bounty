@@ -17,6 +17,11 @@ md_dir = current_dir / 'md'
 
 all_subdirs = []
 
+def doFile(file,subdir):
+    if file.suffix in ['.md', '.json', '.pdf']:
+        name = re.sub(r"\.(md|json|pdf)$", "", file.name)
+        name = re.sub(r"[-_]", " ", name)
+        f.write(f' - <a target=_blank href="/{subdir.relative_to(current_dir)}/{file.name}">{name}</a>\n')
 def get_all_subdirs(path):
     for p in path.iterdir():
         if p.is_dir():
@@ -25,6 +30,8 @@ def get_all_subdirs(path):
             
 get_all_subdirs(data_dir)
 get_all_subdirs(md_dir)
+all_subdirs.append(data_dir)
+all_subdirs.append(md_dir)
 
 with open('README.md', 'w') as f:
     f.write('# 目录\n')

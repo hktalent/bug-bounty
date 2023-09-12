@@ -223,6 +223,8 @@
  - <a href="/md/Mindmap/Wireshark">Wireshark</a>
  - <a href="/md/Mindmap/Google Dorks">Google Dorks</a>
  - <a href="/md/Mindmap/hydra">hydra</a>
+ - <a href="/data">data</a>
+ - <a href="/md">md</a>
 
 ## bounty-targets-data
  - <a target=_blank href="/data/bounty-targets-data/README.md">README</a>
@@ -870,3 +872,39 @@
 
 ## hydra
  - <a target=_blank href="/md/Mindmap/hydra/hydra.pdf">hydra</a>
+
+## data
+ - <a target=_blank href="/data/chaos-bugbounty-list.json">chaos bugbounty list</a>
+ - <a target=_blank href="/data/chaos-bugbounty-list-httpx.json">chaos bugbounty list httpx</a>
+ - <a target=_blank href="/data/huazhu_amass_dns.json">huazhu amass dns</a>
+
+## md
+ - <a target=_blank href="/md/bugbounty-cheatsheet-crlf.md">bugbounty cheatsheet crlf</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-sqli.md">bugbounty cheatsheet sqli</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-xxe.md">bugbounty cheatsheet xxe</a>
+ - <a target=_blank href="/md/awesome-hacker-search-engines.md">awesome hacker search engines</a>
+ - <a target=_blank href="/md/Awesome-Bugbounty-Writeups.md">Awesome Bugbounty Writeups</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-lfi.md">bugbounty cheatsheet lfi</a>
+ - <a target=_blank href="/md/xss-payload-list.md">xss payload list</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-recon.md">bugbounty cheatsheet recon</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-content-injection.md">bugbounty cheatsheet content injection</a>
+ - <a target=_blank href="/md/A-Red-Teamer-diaries.md">A Red Teamer diaries</a>
+ - <a target=_blank href="/md/djadmin-awesome-bug-bounty.md">djadmin awesome bug bounty</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-practice-platforms.md">bugbounty cheatsheet practice platforms</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-template-injection.md">bugbounty cheatsheet template injection</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-ssrf.md">bugbounty cheatsheet ssrf</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-xslt.md">bugbounty cheatsheet xslt</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-rce.md">bugbounty cheatsheet rce</a>
+ - <a target=_blank href="/md/awesome-bugbounty-tools.md">awesome bugbounty tools</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountyplatforms.md">bugbounty cheatsheet bugbountyplatforms</a>
+ - <a target=_blank href="/md/awesome-oneliner-bugbounty.md">awesome oneliner bugbounty</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-xss.md">bugbounty cheatsheet xss</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-csv-injection.md">bugbounty cheatsheet csv injection</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-crypto.md">bugbounty cheatsheet crypto</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-special-tools.md">bugbounty cheatsheet special tools</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountytips.md">bugbounty cheatsheet bugbountytips</a>
+ - <a target=_blank href="/md/Ignitetechnologies-bugbounty.md">Ignitetechnologies bugbounty</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-open-redirect.md">bugbounty cheatsheet open redirect</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-cors.md">bugbounty cheatsheet cors</a>
+ - <a target=_blank href="/md/study-bug-bounty.md">study bug bounty</a>
+ - <a target=_blank href="/md/bugbounty-cheatsheet-books.md">bugbounty cheatsheet books</a>
