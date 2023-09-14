@@ -26,7 +26,6 @@ wget -c -O awesome-oneliner-bugbounty.md https://github.com/dwisiswant0/awesome-
 wget -c -O Ignitetechnologies-bugbounty.md https://github.com/Ignitetechnologies/bugbounty/raw/main/README.md
 wget -c -O xss-payload-list.md https://github.com/payloadbox/xss-payload-list/raw/master/README.md
 
-wget -c -O Awesome-Cybersecurity-Handbooks.md https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/raw/main/README.md
 
 # md
 # ssh-keys
@@ -43,6 +42,7 @@ doDldZip "1N3" "BruteX" "master"
 doDldZip "1N3" "Findsploit" "master"
 doDldZip "nahamsec" "Resources-for-Beginner-Bug-Bounty-Hunters" "master"
 
+doDldZip "0xsyr0" "Awesome-Cybersecurity-Handbooks" "main"
 doDldZip "aufzayed" "bugbounty" "main"
 doDldZip "0xmaximus" "Galaxy-Bugbounty-Checklist" "main"
 doDldZip "akr3ch" "BugBountyBooks" "main"
