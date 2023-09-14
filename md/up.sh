@@ -26,6 +26,8 @@ wget -c -O awesome-oneliner-bugbounty.md https://github.com/dwisiswant0/awesome-
 wget -c -O Ignitetechnologies-bugbounty.md https://github.com/Ignitetechnologies/bugbounty/raw/main/README.md
 wget -c -O xss-payload-list.md https://github.com/payloadbox/xss-payload-list/raw/master/README.md
 
+wget -c -O Awesome-Cybersecurity-Handbooks.md https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/raw/main/README.md
+
 # md
 # ssh-keys
 # https://github.com/ihebski/DefaultCreds-cheat-sheet/
