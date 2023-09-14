@@ -42,6 +42,7 @@ doDldZip "1N3" "BruteX" "master"
 doDldZip "1N3" "Findsploit" "master"
 doDldZip "nahamsec" "Resources-for-Beginner-Bug-Bounty-Hunters" "master"
 
+doDldZip "0xsyr0" "OSCP" "main"
 doDldZip "0xsyr0" "Awesome-Cybersecurity-Handbooks" "main"
 doDldZip "aufzayed" "bugbounty" "main"
 doDldZip "0xmaximus" "Galaxy-Bugbounty-Checklist" "main"
