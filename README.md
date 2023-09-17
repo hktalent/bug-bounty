@@ -1,6 +1,7 @@
 # Contents
  - <a href="/data/bounty-targets-data">bounty targets data</a>
  - <a href="/data/bounty-targets-data/data">data</a>
+ - <a href="/data/hk1">hk1</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets">assets</a>
  - <a href="/md/BruteX">BruteX</a>
@@ -163,6 +164,20 @@
  - <a href="/md/bugbounty">bugbounty</a>
  - <a href="/md/bugbounty/403-bypass">403 bypass</a>
  - <a href="/md/bugbounty/403-bypass/403-bypass-nuclei-templates">403 bypass nuclei templates</a>
+ - <a href="/md/OSCP">OSCP</a>
+ - <a href="/md/OSCP/exploits">exploits</a>
+ - <a href="/md/OSCP/exploits/CVE-2020-24186-WordPress-Plugin-wpDiscuz-7.0.4-RCE">CVE 2020 24186 WordPress Plugin wpDiscuz 7.0.4 RCE</a>
+ - <a href="/md/OSCP/exploits/CVE-2014-5301-ManageEngine-ServiceDesk-Plus-7.6.0-Arbitrary-File-Upload">CVE 2014 5301 ManageEngine ServiceDesk Plus 7.6.0 Arbitrary File Upload</a>
+ - <a href="/md/OSCP/exploits/HP-Power-Manager-Administration-Universal-Buffer-Overflow">HP Power Manager Administration Universal Buffer Overflow</a>
+ - <a href="/md/OSCP/exploits/CVE-2018-7600-Drupal-RCE">CVE 2018 7600 Drupal RCE</a>
+ - <a href="/md/OSCP/exploits/CVE-2022-24112-Apache-APISIX-2.12.1-RCE">CVE 2022 24112 Apache APISIX 2.12.1 RCE</a>
+ - <a href="/md/OSCP/exploits/CVE-2015-1328-overlayfs-LPE">CVE 2015 1328 overlayfs LPE</a>
+ - <a href="/md/OSCP/exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE">CVE 2017 0144 EternalBlue MS17 010 RCE</a>
+ - <a href="/md/OSCP/exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots">screenshots</a>
+ - <a href="/md/OSCP/exploits/CVE-2021-4034-PwnKit-Pkexec-LPE-PoC-3">CVE 2021 4034 PwnKit Pkexec LPE PoC 3</a>
+ - <a href="/md/OSCP/exploits/CVE-2019-7214-SmarterMail-RCE">CVE 2019 7214 SmarterMail RCE</a>
+ - <a href="/md/OSCP/exploits/Symfony">Symfony</a>
+ - <a href="/md/OSCP/files">files</a>
  - <a href="/md/AllAboutBugBounty">AllAboutBugBounty</a>
  - <a href="/md/AllAboutBugBounty/Misc">Misc</a>
  - <a href="/md/AllAboutBugBounty/Technologies">Technologies</a>
@@ -223,6 +238,8 @@
  - <a href="/md/Mindmap/Wireshark">Wireshark</a>
  - <a href="/md/Mindmap/Google Dorks">Google Dorks</a>
  - <a href="/md/Mindmap/hydra">hydra</a>
+ - <a href="/md/Awesome-Cybersecurity-Handbooks">Awesome Cybersecurity Handbooks</a>
+ - <a href="/md/Awesome-Cybersecurity-Handbooks/handbooks">handbooks</a>
  - <a href="/data">data</a>
  - <a href="/md">md</a>
 
@@ -236,6 +253,69 @@
  - <a target=_blank href="/data/bounty-targets-data/data/bugcrowd_data.json">bugcrowd data</a>
  - <a target=_blank href="/data/bounty-targets-data/data/intigriti_data.json">intigriti data</a>
  - <a target=_blank href="/data/bounty-targets-data/data/federacy_data.json">federacy data</a>
+
+## hk1
+ - <a target=_blank href="/data/hk1/hk1_httpx.json">hk1 httpx</a>
+ - <a target=_blank href="/data/hk1/abnamroinvestmentsolutions.com.json">abnamroinvestmentsolutions.com</a>
+ - <a target=_blank href="/data/hk1/accountscore.net.json">accountscore.net</a>
+ - <a target=_blank href="/data/hk1/abb.com.cn.json">abb.com.cn</a>
+ - <a target=_blank href="/data/hk1/acrobat.com.json">acrobat.com</a>
+ - <a target=_blank href="/data/hk1/FAN.GOV.json">FAN.GOV</a>
+ - <a target=_blank href="/data/hk1/8x8cloud.net.json">8x8cloud.net</a>
+ - <a target=_blank href="/data/hk1/abnamrocomfin.com.json">abnamrocomfin.com</a>
+ - <a target=_blank href="/data/hk1/OSAC.GOV.json">OSAC.GOV</a>
+ - <a target=_blank href="/data/hk1/USEMBASSY.GOV.json">USEMBASSY.GOV</a>
+ - <a target=_blank href="/data/hk1/FSGB.GOV.json">FSGB.GOV</a>
+ - <a target=_blank href="/data/hk1/abnamro.nl.json">abnamro.nl</a>
+ - <a target=_blank href="/data/hk1/accountscore.co.uk.json">accountscore.co.uk</a>
+ - <a target=_blank href="/data/hk1/USCONSULATE.GOV.json">USCONSULATE.GOV</a>
+ - <a target=_blank href="/data/hk1/abnamro.org.json">abnamro.org</a>
+ - <a target=_blank href="/data/hk1/acronis.work.json">acronis.work</a>
+ - <a target=_blank href="/data/hk1/DEVTESTFAN1.GOV.json">DEVTESTFAN1.GOV</a>
+ - <a target=_blank href="/data/hk1/acronis.com.json">acronis.com</a>
+ - <a target=_blank href="/data/hk1/1debit.com.json">1debit.com</a>
+ - <a target=_blank href="/data/hk1/5nine.com.json">5nine.com</a>
+ - <a target=_blank href="/data/hk1/a.exodus.io.json">a.exodus.io</a>
+ - <a target=_blank href="/data/hk1/adgjmp.net.json">adgjmp.net</a>
+ - <a target=_blank href="/data/hk1/abb.com.tr.json">abb.com.tr</a>
+ - <a target=_blank href="/data/hk1/abnamro.com.json">abnamro.com</a>
+ - <a target=_blank href="/data/hk1/SUPPORTFAN.GOV.json">SUPPORTFAN.GOV</a>
+ - <a target=_blank href="/data/hk1/8x8.com.json">8x8.com</a>
+ - <a target=_blank href="/data/hk1/abritel.fr.json">abritel.fr</a>
+ - <a target=_blank href="/data/hk1/8x8.uk.json">8x8.uk</a>
+ - <a target=_blank href="/data/hk1/3lateral.com.json">3lateral.com</a>
+ - <a target=_blank href="/data/hk1/SECURITYTESTFAN.GOV.json">SECURITYTESTFAN.GOV</a>
+ - <a target=_blank href="/data/hk1/accountscore.com.json">accountscore.com</a>
+ - <a target=_blank href="/data/hk1/adobe.com.json">adobe.com</a>
+ - <a target=_blank href="/data/hk1/PEPFAR.GOV.json">PEPFAR.GOV</a>
+ - <a target=_blank href="/data/hk1/abnamro.be.json">abnamro.be</a>
+ - <a target=_blank href="/data/hk1/abb.com.json">abb.com</a>
+ - <a target=_blank href="/data/hk1/huazhu.json">huazhu</a>
+ - <a target=_blank href="/data/hk1/8x8e2e.com.json">8x8e2e.com</a>
+ - <a target=_blank href="/data/hk1/8x8.vc.json">8x8.vc</a>
+ - <a target=_blank href="/data/hk1/USDOSCLOUD.GOV.json">USDOSCLOUD.GOV</a>
+ - <a target=_blank href="/data/hk1/ELGUARDIA.NET.json">ELGUARDIA.NET</a>
+ - <a target=_blank href="/data/hk1/Daraz.com.json">Daraz.com</a>
+ - <a target=_blank href="/data/hk1/USMISSION.GOV.json">USMISSION.GOV</a>
+ - <a target=_blank href="/data/hk1/8x8staging.com.json">8x8staging.com</a>
+ - <a target=_blank href="/data/hk1/abnamrolease.com.json">abnamrolease.com</a>
+ - <a target=_blank href="/data/hk1/8x8pilot.com.json">8x8pilot.com</a>
+ - <a target=_blank href="/data/hk1/accessibility.gov.json">accessibility.gov</a>
+ - <a target=_blank href="/data/hk1/18f.gov.json">18f.gov</a>
+ - <a target=_blank href="/data/hk1/IBWC.GOV.json">IBWC.GOV</a>
+ - <a target=_blank href="/data/hk1/8x8.id.json">8x8.id</a>
+ - <a target=_blank href="/data/hk1/8x8.co.uk.json">8x8.co.uk</a>
+ - <a target=_blank href="/data/hk1/aboitizpower.com.json">aboitizpower.com</a>
+ - <a target=_blank href="/data/hk1/REWARDSFORJUSTICE.NET.json">REWARDSFORJUSTICE.NET</a>
+ - <a target=_blank href="/data/hk1/acquisition.gov.json">acquisition.gov</a>
+ - <a target=_blank href="/data/hk1/10ktf.com.json">10ktf.com</a>
+ - <a target=_blank href="/data/hk1/PREPRODFAN.GOV.json">PREPRODFAN.GOV</a>
+ - <a target=_blank href="/data/hk1/STATE.GOV.json">STATE.GOV</a>
+ - <a target=_blank href="/data/hk1/acertandosuascontas.com.br.json">acertandosuascontas.com.br</a>
+ - <a target=_blank href="/data/hk1/3ce.com.json">3ce.com</a>
+ - <a target=_blank href="/data/hk1/AMERICA.GOV.json">AMERICA.GOV</a>
+ - <a target=_blank href="/data/hk1/IAWG.GOV.json">IAWG.GOV</a>
+ - <a target=_blank href="/data/hk1/1688.com.json">1688.com</a>
 
 ## Resources-for-Beginner-Bug-Bounty-Hunters
  - <a target=_blank href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/README.md">README</a>
@@ -634,6 +714,16 @@
 ## 403-bypass
  - <a target=_blank href="/md/bugbounty/403-bypass/README.md">README</a>
 
+## OSCP
+ - <a target=_blank href="/md/OSCP/LICENSE.md">LICENSE</a>
+ - <a target=_blank href="/md/OSCP/CODE-OF-CONDUCT.md">CODE OF CONDUCT</a>
+ - <a target=_blank href="/md/OSCP/README.md">README</a>
+
+## exploits
+
+## CVE-2017-0144-EternalBlue-MS17-010-RCE
+ - <a target=_blank href="/md/OSCP/exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/README.md">README</a>
+
 ## AllAboutBugBounty
  - <a target=_blank href="/md/AllAboutBugBounty/SQL Injection.md">SQL Injection</a>
  - <a target=_blank href="/md/AllAboutBugBounty/Reflected File Download.md">Reflected File Download</a>
@@ -873,13 +963,50 @@
 ## hydra
  - <a target=_blank href="/md/Mindmap/hydra/hydra.pdf">hydra</a>
 
+## Awesome-Cybersecurity-Handbooks
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/README.md">README</a>
+
+## handbooks
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/payloads.md">payloads</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/cryptography.md">cryptography</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/01_information_gathering.md">01 information gathering</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/12_reporting_tools.md">12 reporting tools</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/05_password_attacks.md">05 password attacks</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/10_post_exploitation.md">10 post exploitation</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/basics.md">basics</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/02_vulnerability_analysis.md">02 vulnerability analysis</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/hardware.md">hardware</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/templates.md">templates</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/container.md">container</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/wordlists.md">wordlists</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/iot.md">iot</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/cve.md">cve</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/13_social_engineering_tools.md">13 social engineering tools</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/06_wireless_attacks.md">06 wireless attacks</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/08_exploitation_tools.md">08 exploitation tools</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/command_and_control.md">command and control</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/malware_development.md">malware development</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/exploitation.md">exploitation</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/cloud.md">cloud</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/osint.md">osint</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/09_sniffing_&_spoofing.md">09 sniffing & spoofing</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/blue_teaming.md">blue teaming</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/03_web_application_analysis.md">03 web application analysis</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/04_database_assessment.md">04 database assessment</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/11_forensics.md">11 forensics</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/operational_security.md">operational security</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/mobile.md">mobile</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/07_reverse_engineering.md">07 reverse engineering</a>
+
 ## data
  - <a target=_blank href="/data/chaos-bugbounty-list.json">chaos bugbounty list</a>
+ - <a target=_blank href="/data/Readme.md">Readme</a>
  - <a target=_blank href="/data/chaos-bugbounty-list-httpx.json">chaos bugbounty list httpx</a>
  - <a target=_blank href="/data/huazhu_amass_dns.json">huazhu amass dns</a>
 
 ## md
  - <a target=_blank href="/md/bugbounty-cheatsheet-crlf.md">bugbounty cheatsheet crlf</a>
+ - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks.md">Awesome Cybersecurity Handbooks</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-sqli.md">bugbounty cheatsheet sqli</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-xxe.md">bugbounty cheatsheet xxe</a>
  - <a target=_blank href="/md/awesome-hacker-search-engines.md">awesome hacker search engines</a>
@@ -902,6 +1029,7 @@
  - <a target=_blank href="/md/bugbounty-cheatsheet-csv-injection.md">bugbounty cheatsheet csv injection</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-crypto.md">bugbounty cheatsheet crypto</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-special-tools.md">bugbounty cheatsheet special tools</a>
+ - <a target=_blank href="/md/渗透常用命令command.md">渗透常用命令command</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountytips.md">bugbounty cheatsheet bugbountytips</a>
  - <a target=_blank href="/md/Ignitetechnologies-bugbounty.md">Ignitetechnologies bugbounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-open-redirect.md">bugbounty cheatsheet open redirect</a>

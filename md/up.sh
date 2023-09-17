@@ -25,6 +25,7 @@ wget -c -O awesome-hacker-search-engines.md https://github.com/edoardottt/awesom
 wget -c -O awesome-oneliner-bugbounty.md https://github.com/dwisiswant0/awesome-oneliner-bugbounty/raw/master/README.md
 wget -c -O Ignitetechnologies-bugbounty.md https://github.com/Ignitetechnologies/bugbounty/raw/main/README.md
 wget -c -O xss-payload-list.md https://github.com/payloadbox/xss-payload-list/raw/master/README.md
+wget -c -O 渗透常用命令command.md https://github.com/safe6Sec/command/raw/master/README.md
 
 
 # md
