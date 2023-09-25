@@ -9167,3 +9167,302 @@
     }
   ]
 }
+
+      "name": "Wombat Exchange",
+      "url": "https://immunefi.com/bounty/wombatexchange/",
+      "bounty": true,
+      "domains": [
+        "wombat.exchange"
+      ]
+    },
+    {
+      "name": "Woodpecker",
+      "url": "https://woodpecker.co/vulnerability-disclosure-program/",
+      "bounty": false,
+      "domains": [
+        "woodpecker.co"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "url": "https://hackerone.com/wordpress",
+      "bounty": false,
+      "domains": [
+        "wordcamp.org",
+        "wordpress.net",
+        "bbpress.org",
+        "doaction.org",
+        "buddypress.org",
+        "wordpress.org",
+        "wordpressfoundation.org"
+      ]
+    },
+    {
+      "name": "Worklytics",
+      "url": "https://hackerone.com/worklytics",
+      "bounty": false,
+      "domains": [
+        "worklytics.co"
+      ]
+    },
+    {
+      "name": "WP Engine",
+      "url": "https://app.intigriti.com/programs/wpengine/wpengine/detail",
+      "bounty": false,
+      "domains": [
+        "studiopress.blog",
+        "wpengine.com",
+        "wpengine.io",
+        "wpesvc.net",
+        "studiopress.com"
+      ]
+    },
+    {
+      "name": "Xiaomi",
+      "url": "https://hackerone.com/xiaomi",
+      "bounty": true,
+      "domains": [
+        "mi.com",
+        "miui.com",
+        "xiaomiyoupin.com",
+        "miwifi.com",
+        "global.shop",
+        "xiaomi.market",
+        "xiaomi.com"
+      ]
+    },
+    {
+      "name": "XT",
+      "url": "https://hackenproof.com/xt/xt",
+      "bounty": true,
+      "domains": [
+        "xt.com"
+      ]
+    },
+    {
+      "name": "Y Combinator",
+      "url": "https://hackerone.com/ycombinator",
+      "bounty": false,
+      "domains": [
+        "startupschool.org",
+        "workatastartup.com",
+        "ycombinator.com"
+      ]
+    },
+    {
+      "name": "Yahoo!",
+      "url": "https://hackerone.com/yahoo",
+      "bounty": true,
+      "domains": [
+        "techcrunch.com",
+        "makers.com",
+        "engadget.com",
+        "rivals.com",
+        "buildseries.com",
+        "yahoo.com",
+        "protrade.com",
+        "builtbygirls.com",
+        "yimg.com",
+        "flurry.com",
+        "ryot.org",
+        "autoblog.com",
+        "aol.com",
+        "verizondigitalmedia.com",
+        "aol.fr",
+        "aol.de",
+        "aol.co.uk",
+        "aol.jp",
+        "aol.in",
+        "aol.ca",
+        "aolpublishers.com",
+        "compuserve.com",
+        "netscape.com",
+        "wmconnect.com",
+        "getnetscape.com",
+        "vzbuilders.com",
+        "oath.cloud",
+        "yahoo.cloud",
+        "yahooapis.com"
+      ]
+    },
+    {
+      "name": "Yandex",
+      "url": "https://yandex.com/bugbounty/index",
+      "bounty": true,
+      "domains": [
+        "yandex.ru",
+        "yandex.com",
+        "yandex.com.tr",
+        "yandex.kz",
+        "yandex.ua",
+        "yandex.by",
+        "yandex.st",
+        "yandex.net",
+        "ya.ru",
+        "yandex-bank.net",
+        "kinopoisk.ru",
+        "auto.ru"
+      ]
+    },
+    {
+      "name": "Yatra",
+      "url": "https://www.yatra.com/online/bug-bounty",
+      "bounty": true,
+      "domains": [
+        "yatra.com"
+      ]
+    },
+    {
+      "name": "Yelp",
+      "url": "https://hackerone.com/yelp",
+      "bounty": true,
+      "domains": [
+        "yelp.com",
+        "yelpwifi.com",
+        "yelp-support.com",
+        "yelpreservations.com",
+        "nowait.com"
+      ]
+    },
+    {
+      "name": "YesWeHack",
+      "url": "https://yeswehack.com/programs/yes-we-hack",
+      "bounty": true,
+      "domains": [
+        "yeswehack.com"
+      ]
+    },
+    {
+      "name": "YNAB",
+      "url": "https://bugcrowd.com/ynab",
+      "bounty": true,
+      "domains": [
+        "youneedabudget.com"
+      ]
+    },
+    {
+      "name": "Yuga Labs",
+      "url": "https://hackerone.com/yuga_labs",
+      "bounty": true,
+      "domains": [
+        "boredapeyachtclub.com",
+        "yuga.com",
+        "yugalabs.io",
+        "otherside.xyz",
+        "meebits.app",
+        "cryptopunks.app",
+        "mdvmm.xyz"
+      ]
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com/engineering/bug-bounty-program/",
+      "bounty": true,
+      "domains": [
+        "zapier.com"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "url": "https://hackerone.com/zendesk",
+      "bounty": true,
+      "domains": [
+        "zendesk.com",
+        "smooch.io",
+        "zopim.com"
+      ]
+    },
+    {
+      "name": "Zenly",
+      "url": "https://hackerone.com/zenly",
+      "bounty": true,
+      "domains": [
+        "znly.co",
+        "zen.ly"
+      ]
+    },
+    {
+      "name": "Zerodha",
+      "url": "https://zerodha.com/bug-bounty/",
+      "bounty": true,
+      "domains": [
+        "zerodha.com",
+        "kite.trade"
+      ]
+    },
+    {
+      "name": "Zilliqa",
+      "url": "https://hackerone.com/zilliqa",
+      "bounty": true,
+      "domains": [
+        "zilliqa.com",
+        "learnscilla.com"
+      ]
+    },
+    {
+      "name": "Zivver",
+      "url": "https://hackerone.com/zivver",
+      "bounty": false,
+      "domains": [
+        "zivver.com",
+        "zivvermeet.com"
+      ]
+    },
+    {
+      "name": "Zoho",
+      "url": "https://bugbounty.zoho.com/bb/info",
+      "bounty": true,
+      "swag": false,
+      "domains": [
+        "site24x7.com",
+        "manageengine.com",
+        "qntrl.com",
+        "trainercentral.com",
+        "zoho.com"
+      ]
+    },
+    {
+      "name": "Zomato",
+      "url": "https://hackerone.com/zomato",
+      "bounty": true,
+      "domains": [
+        "zomato.com",
+        "zdev.net",
+        "zomatobook.com"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "url": "https://explore.zoom.us/docs/ent/h1.html",
+      "bounty": true,
+      "domains": [
+        "zoomtopia.com",
+        "meetzoom.us",
+        "zoom.com",
+        "vartopia.com",
+        "zoomdev.us",
+        "dev-zoom.us",
+        "zoomus.cn",
+        "keybase.io",
+        "zoomgov.com",
+        "wistia.com",
+        "zoompso.com",
+        "zoomasiaresourcehub.com",
+        "vartopia.info",
+        "zoomonprem.com",
+        "zoomsvr.com",
+        "zoomtopiastore.com",
+        "zoom.us"
+      ]
+    },
+    {
+      "name": "Zynga",
+      "url": "https://www.zynga.com/security/whitehats/",
+      "bounty": false,
+      "domains": [
+        "zynga.com",
+        "zyngagames.com"
+      ]
+    }
+  ]
+}

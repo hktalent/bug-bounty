@@ -4,9 +4,7 @@ function doDldZip {
   pName="$2"
   main="$3"
   wget -c -O "${pName}.zip" "https://github.com/${userName}/${pName}/archive/refs/heads/${main}.zip"
-  unzip -x -o "${pName}.zip"
-  mv "${pName}-${main}" "${pName}"
-  rm -rf "${pName}.zip" "${pName}/.github"
+  unzip -x -o "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github"
 }
 
 # data
@@ -57,3 +55,5 @@ find . -type f -name ".DS_Store" -delete
 find . -type f -name "LICENSE" -delete
 find . -type f -name "LICENSE.*" -delete
 find . -type f -name "CHANGELOG.*" -delete
+find .. -name "*.py.zip" -delete 
+

