@@ -1,7 +1,9 @@
 # Contents
  - <a href="/data/bounty-targets-data">bounty targets data</a>
  - <a href="/data/bounty-targets-data/data">data</a>
+ - <a href="/data/components">components</a>
  - <a href="/data/hk1">hk1</a>
+ - <a href="/data/hk1/node_modules">node modules</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets">assets</a>
  - <a href="/md/BruteX">BruteX</a>
@@ -35,11 +37,11 @@
  - <a href="/md/Findsploit">Findsploit</a>
  - <a href="/md/Findsploit/msf_search">msf search</a>
  - <a href="/md/Findsploit/nmap">nmap</a>
+ - <a href="/md/bounty-targets-data">bounty targets data</a>
+ - <a href="/md/bounty-targets-data/data">data</a>
  - <a href="/md/bugbounty-targets">bugbounty targets</a>
  - <a href="/md/bugbounty-targets/platforms">platforms</a>
  - <a href="/md/bugbounty-targets/programs">programs</a>
- - <a href="/md/bugbounty-targets/.github">.github</a>
- - <a href="/md/bugbounty-targets/.github/workflows">workflows</a>
  - <a href="/md/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings">PayloadsAllTheThings</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Request Forgery">Server Side Request Forgery</a>
@@ -60,6 +62,7 @@
  - <a href="/md/PayloadsAllTheThings/Open Redirect">Open Redirect</a>
  - <a href="/md/PayloadsAllTheThings/Open Redirect/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings/XPATH Injection">XPATH Injection</a>
+ - <a href="/md/PayloadsAllTheThings/Google Web Toolkit">Google Web Toolkit</a>
  - <a href="/md/PayloadsAllTheThings/NoSQL Injection">NoSQL Injection</a>
  - <a href="/md/PayloadsAllTheThings/NoSQL Injection/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Template Injection">Server Side Template Injection</a>
@@ -147,6 +150,8 @@
  - <a href="/md/PayloadsAllTheThings/LDAP Injection">LDAP Injection</a>
  - <a href="/md/PayloadsAllTheThings/LDAP Injection/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Include Injection">Server Side Include Injection</a>
+ - <a href="/md/top25-parameter">top25 parameter</a>
+ - <a href="/md/top25-parameter/gf-patterns">gf patterns</a>
  - <a href="/md/Sn1per">Sn1per</a>
  - <a href="/md/Sn1per/pro">pro</a>
  - <a href="/md/Sn1per/modes">modes</a>
@@ -169,15 +174,18 @@
  - <a href="/md/OSCP/exploits/CVE-2020-24186-WordPress-Plugin-wpDiscuz-7.0.4-RCE">CVE 2020 24186 WordPress Plugin wpDiscuz 7.0.4 RCE</a>
  - <a href="/md/OSCP/exploits/CVE-2014-5301-ManageEngine-ServiceDesk-Plus-7.6.0-Arbitrary-File-Upload">CVE 2014 5301 ManageEngine ServiceDesk Plus 7.6.0 Arbitrary File Upload</a>
  - <a href="/md/OSCP/exploits/HP-Power-Manager-Administration-Universal-Buffer-Overflow">HP Power Manager Administration Universal Buffer Overflow</a>
+ - <a href="/md/OSCP/exploits/CVE-2020-11651-CVE-2020-11652-Saltstack-Authentication-Bypass-and-Directory-Traversal-PoC-RCE">CVE 2020 11651 CVE 2020 11652 Saltstack Authentication Bypass and Directory Traversal PoC RCE</a>
  - <a href="/md/OSCP/exploits/CVE-2018-7600-Drupal-RCE">CVE 2018 7600 Drupal RCE</a>
  - <a href="/md/OSCP/exploits/CVE-2022-24112-Apache-APISIX-2.12.1-RCE">CVE 2022 24112 Apache APISIX 2.12.1 RCE</a>
  - <a href="/md/OSCP/exploits/CVE-2015-1328-overlayfs-LPE">CVE 2015 1328 overlayfs LPE</a>
  - <a href="/md/OSCP/exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE">CVE 2017 0144 EternalBlue MS17 010 RCE</a>
  - <a href="/md/OSCP/exploits/CVE-2017-0144-EternalBlue-MS17-010-RCE/screenshots">screenshots</a>
+ - <a href="/md/OSCP/exploits/CVE-2016-5195-Dirty-COW-PTRACE_POKEDATA-Race-Condition-LPE">CVE 2016 5195 Dirty COW PTRACE POKEDATA Race Condition LPE</a>
  - <a href="/md/OSCP/exploits/CVE-2021-4034-PwnKit-Pkexec-LPE-PoC-3">CVE 2021 4034 PwnKit Pkexec LPE PoC 3</a>
  - <a href="/md/OSCP/exploits/CVE-2019-7214-SmarterMail-RCE">CVE 2019 7214 SmarterMail RCE</a>
  - <a href="/md/OSCP/exploits/Symfony">Symfony</a>
- - <a href="/md/OSCP/files">files</a>
+ - <a href="/md/OSCP/exploits/Sonatype-Nexus-3.21.1-RCE">Sonatype Nexus 3.21.1 RCE</a>
+ - <a href="/md/OSCP/images">images</a>
  - <a href="/md/AllAboutBugBounty">AllAboutBugBounty</a>
  - <a href="/md/AllAboutBugBounty/Misc">Misc</a>
  - <a href="/md/AllAboutBugBounty/Technologies">Technologies</a>
@@ -238,8 +246,80 @@
  - <a href="/md/Mindmap/Wireshark">Wireshark</a>
  - <a href="/md/Mindmap/Google Dorks">Google Dorks</a>
  - <a href="/md/Mindmap/hydra">hydra</a>
+ - <a href="/md/cheat-sheets">cheat sheets</a>
+ - <a href="/md/cheat-sheets/Framework">Framework</a>
+ - <a href="/md/cheat-sheets/Framework/React">React</a>
+ - <a href="/md/cheat-sheets/Framework/Spring">Spring</a>
+ - <a href="/md/cheat-sheets/Framework/Spring/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application">Web Application</a>
+ - <a href="/md/cheat-sheets/Web Application/Server Side Request Forgery">Server Side Request Forgery</a>
+ - <a href="/md/cheat-sheets/Web Application/Server Side Request Forgery/materials">materials</a>
+ - <a href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities">OAuth 2.0 Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities/materials">materials</a>
+ - <a href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/GraphQL Vulnerabilities">GraphQL Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Web Application/GraphQL Vulnerabilities/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/Web Cache Poisoning">Web Cache Poisoning</a>
+ - <a href="/md/cheat-sheets/Web Application/Web Cache Poisoning/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/HTTP Request Smuggling">HTTP Request Smuggling</a>
+ - <a href="/md/cheat-sheets/Web Application/HTTP Request Smuggling/materials">materials</a>
+ - <a href="/md/cheat-sheets/Web Application/HTTP Request Smuggling/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/Cookie Security">Cookie Security</a>
+ - <a href="/md/cheat-sheets/Web Application/Cookie Security/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/JSON Web Token Vulnerabilities">JSON Web Token Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Web Application/JSON Web Token Vulnerabilities/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/JavaScript Prototype Pollution">JavaScript Prototype Pollution</a>
+ - <a href="/md/cheat-sheets/Web Application/Broken Authentication">Broken Authentication</a>
+ - <a href="/md/cheat-sheets/Web Application/SVG Abuse">SVG Abuse</a>
+ - <a href="/md/cheat-sheets/Web Application/Weak Random Generation">Weak Random Generation</a>
+ - <a href="/md/cheat-sheets/Web Application/XSS">XSS</a>
+ - <a href="/md/cheat-sheets/Web Application/HTML Injection">HTML Injection</a>
+ - <a href="/md/cheat-sheets/Web Application/HTTP Headers Security">HTTP Headers Security</a>
+ - <a href="/md/cheat-sheets/Web Application/Improper Rate Limits">Improper Rate Limits</a>
+ - <a href="/md/cheat-sheets/Web Application/Command Injection">Command Injection</a>
+ - <a href="/md/cheat-sheets/Web Application/CORS Misconfiguration">CORS Misconfiguration</a>
+ - <a href="/md/cheat-sheets/Web Application/Content Security Policy">Content Security Policy</a>
+ - <a href="/md/cheat-sheets/Web Application/Content Security Policy/materials">materials</a>
+ - <a href="/md/cheat-sheets/Web Application/Race Condition">Race Condition</a>
+ - <a href="/md/cheat-sheets/Web Application/Race Condition/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/Abusing HTTP hop-by-hop Request Headers">Abusing HTTP hop by hop Request Headers</a>
+ - <a href="/md/cheat-sheets/Web Application/Abusing HTTP hop-by-hop Request Headers/img">img</a>
+ - <a href="/md/cheat-sheets/Web Application/File Upload Vulnerabilities">File Upload Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Resources">Resources</a>
+ - <a href="/md/cheat-sheets/Resources/Lists">Lists</a>
+ - <a href="/md/cheat-sheets/Resources/Training">Training</a>
+ - <a href="/md/cheat-sheets/Resources/Software">Software</a>
+ - <a href="/md/cheat-sheets/Resources/Researching">Researching</a>
+ - <a href="/md/cheat-sheets/CI CD">CI CD</a>
+ - <a href="/md/cheat-sheets/CI CD/Dependency">Dependency</a>
+ - <a href="/md/cheat-sheets/CI CD/Github">Github</a>
+ - <a href="/md/cheat-sheets/CI CD/Github/img">img</a>
+ - <a href="/md/cheat-sheets/Container">Container</a>
+ - <a href="/md/cheat-sheets/Container/Escaping">Escaping</a>
+ - <a href="/md/cheat-sheets/Container/Overview">Overview</a>
+ - <a href="/md/cheat-sheets/Container/Overview/img">img</a>
+ - <a href="/md/cheat-sheets/Mobile Application">Mobile Application</a>
+ - <a href="/md/cheat-sheets/Mobile Application/iOS">iOS</a>
+ - <a href="/md/cheat-sheets/Mobile Application/iOS/Getting Started">Getting Started</a>
+ - <a href="/md/cheat-sheets/Mobile Application/iOS/Getting Started/img">img</a>
+ - <a href="/md/cheat-sheets/Mobile Application/iOS/Overview">Overview</a>
+ - <a href="/md/cheat-sheets/Mobile Application/iOS/Overview/img">img</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android">Android</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/Intent Vulnerabilities">Intent Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/Intent Vulnerabilities/img">img</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/WebView Vulnerabilities">WebView Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/Overview">Overview</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/Overview/img">img</a>
+ - <a href="/md/cheat-sheets/Mobile Application/Android/Deep Linking Vulnerabilities">Deep Linking Vulnerabilities</a>
+ - <a href="/md/cheat-sheets/Linux">Linux</a>
+ - <a href="/md/cheat-sheets/Linux/Overview">Overview</a>
+ - <a href="/md/cheat-sheets/Linux/Overview/img">img</a>
+ - <a href="/md/cheat-sheets/Cloud">Cloud</a>
+ - <a href="/md/cheat-sheets/Cloud/AWS">AWS</a>
+ - <a href="/md/cheat-sheets/Cloud/AWS/img">img</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks">Awesome Cybersecurity Handbooks</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks/handbooks">handbooks</a>
+ - <a href="/md/Awesome-Cybersecurity-Handbooks/images">images</a>
  - <a href="/data">data</a>
  - <a href="/md">md</a>
 
@@ -292,6 +372,7 @@
  - <a target=_blank href="/data/hk1/abb.com.json">abb.com</a>
  - <a target=_blank href="/data/hk1/huazhu.json">huazhu</a>
  - <a target=_blank href="/data/hk1/8x8e2e.com.json">8x8e2e.com</a>
+ - <a target=_blank href="/data/hk1/hk1_tlsx.json">hk1 tlsx</a>
  - <a target=_blank href="/data/hk1/8x8.vc.json">8x8.vc</a>
  - <a target=_blank href="/data/hk1/USDOSCLOUD.GOV.json">USDOSCLOUD.GOV</a>
  - <a target=_blank href="/data/hk1/ELGUARDIA.NET.json">ELGUARDIA.NET</a>
@@ -431,6 +512,17 @@
 ## Findsploit
  - <a target=_blank href="/md/Findsploit/README.md">README</a>
 
+## bounty-targets-data
+ - <a target=_blank href="/md/bounty-targets-data/README.md">README</a>
+
+## data
+ - <a target=_blank href="/md/bounty-targets-data/data/hackerone_data.json">hackerone data</a>
+ - <a target=_blank href="/md/bounty-targets-data/data/hackenproof_data.json">hackenproof data</a>
+ - <a target=_blank href="/md/bounty-targets-data/data/yeswehack_data.json">yeswehack data</a>
+ - <a target=_blank href="/md/bounty-targets-data/data/bugcrowd_data.json">bugcrowd data</a>
+ - <a target=_blank href="/md/bounty-targets-data/data/intigriti_data.json">intigriti data</a>
+ - <a target=_blank href="/md/bounty-targets-data/data/federacy_data.json">federacy data</a>
+
 ## bugbounty-targets
  - <a target=_blank href="/md/bugbounty-targets/README.md">README</a>
 
@@ -439,8 +531,6 @@
  - <a target=_blank href="/md/bugbounty-targets/programs/yeswehack.json">yeswehack</a>
  - <a target=_blank href="/md/bugbounty-targets/programs/bugcrowd.json">bugcrowd</a>
  - <a target=_blank href="/md/bugbounty-targets/programs/hackerone.json">hackerone</a>
-
-## .github
 
 ## PayloadsAllTheThings
  - <a target=_blank href="/md/PayloadsAllTheThings/README.md">README</a>
@@ -491,6 +581,9 @@
 
 ## XPATH Injection
  - <a target=_blank href="/md/PayloadsAllTheThings/XPATH Injection/README.md">README</a>
+
+## Google Web Toolkit
+ - <a target=_blank href="/md/PayloadsAllTheThings/Google Web Toolkit/README.md">README</a>
 
 ## NoSQL Injection
  - <a target=_blank href="/md/PayloadsAllTheThings/NoSQL Injection/README.md">README</a>
@@ -689,6 +782,17 @@
 ## Server Side Include Injection
  - <a target=_blank href="/md/PayloadsAllTheThings/Server Side Include Injection/README.md">README</a>
 
+## top25-parameter
+ - <a target=_blank href="/md/top25-parameter/README.md">README</a>
+
+## gf-patterns
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/xss.json">xss</a>
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/lfi.json">lfi</a>
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/rce.json">rce</a>
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/sqli.json">sqli</a>
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/openredirect.json">openredirect</a>
+ - <a target=_blank href="/md/top25-parameter/gf-patterns/ssrf.json">ssrf</a>
+
 ## Sn1per
  - <a target=_blank href="/md/Sn1per/README.md">README</a>
 
@@ -715,7 +819,6 @@
  - <a target=_blank href="/md/bugbounty/403-bypass/README.md">README</a>
 
 ## OSCP
- - <a target=_blank href="/md/OSCP/LICENSE.md">LICENSE</a>
  - <a target=_blank href="/md/OSCP/CODE-OF-CONDUCT.md">CODE OF CONDUCT</a>
  - <a target=_blank href="/md/OSCP/README.md">README</a>
 
@@ -962,6 +1065,230 @@
 
 ## hydra
  - <a target=_blank href="/md/Mindmap/hydra/hydra.pdf">hydra</a>
+
+## cheat-sheets
+ - <a target=_blank href="/md/cheat-sheets/SUMMARY.md">SUMMARY</a>
+ - <a target=_blank href="/md/cheat-sheets/INTRODUCTION.md">INTRODUCTION</a>
+ - <a target=_blank href="/md/cheat-sheets/README.md">README</a>
+
+## Framework
+
+## React
+ - <a target=_blank href="/md/cheat-sheets/Framework/React/overview.md">overview</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/React/security-issues.md">security issues</a>
+
+## Spring
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/spel-injection.md">spel injection</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/overview.md">overview</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/spring-boot-actuators.md">spring boot actuators</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/spring-data-redis-insecure-deserialization.md">spring data redis insecure deserialization</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/routing-abuse.md">routing abuse</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/mass-assignment.md">mass assignment</a>
+ - <a target=_blank href="/md/cheat-sheets/Framework/Spring/view-manipulation.md">view manipulation</a>
+
+## Web Application
+
+## Server Side Request Forgery
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Server Side Request Forgery/README.md">README</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Server Side Request Forgery/post-exploitation.md">post exploitation</a>
+
+## materials
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Server Side Request Forgery/materials/us-16-Ermishkin-Viral-Video-Exploiting-Ssrf-In-Video-Converters.pdf">us 16 Ermishkin Viral Video Exploiting Ssrf In Video Converters</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Server Side Request Forgery/materials/phdays-ffmpeg.pdf">phdays ffmpeg</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Server Side Request Forgery/materials/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf">us 17 Tsai A New Era Of SSRF Exploiting URL Parser In Trending Programming Languages</a>
+
+## OAuth 2.0 Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities/README.md">README</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities/openid-connect.md">openid connect</a>
+
+## materials
+ - <a target=_blank href="/md/cheat-sheets/Web Application/OAuth 2.0 Vulnerabilities/materials/20151215-Top_X_OAuth_2_Hacks-asanso.pdf">20151215 Top X OAuth 2 Hacks asanso</a>
+
+## GraphQL Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Web Application/GraphQL Vulnerabilities/README.md">README</a>
+
+## Web Cache Poisoning
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Web Cache Poisoning/README.md">README</a>
+
+## HTTP Request Smuggling
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTTP Request Smuggling/README.md">README</a>
+
+## materials
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTTP Request Smuggling/materials/us-20-Klein-HTTP-Request-Smuggling-In-2020-New-Variants-New-Defenses-And-New-Challenges.pdf">us 20 Klein HTTP Request Smuggling In 2020 New Variants New Defenses And New Challenges</a>
+
+## Cookie Security
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Cookie Security/cookie-tossing.md">cookie tossing</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Cookie Security/cookie-jar-overflow.md">cookie jar overflow</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Cookie Security/cookie-bomb.md">cookie bomb</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Cookie Security/README.md">README</a>
+
+## JSON Web Token Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Web Application/JSON Web Token Vulnerabilities/README.md">README</a>
+
+## JavaScript Prototype Pollution
+ - <a target=_blank href="/md/cheat-sheets/Web Application/JavaScript Prototype Pollution/README.md">README</a>
+
+## Broken Authentication
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Broken Authentication/two-factor-authentication-vulnerabilities.md">two factor authentication vulnerabilities</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Broken Authentication/README.md">README</a>
+
+## SVG Abuse
+ - <a target=_blank href="/md/cheat-sheets/Web Application/SVG Abuse/README.md">README</a>
+
+## Weak Random Generation
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Weak Random Generation/README.md">README</a>
+
+## XSS
+ - <a target=_blank href="/md/cheat-sheets/Web Application/XSS/README.md">README</a>
+
+## HTML Injection
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTML Injection/target.md">target</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTML Injection/base.md">base</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTML Injection/meta.md">meta</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTML Injection/link.md">link</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTML Injection/iframe.md">iframe</a>
+
+## HTTP Headers Security
+ - <a target=_blank href="/md/cheat-sheets/Web Application/HTTP Headers Security/README.md">README</a>
+
+## Improper Rate Limits
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Improper Rate Limits/README.md">README</a>
+
+## Command Injection
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Command Injection/README.md">README</a>
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Command Injection/argument-injection.md">argument injection</a>
+
+## CORS Misconfiguration
+ - <a target=_blank href="/md/cheat-sheets/Web Application/CORS Misconfiguration/README.md">README</a>
+
+## Content Security Policy
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Content Security Policy/README.md">README</a>
+
+## materials
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Content Security Policy/materials/zn2018-csp-bypass.pdf">zn2018 csp bypass</a>
+
+## Race Condition
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Race Condition/README.md">README</a>
+
+## Abusing HTTP hop-by-hop Request Headers
+ - <a target=_blank href="/md/cheat-sheets/Web Application/Abusing HTTP hop-by-hop Request Headers/README.md">README</a>
+
+## File Upload Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Web Application/File Upload Vulnerabilities/README.md">README</a>
+
+## Resources
+
+## Lists
+ - <a target=_blank href="/md/cheat-sheets/Resources/Lists/payloads.md">payloads</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Lists/wordlists.md">wordlists</a>
+
+## Training
+ - <a target=_blank href="/md/cheat-sheets/Resources/Training/secure-development.md">secure development</a>
+
+## Software
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/reverse-engineering.md">reverse engineering</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/component-analysis.md">component analysis</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/content-discovery.md">content discovery</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/vulnerability-scanning.md">vulnerability scanning</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/aws-tools.md">aws tools</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/static-analysis.md">static analysis</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/dynamic-analysis.md">dynamic analysis</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/azure-tools.md">azure tools</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/gcp-tools.md">gcp tools</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Software/fuzzing.md">fuzzing</a>
+
+## Researching
+ - <a target=_blank href="/md/cheat-sheets/Resources/Researching/web-application.md">web application</a>
+ - <a target=_blank href="/md/cheat-sheets/Resources/Researching/write-ups.md">write ups</a>
+
+## CI CD
+
+## Dependency
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Dependency/dependency-confusion.md">dependency confusion</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Dependency/typosquatting.md">typosquatting</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Dependency/dependency-hijacking.md">dependency hijacking</a>
+
+## Github
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Github/releases.md">releases</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Github/dependabot.md">dependabot</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Github/codeowners.md">codeowners</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Github/actions.md">actions</a>
+ - <a target=_blank href="/md/cheat-sheets/CI CD/Github/redirect.md">redirect</a>
+
+## Container
+ - <a target=_blank href="/md/cheat-sheets/Container/container-analysis-tools.md">container analysis tools</a>
+
+## Escaping
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/sensitive-mounts.md">sensitive mounts</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/cve-list.md">cve list</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/excessive-capabilities.md">excessive capabilities</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/exposed-docker-socket.md">exposed docker socket</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/pid-namespace-sharing.md">pid namespace sharing</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Escaping/host-networking-driver.md">host networking driver</a>
+
+## Overview
+ - <a target=_blank href="/md/cheat-sheets/Container/Overview/basics.md">basics</a>
+ - <a target=_blank href="/md/cheat-sheets/Container/Overview/docker-engine.md">docker engine</a>
+
+## Mobile Application
+
+## iOS
+
+## Getting Started
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Getting Started/objection.md">objection</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Getting Started/source-patching.md">source patching</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Getting Started/ipa-patching.md">ipa patching</a>
+
+## Overview
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Overview/app-sandbox.md">app sandbox</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Overview/deployment.md">deployment</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Overview/app-signing.md">app signing</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Overview/app-package.md">app package</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/iOS/Overview/app-data-files.md">app data files</a>
+
+## Android
+
+## Intent Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Intent Vulnerabilities/README.md">README</a>
+
+## WebView Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/WebView Vulnerabilities/web-resource-response-vulnerabilities.md">web resource response vulnerabilities</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/WebView Vulnerabilities/README.md">README</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/WebView Vulnerabilities/web-settings.md">web settings</a>
+
+## Overview
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/app-sandbox.md">app sandbox</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/package-manager.md">package manager</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/deployment.md">deployment</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/app-signing.md">app signing</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/app-package.md">app package</a>
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Overview/app-data-files.md">app data files</a>
+
+## Deep Linking Vulnerabilities
+ - <a target=_blank href="/md/cheat-sheets/Mobile Application/Android/Deep Linking Vulnerabilities/README.md">README</a>
+
+## Linux
+ - <a target=_blank href="/md/cheat-sheets/Linux/bash-tips.md">bash tips</a>
+
+## Overview
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/process.md">process</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/io-redirection.md">io redirection</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/file.md">file</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/socket.md">socket</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/README.md">README</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/inter-process-communication.md">inter process communication</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/signals.md">signals</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/philosophy.md">philosophy</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/user-kernel-space.md">user kernel space</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/shell.md">shell</a>
+ - <a target=_blank href="/md/cheat-sheets/Linux/Overview/file-descriptor.md">file descriptor</a>
+
+## Cloud
+
+## AWS
+ - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/amazon-cognito.md">amazon cognito</a>
+ - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/s3.md">s3</a>
+ - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/api-gateway.md">api gateway</a>
 
 ## Awesome-Cybersecurity-Handbooks
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/README.md">README</a>
