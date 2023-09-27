@@ -7,6 +7,7 @@ function doDldZip {
   unzip -x -o "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github" && git add "${pName}"
 }
 
+
 # data
 wget -c -O ../data/chaos-bugbounty-list.json 'https://github.com/projectdiscovery/public-bugbounty-programs/raw/main/chaos-bugbounty-list.json'
 wget -c -O ../data/DefaultCreds-Cheat-Sheet.csv https://github.com/ihebski/DefaultCreds-cheat-sheet/raw/main/DefaultCreds-Cheat-Sheet.csv
