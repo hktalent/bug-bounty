@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  nginx:
+    build: ./nginx
+    image: nginx:latest
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "11043:11043"
+    volumes:
+      - ./php:/var/www
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/site.conf
+  php:
+    image: php:7.2.10-fpm
+    container_name: php
+    restart: unless-stopped
+    volumes:
+      - ./php:/var/www
