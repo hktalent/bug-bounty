@@ -4,6 +4,7 @@
  - <a href="/data/components">components</a>
  - <a href="/data/hk1">hk1</a>
  - <a href="/data/hk1/node_modules">node modules</a>
+ - <a href="/data/hk1/.DbCache">.DbCache</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets">assets</a>
  - <a href="/md/BruteX">BruteX</a>
@@ -317,6 +318,135 @@
  - <a href="/md/cheat-sheets/Cloud">Cloud</a>
  - <a href="/md/cheat-sheets/Cloud/AWS">AWS</a>
  - <a href="/md/cheat-sheets/Cloud/AWS/img">img</a>
+ - <a href="/md/POChouse">POChouse</a>
+ - <a href="/md/POChouse/FastAdmin">FastAdmin</a>
+ - <a href="/md/POChouse/FastAdmin/FastAdmin 用户权限RCE">FastAdmin 用户权限RCE</a>
+ - <a href="/md/POChouse/Weblogic">Weblogic</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2017-10271]-XMLDecoder反序列化">[CVE 2017 10271] XMLDecoder反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-2551]-IIOP反序列化">[CVE 2020 2551] IIOP反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-14644]-远程命令执行">[CVE 2020 14644] 远程命令执行</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-14882]-未授权命令执行">[CVE 2020 14882] 未授权命令执行</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-2555]-T3反序列化">[CVE 2020 2555] T3反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-14756]-IIOP-T3反序列化">[CVE 2020 14756] IIOP T3反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-2883]-T3反序列化">[CVE 2020 2883] T3反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2019-2725]-wls反序列化">[CVE 2019 2725] wls反序列化</a>
+ - <a href="/md/POChouse/Weblogic/[CVE-2020-14645]-T3反序列化">[CVE 2020 14645] T3反序列化</a>
+ - <a href="/md/POChouse/Exchange">Exchange</a>
+ - <a href="/md/POChouse/Exchange/RCE-需要域用户（CVE-2020-0688）">RCE 需要域用户（CVE 2020 0688）</a>
+ - <a href="/md/POChouse/Exchange/RCE-普通用户（CVE-2020-17144）">RCE 普通用户（CVE 2020 17144）</a>
+ - <a href="/md/POChouse/Exchange/SSRF to RCE（CVE-2021-26855）">SSRF to RCE（CVE 2021 26855）</a>
+ - <a href="/md/POChouse/Apache-Solr">Apache Solr</a>
+ - <a href="/md/POChouse/Apache-Solr/Solr Velocity 注入远程命令执行漏洞 (CVE-2019-17558)">Solr Velocity 注入远程命令执行漏洞 (CVE 2019 17558)</a>
+ - <a href="/md/POChouse/Apache-Solr/Solr 未授权上传漏洞（CVE-2020-13957）">Solr 未授权上传漏洞（CVE 2020 13957）</a>
+ - <a href="/md/POChouse/Apache-Solr/Solr 远程命令执行漏洞（CVE-2019-0193）">Solr 远程命令执行漏洞（CVE 2019 0193）</a>
+ - <a href="/md/POChouse/Gitlab">Gitlab</a>
+ - <a href="/md/POChouse/Gitlab/GitLab 邮箱信息泄露漏洞（CVE-2020-26413）">GitLab 邮箱信息泄露漏洞（CVE 2020 26413）</a>
+ - <a href="/md/POChouse/Gitlab/Gitlab 任意文件读取-鸡肋（CVE-2020-10977）">Gitlab 任意文件读取 鸡肋（CVE 2020 10977）</a>
+ - <a href="/md/POChouse/Gitlab/Gitlab 未授权RCE（CVE-2021-22192）">Gitlab 未授权RCE（CVE 2021 22192）</a>
+ - <a href="/md/POChouse/SAP">SAP</a>
+ - <a href="/md/POChouse/SAP/SAP NetWeaver AS JAVA 任意用户添加">SAP NetWeaver AS JAVA 任意用户添加</a>
+ - <a href="/md/POChouse/Fastjson">Fastjson</a>
+ - <a href="/md/POChouse/Fastjson/Fastjson 1.2.24 反序列化RCE">Fastjson 1.2.24 反序列化RCE</a>
+ - <a href="/md/POChouse/Fastjson/Fastjson 1.2.47 反序列化RCE">Fastjson 1.2.47 反序列化RCE</a>
+ - <a href="/md/POChouse/Fastjson/Fastjson 1.2.68 反序列化RCE">Fastjson 1.2.68 反序列化RCE</a>
+ - <a href="/md/POChouse/Drupal">Drupal</a>
+ - <a href="/md/POChouse/Drupal/Drupal 需要密码 内核RCE（CVE-2018-7602）">Drupal 需要密码 内核RCE（CVE 2018 7602）</a>
+ - <a href="/md/POChouse/Drupal/SA-CORE-2019-003 RCE (CVE-2019-6340)">SA CORE 2019 003 RCE (CVE 2019 6340)</a>
+ - <a href="/md/POChouse/Drupal/Drupal geddon-2 RCE（CVE-2018-7600）">Drupal geddon 2 RCE（CVE 2018 7600）</a>
+ - <a href="/md/POChouse/Jellyfin">Jellyfin</a>
+ - <a href="/md/POChouse/Jellyfin/任意文件读取漏洞（CVE-2021-21402）">任意文件读取漏洞（CVE 2021 21402）</a>
+ - <a href="/md/POChouse/Kibana">Kibana</a>
+ - <a href="/md/POChouse/Kibana/CVE-2019-7609">CVE 2019 7609</a>
+ - <a href="/md/POChouse/Nacos">Nacos</a>
+ - <a href="/md/POChouse/Nacos/Nacos未授权访问（CVE-2020-19676）">Nacos未授权访问（CVE 2020 19676）</a>
+ - <a href="/md/POChouse/Harbor">Harbor</a>
+ - <a href="/md/POChouse/Harbor/CVE-2019-16097 任意管理员注册漏洞">CVE 2019 16097 任意管理员注册漏洞</a>
+ - <a href="/md/POChouse/WordPress">WordPress</a>
+ - <a href="/md/POChouse/JBoss">JBoss</a>
+ - <a href="/md/POChouse/JBoss/JBoss 5.x-6.x 反序列化漏洞（CVE-2017-12149）">JBoss 5.x 6.x 反序列化漏洞（CVE 2017 12149）</a>
+ - <a href="/md/POChouse/Apache-Spark">Apache Spark</a>
+ - <a href="/md/POChouse/Apache-Spark/Apache Spark 未授权访问漏洞">Apache Spark 未授权访问漏洞</a>
+ - <a href="/md/POChouse/Apache-Spark/RCE（CVE-2020-9480）">RCE（CVE 2020 9480）</a>
+ - <a href="/md/POChouse/Apache-Shiro">Apache Shiro</a>
+ - <a href="/md/POChouse/Apache-Shiro/Shiro 721 Padding Oracle漏洞">Shiro 721 Padding Oracle漏洞</a>
+ - <a href="/md/POChouse/Apache-Shiro/Shiro 权限绕过漏洞">Shiro 权限绕过漏洞</a>
+ - <a href="/md/POChouse/Apache-Shiro/Shiro 550反序列化（CVE-2016-4437）">Shiro 550反序列化（CVE 2016 4437）</a>
+ - <a href="/md/POChouse/phpMyAdmin">phpMyAdmin</a>
+ - <a href="/md/POChouse/Apache-Struts2">Apache Struts2</a>
+ - <a href="/md/POChouse/骑士CMS">骑士CMS</a>
+ - <a href="/md/POChouse/骑士CMS/骑士CMS远程代码执行">骑士CMS远程代码执行</a>
+ - <a href="/md/POChouse/ThinkPHP">ThinkPHP</a>
+ - <a href="/md/POChouse/Apache-Flink">Apache Flink</a>
+ - <a href="/md/POChouse/Apache-Flink/Apache-Flink-文件上传和目录遍历（CVE-2020-17518）">Apache Flink 文件上传和目录遍历（CVE 2020 17518）</a>
+ - <a href="/md/POChouse/Apache-Flink/Apache-Flink-jobmanager 目录遍历（CVE-2020-17519）">Apache Flink jobmanager 目录遍历（CVE 2020 17519）</a>
+ - <a href="/md/POChouse/Apache-Flink/Apache-Flink 1.9.1 Jar Upload RCE">Apache Flink 1.9.1 Jar Upload RCE</a>
+ - <a href="/md/POChouse/Nexus">Nexus</a>
+ - <a href="/md/POChouse/Nexus/Nexus Repository Manager 3 访问控制缺失及远程代码执行漏洞（CVE-2019-7238）">Nexus Repository Manager 3 访问控制缺失及远程代码执行漏洞（CVE 2019 7238）</a>
+ - <a href="/md/POChouse/Nexus/Nexus Repository Manager 3 远程命令执行漏洞（CVE-2020-10204）">Nexus Repository Manager 3 远程命令执行漏洞（CVE 2020 10204）</a>
+ - <a href="/md/POChouse/Jira">Jira</a>
+ - <a href="/md/POChouse/Jira/Jira 未授权SSRF（CVE-2019-8451）">Jira 未授权SSRF（CVE 2019 8451）</a>
+ - <a href="/md/POChouse/Jira/Jira 信息泄漏（CVE-2019-8449）">Jira 信息泄漏（CVE 2019 8449）</a>
+ - <a href="/md/POChouse/ThinkCMF">ThinkCMF</a>
+ - <a href="/md/POChouse/XXLjob">XXLjob</a>
+ - <a href="/md/POChouse/XXLjob/xxl-job API接口未授权访问RCE">xxl job API接口未授权访问RCE</a>
+ - <a href="/md/POChouse/Apache-Tomcat">Apache Tomcat</a>
+ - <a href="/md/POChouse/Apache-Tomcat/AJP 文件包含漏洞（CVE-2020-1938）">AJP 文件包含漏洞（CVE 2020 1938）</a>
+ - <a href="/md/POChouse/ECshop">ECshop</a>
+ - <a href="/md/POChouse/ECshop/ECShop 2.7.3 RCE">ECShop 2.7.3 RCE</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统">[+] 协同办公OA系统</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA">Seeyon 致远OA</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/任意文件下载（CNVD-2020-62422）">任意文件下载（CNVD 2020 62422）</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/Session-任意文件上传">Session 任意文件上传</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/Session-任意文件上传/EXP">EXP</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/ajax.do任意文件上传（ CNVD-2021-01627）">ajax.do任意文件上传（ CNVD 2021 01627）</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/A8-FastJson反序列化RCE">A8 FastJson反序列化RCE</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA">Ecology 泛微OA</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/反序列化">反序列化</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/weaver.common.Ctrl-任意文件上传">weaver.common.Ctrl 任意文件上传</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/V9 任意文件上传">V9 任意文件上传</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/Bsh远程代码执行（CNVD-2019-32204）">Bsh远程代码执行（CNVD 2019 32204）</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA">Tongda 通达OA</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/POC">POC</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Landray-蓝凌OA">Landray 蓝凌OA</a>
+ - <a href="/md/POChouse/[+] 协同办公OA系统/Zentao-禅道">Zentao 禅道</a>
+ - <a href="/md/POChouse/Apache-ActiveMQ">Apache ActiveMQ</a>
+ - <a href="/md/POChouse/Apache-ActiveMQ/ActiveMQ任意文件写入漏洞（CVE-2016-3088）">ActiveMQ任意文件写入漏洞（CVE 2016 3088）</a>
+ - <a href="/md/POChouse/Apache-ActiveMQ/ActiveMQ 反序列化漏洞（CVE-2015-5254）">ActiveMQ 反序列化漏洞（CVE 2015 5254）</a>
+ - <a href="/md/POChouse/Apereo-CAS">Apereo CAS</a>
+ - <a href="/md/POChouse/Apereo-CAS/Apereo CAS 4.1 反序列化命令执行漏洞">Apereo CAS 4.1 反序列化命令执行漏洞</a>
+ - <a href="/md/POChouse/F5-BIG-IP">F5 BIG IP</a>
+ - <a href="/md/POChouse/F5-BIG-IP/TMUI 远程代码执行漏洞（CVE-2020-5902）">TMUI 远程代码执行漏洞（CVE 2020 5902）</a>
+ - <a href="/md/POChouse/F5-BIG-IP/BIG-IP-IQ 远程代码执行（CVE-2021-22986 ）">BIG IP IQ 远程代码执行（CVE 2021 22986 ）</a>
+ - <a href="/md/POChouse/[+] 编辑器上传漏洞">[+] 编辑器上传漏洞</a>
+ - <a href="/md/POChouse/Jenkins">Jenkins</a>
+ - <a href="/md/POChouse/Jenkins/Jenkins-CI 远程代码执行漏洞（CVE-2017-1000353）">Jenkins CI 远程代码执行漏洞（CVE 2017 1000353）</a>
+ - <a href="/md/POChouse/Jenkins/Jenkins 远程命令执行漏洞（CVE-2018-1000861）">Jenkins 远程命令执行漏洞（CVE 2018 1000861）</a>
+ - <a href="/md/POChouse/Zabbix">Zabbix</a>
+ - <a href="/md/POChouse/Discuz">Discuz</a>
+ - <a href="/md/POChouse/[+] 网络&安全设备">[+] 网络&安全设备</a>
+ - <a href="/md/POChouse/Apache-Kylin">Apache Kylin</a>
+ - <a href="/md/POChouse/Apache-Kylin/命令注入漏洞（CVE-2020-13925）">命令注入漏洞（CVE 2020 13925）</a>
+ - <a href="/md/POChouse/Joomla">Joomla</a>
+ - <a href="/md/POChouse/Joomla/Joomla 3.4.6-RCE（CVE-2015-8562）">Joomla 3.4.6 RCE（CVE 2015 8562）</a>
+ - <a href="/md/POChouse/Joomla/Joomla 3.7.0 SQL注入(CVE-2017-8917)">Joomla 3.7.0 SQL注入(CVE 2017 8917)</a>
+ - <a href="/md/POChouse/Joomla/Joomla 3.9.17 后台RCE（CVE-2020-11890）">Joomla 3.9.17 后台RCE（CVE 2020 11890）</a>
+ - <a href="/md/POChouse/Joomla/Joomla 3.9.24 普通管理员RCE（CVE-2021-23132 ）">Joomla 3.9.24 普通管理员RCE（CVE 2021 23132 ）</a>
+ - <a href="/md/POChouse/Cacti">Cacti</a>
+ - <a href="/md/POChouse/Cacti/Cacti v1.2.8 RCE（CVE-2020-8813）">Cacti v1.2.8 RCE（CVE 2020 8813）</a>
+ - <a href="/md/POChouse/Spring">Spring</a>
+ - <a href="/md/POChouse/Spring/Spring Data Commons 远程命令执行（CVE-2018-1273）">Spring Data Commons 远程命令执行（CVE 2018 1273）</a>
+ - <a href="/md/POChouse/Spring/Spring Cloud Config Server目录遍历（CVE-2020-5410）">Spring Cloud Config Server目录遍历（CVE 2020 5410）</a>
+ - <a href="/md/POChouse/Spring/Spring Boot Actuator 未授权访问">Spring Boot Actuator 未授权访问</a>
+ - <a href="/md/POChouse/Spring/Spring Boot Actuator 未授权访问/Spring_env_rce_Server">Spring env rce Server</a>
+ - <a href="/md/POChouse/Vmware">Vmware</a>
+ - <a href="/md/POChouse/Vmware/VMware vRealize Operations Manager SSRF（CVE-2021-21975）">VMware vRealize Operations Manager SSRF（CVE 2021 21975）</a>
+ - <a href="/md/POChouse/Vmware/VMware vCenter任意文件读取漏洞">VMware vCenter任意文件读取漏洞</a>
+ - <a href="/md/POChouse/Vmware/VMware View Planner 未授权RCE漏洞（CVE-2021-21978）">VMware View Planner 未授权RCE漏洞（CVE 2021 21978）</a>
+ - <a href="/md/POChouse/Vmware/VMware View Planner 未授权RCE漏洞（CVE-2021-21978）/get_webshell">get webshell</a>
+ - <a href="/md/POChouse/Vmware/VMware vCenter Server远程代码执行漏洞（CVE-2021-21985）">VMware vCenter Server远程代码执行漏洞（CVE 2021 21985）</a>
+ - <a href="/md/POChouse/Vmware/VMware vCenter Server未授权RCE漏洞（CVE-2021-21972）">VMware vCenter Server未授权RCE漏洞（CVE 2021 21972）</a>
+ - <a href="/md/POChouse/Vmware/VMware vCenter Server未授权RCE漏洞（CVE-2021-21972）/payload">payload</a>
+ - <a href="/md/POChouse/Vmware/VMware vCenter Server未授权RCE漏洞（CVE-2021-21972）/payload/Linux">Linux</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks">Awesome Cybersecurity Handbooks</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks/handbooks">handbooks</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks/images">images</a>
@@ -369,6 +499,7 @@
  - <a target=_blank href="/data/hk1/adobe.com.json">adobe.com</a>
  - <a target=_blank href="/data/hk1/PEPFAR.GOV.json">PEPFAR.GOV</a>
  - <a target=_blank href="/data/hk1/abnamro.be.json">abnamro.be</a>
+ - <a target=_blank href="/data/hk1/hey.com.json">hey.com</a>
  - <a target=_blank href="/data/hk1/abb.com.json">abb.com</a>
  - <a target=_blank href="/data/hk1/huazhu.json">huazhu</a>
  - <a target=_blank href="/data/hk1/8x8e2e.com.json">8x8e2e.com</a>
@@ -394,6 +525,7 @@
  - <a target=_blank href="/data/hk1/STATE.GOV.json">STATE.GOV</a>
  - <a target=_blank href="/data/hk1/acertandosuascontas.com.br.json">acertandosuascontas.com.br</a>
  - <a target=_blank href="/data/hk1/3ce.com.json">3ce.com</a>
+ - <a target=_blank href="/data/hk1/xxx.json">xxx</a>
  - <a target=_blank href="/data/hk1/AMERICA.GOV.json">AMERICA.GOV</a>
  - <a target=_blank href="/data/hk1/IAWG.GOV.json">IAWG.GOV</a>
  - <a target=_blank href="/data/hk1/1688.com.json">1688.com</a>
@@ -1289,6 +1421,380 @@
  - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/amazon-cognito.md">amazon cognito</a>
  - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/s3.md">s3</a>
  - <a target=_blank href="/md/cheat-sheets/Cloud/AWS/api-gateway.md">api gateway</a>
+
+## POChouse
+ - <a target=_blank href="/md/POChouse/README.md">README</a>
+
+## FastAdmin
+ - <a target=_blank href="/md/POChouse/FastAdmin/README.md">README</a>
+
+## FastAdmin 用户权限RCE
+ - <a target=_blank href="/md/POChouse/FastAdmin/FastAdmin 用户权限RCE/README.md">README</a>
+
+## Weblogic
+ - <a target=_blank href="/md/POChouse/Weblogic/weblogic.md">weblogic</a>
+ - <a target=_blank href="/md/POChouse/Weblogic/Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109.md">Weblogic LDAP 远程代码执行漏洞 CVE 2021 2109</a>
+ - <a target=_blank href="/md/POChouse/Weblogic/README.md">README</a>
+
+## [CVE-2017-10271]-XMLDecoder反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2017-10271]-XMLDecoder反序列化/README.md">README</a>
+
+## [CVE-2020-2551]-IIOP反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-2551]-IIOP反序列化/README.md">README</a>
+
+## [CVE-2020-14644]-远程命令执行
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-14644]-远程命令执行/README.md">README</a>
+
+## [CVE-2020-14882]-未授权命令执行
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-14882]-未授权命令执行/README.md">README</a>
+
+## [CVE-2020-2555]-T3反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-2555]-T3反序列化/README.md">README</a>
+
+## [CVE-2020-14756]-IIOP-T3反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-14756]-IIOP-T3反序列化/README.md">README</a>
+
+## [CVE-2020-2883]-T3反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-2883]-T3反序列化/README.md">README</a>
+
+## [CVE-2019-2725]-wls反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2019-2725]-wls反序列化/README.md">README</a>
+
+## [CVE-2020-14645]-T3反序列化
+ - <a target=_blank href="/md/POChouse/Weblogic/[CVE-2020-14645]-T3反序列化/README.md">README</a>
+
+## Exchange
+ - <a target=_blank href="/md/POChouse/Exchange/README.md">README</a>
+
+## RCE-需要域用户（CVE-2020-0688）
+ - <a target=_blank href="/md/POChouse/Exchange/RCE-需要域用户（CVE-2020-0688）/README.md">README</a>
+
+## RCE-普通用户（CVE-2020-17144）
+ - <a target=_blank href="/md/POChouse/Exchange/RCE-普通用户（CVE-2020-17144）/README.md">README</a>
+
+## SSRF to RCE（CVE-2021-26855）
+ - <a target=_blank href="/md/POChouse/Exchange/SSRF to RCE（CVE-2021-26855）/README.md">README</a>
+
+## Apache-Solr
+ - <a target=_blank href="/md/POChouse/Apache-Solr/README.md">README</a>
+
+## Solr Velocity 注入远程命令执行漏洞 (CVE-2019-17558)
+ - <a target=_blank href="/md/POChouse/Apache-Solr/Solr Velocity 注入远程命令执行漏洞 (CVE-2019-17558)/README.md">README</a>
+
+## Solr 未授权上传漏洞（CVE-2020-13957）
+ - <a target=_blank href="/md/POChouse/Apache-Solr/Solr 未授权上传漏洞（CVE-2020-13957）/README.md">README</a>
+
+## Solr 远程命令执行漏洞（CVE-2019-0193）
+ - <a target=_blank href="/md/POChouse/Apache-Solr/Solr 远程命令执行漏洞（CVE-2019-0193）/README.md">README</a>
+
+## Gitlab
+ - <a target=_blank href="/md/POChouse/Gitlab/README.md">README</a>
+
+## GitLab 邮箱信息泄露漏洞（CVE-2020-26413）
+ - <a target=_blank href="/md/POChouse/Gitlab/GitLab 邮箱信息泄露漏洞（CVE-2020-26413）/README.md">README</a>
+
+## Gitlab 任意文件读取-鸡肋（CVE-2020-10977）
+ - <a target=_blank href="/md/POChouse/Gitlab/Gitlab 任意文件读取-鸡肋（CVE-2020-10977）/README.md">README</a>
+
+## Gitlab 未授权RCE（CVE-2021-22192）
+ - <a target=_blank href="/md/POChouse/Gitlab/Gitlab 未授权RCE（CVE-2021-22192）/README.md">README</a>
+
+## SAP
+ - <a target=_blank href="/md/POChouse/SAP/README.md">README</a>
+
+## SAP NetWeaver AS JAVA 任意用户添加
+ - <a target=_blank href="/md/POChouse/SAP/SAP NetWeaver AS JAVA 任意用户添加/README.md">README</a>
+
+## Fastjson
+ - <a target=_blank href="/md/POChouse/Fastjson/README.md">README</a>
+
+## Fastjson 1.2.24 反序列化RCE
+ - <a target=_blank href="/md/POChouse/Fastjson/Fastjson 1.2.24 反序列化RCE/README.md">README</a>
+
+## Fastjson 1.2.47 反序列化RCE
+ - <a target=_blank href="/md/POChouse/Fastjson/Fastjson 1.2.47 反序列化RCE/README.md">README</a>
+
+## Fastjson 1.2.68 反序列化RCE
+ - <a target=_blank href="/md/POChouse/Fastjson/Fastjson 1.2.68 反序列化RCE/README.md">README</a>
+
+## Drupal
+ - <a target=_blank href="/md/POChouse/Drupal/README.md">README</a>
+
+## Drupal 需要密码 内核RCE（CVE-2018-7602）
+ - <a target=_blank href="/md/POChouse/Drupal/Drupal 需要密码 内核RCE（CVE-2018-7602）/README.md">README</a>
+
+## SA-CORE-2019-003 RCE (CVE-2019-6340)
+ - <a target=_blank href="/md/POChouse/Drupal/SA-CORE-2019-003 RCE (CVE-2019-6340)/README.md">README</a>
+
+## Drupal geddon-2 RCE（CVE-2018-7600）
+ - <a target=_blank href="/md/POChouse/Drupal/Drupal geddon-2 RCE（CVE-2018-7600）/README.md">README</a>
+
+## Jellyfin
+ - <a target=_blank href="/md/POChouse/Jellyfin/README.md">README</a>
+
+## 任意文件读取漏洞（CVE-2021-21402）
+ - <a target=_blank href="/md/POChouse/Jellyfin/任意文件读取漏洞（CVE-2021-21402）/README.md">README</a>
+
+## Kibana
+ - <a target=_blank href="/md/POChouse/Kibana/README.md">README</a>
+
+## CVE-2019-7609
+ - <a target=_blank href="/md/POChouse/Kibana/CVE-2019-7609/README.md">README</a>
+
+## Nacos
+ - <a target=_blank href="/md/POChouse/Nacos/README.md">README</a>
+
+## Nacos未授权访问（CVE-2020-19676）
+ - <a target=_blank href="/md/POChouse/Nacos/Nacos未授权访问（CVE-2020-19676）/README.md">README</a>
+
+## Harbor
+ - <a target=_blank href="/md/POChouse/Harbor/README.md">README</a>
+
+## WordPress
+ - <a target=_blank href="/md/POChouse/WordPress/README.md">README</a>
+
+## JBoss
+ - <a target=_blank href="/md/POChouse/JBoss/README.md">README</a>
+
+## JBoss 5.x-6.x 反序列化漏洞（CVE-2017-12149）
+ - <a target=_blank href="/md/POChouse/JBoss/JBoss 5.x-6.x 反序列化漏洞（CVE-2017-12149）/README.md">README</a>
+
+## Apache-Spark
+ - <a target=_blank href="/md/POChouse/Apache-Spark/README.md">README</a>
+
+## Apache Spark 未授权访问漏洞
+ - <a target=_blank href="/md/POChouse/Apache-Spark/Apache Spark 未授权访问漏洞/README.md">README</a>
+
+## RCE（CVE-2020-9480）
+ - <a target=_blank href="/md/POChouse/Apache-Spark/RCE（CVE-2020-9480）/README.md">README</a>
+
+## Apache-Shiro
+ - <a target=_blank href="/md/POChouse/Apache-Shiro/README.md">README</a>
+
+## Shiro 721 Padding Oracle漏洞
+ - <a target=_blank href="/md/POChouse/Apache-Shiro/Shiro 721 Padding Oracle漏洞/README.md">README</a>
+
+## Shiro 权限绕过漏洞
+ - <a target=_blank href="/md/POChouse/Apache-Shiro/Shiro 权限绕过漏洞/README.md">README</a>
+
+## Shiro 550反序列化（CVE-2016-4437）
+ - <a target=_blank href="/md/POChouse/Apache-Shiro/Shiro 550反序列化（CVE-2016-4437）/README.md">README</a>
+
+## phpMyAdmin
+ - <a target=_blank href="/md/POChouse/phpMyAdmin/README.md">README</a>
+
+## Apache-Struts2
+ - <a target=_blank href="/md/POChouse/Apache-Struts2/README.md">README</a>
+
+## 骑士CMS
+ - <a target=_blank href="/md/POChouse/骑士CMS/README.md">README</a>
+
+## 骑士CMS远程代码执行
+ - <a target=_blank href="/md/POChouse/骑士CMS/骑士CMS远程代码执行/README.md">README</a>
+
+## ThinkPHP
+ - <a target=_blank href="/md/POChouse/ThinkPHP/README.md">README</a>
+
+## Apache-Flink
+ - <a target=_blank href="/md/POChouse/Apache-Flink/README.md">README</a>
+
+## Apache-Flink-文件上传和目录遍历（CVE-2020-17518）
+ - <a target=_blank href="/md/POChouse/Apache-Flink/Apache-Flink-文件上传和目录遍历（CVE-2020-17518）/README.md">README</a>
+
+## Apache-Flink-jobmanager 目录遍历（CVE-2020-17519）
+ - <a target=_blank href="/md/POChouse/Apache-Flink/Apache-Flink-jobmanager 目录遍历（CVE-2020-17519）/README.md">README</a>
+
+## Apache-Flink 1.9.1 Jar Upload RCE
+ - <a target=_blank href="/md/POChouse/Apache-Flink/Apache-Flink 1.9.1 Jar Upload RCE/README.md">README</a>
+
+## Nexus
+ - <a target=_blank href="/md/POChouse/Nexus/README.md">README</a>
+
+## Nexus Repository Manager 3 访问控制缺失及远程代码执行漏洞（CVE-2019-7238）
+ - <a target=_blank href="/md/POChouse/Nexus/Nexus Repository Manager 3 访问控制缺失及远程代码执行漏洞（CVE-2019-7238）/README.md">README</a>
+
+## Nexus Repository Manager 3 远程命令执行漏洞（CVE-2020-10204）
+ - <a target=_blank href="/md/POChouse/Nexus/Nexus Repository Manager 3 远程命令执行漏洞（CVE-2020-10204）/README.md">README</a>
+
+## Jira
+ - <a target=_blank href="/md/POChouse/Jira/README.md">README</a>
+
+## ThinkCMF
+ - <a target=_blank href="/md/POChouse/ThinkCMF/README.md">README</a>
+
+## XXLjob
+ - <a target=_blank href="/md/POChouse/XXLjob/README.md">README</a>
+
+## xxl-job API接口未授权访问RCE
+ - <a target=_blank href="/md/POChouse/XXLjob/xxl-job API接口未授权访问RCE/README.md">README</a>
+
+## Apache-Tomcat
+ - <a target=_blank href="/md/POChouse/Apache-Tomcat/README.md">README</a>
+
+## AJP 文件包含漏洞（CVE-2020-1938）
+ - <a target=_blank href="/md/POChouse/Apache-Tomcat/AJP 文件包含漏洞（CVE-2020-1938）/README.md">README</a>
+
+## ECshop
+ - <a target=_blank href="/md/POChouse/ECshop/README.md">README</a>
+
+## ECShop 2.7.3 RCE
+ - <a target=_blank href="/md/POChouse/ECshop/ECShop 2.7.3 RCE/README.md">README</a>
+
+## [+] 协同办公OA系统
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/README.md">README</a>
+
+## Seeyon-致远OA
+
+## 任意文件下载（CNVD-2020-62422）
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/任意文件下载（CNVD-2020-62422）/README.md">README</a>
+
+## Session-任意文件上传
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/Session-任意文件上传/README.md">README</a>
+
+## ajax.do任意文件上传（ CNVD-2021-01627）
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/ajax.do任意文件上传（ CNVD-2021-01627）/README.md">README</a>
+
+## A8-FastJson反序列化RCE
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Seeyon-致远OA/A8-FastJson反序列化RCE/README.md">README</a>
+
+## Ecology-泛微OA
+
+## 反序列化
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/反序列化/README.md">README</a>
+
+## weaver.common.Ctrl-任意文件上传
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/weaver.common.Ctrl-任意文件上传/README.md">README</a>
+
+## V9 任意文件上传
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/V9 任意文件上传/README.md">README</a>
+
+## Bsh远程代码执行（CNVD-2019-32204）
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Ecology-泛微OA/Bsh远程代码执行（CNVD-2019-32204）/README.md">README</a>
+
+## Tongda-通达OA
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.x-v11.5任意用户登录.md">通达OA v11.x v11.5任意用户登录</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA部分漏洞信息整合.md">通达OA部分漏洞信息整合</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.9 后台SQL注入漏洞.md">通达OA v11.9 后台SQL注入漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.2 后台任意文件上传漏洞.md">通达OA v11.2 后台任意文件上传漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.8 后台文件包含XSS漏洞.md">通达OA v11.8 后台文件包含XSS漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.6 任意文件删除&RCE.md">通达OA v11.6 任意文件删除&RCE</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.8 后台文件包含命令执行漏洞.md">通达OA v11.8 后台文件包含命令执行漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.8 文件包含XSS漏洞.md">通达OA v11.8 文件包含XSS漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.7 后台SQL注入.md">通达OA v11.7 后台SQL注入</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Tongda-通达OA/通达OA v11.7 在线用户登录漏洞.md">通达OA v11.7 在线用户登录漏洞</a>
+
+## Landray-蓝凌OA
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Landray-蓝凌OA/蓝凌OA 任意文件写入漏洞.md">蓝凌OA 任意文件写入漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Landray-蓝凌OA/蓝凌OA EKP 后台SQL注入漏洞 CNVD-2021-01363.md">蓝凌OA EKP 后台SQL注入漏洞 CNVD 2021 01363</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Landray-蓝凌OA/蓝凌OA SSRF+JNDI远程命令执行.md">蓝凌OA SSRF+JNDI远程命令执行</a>
+
+## Zentao-禅道
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Zentao-禅道/zentao.md">zentao</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Zentao-禅道/禅道 11.6版本 SQL注入漏洞.md">禅道 11.6版本 SQL注入漏洞</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Zentao-禅道/禅道 小于12.4.2 文件上传漏洞 CNVD-C-2020-121325.md">禅道 小于12.4.2 文件上传漏洞 CNVD C 2020 121325</a>
+ - <a target=_blank href="/md/POChouse/[+] 协同办公OA系统/Zentao-禅道/禅道 11.6版本 任意文件写入漏洞.md">禅道 11.6版本 任意文件写入漏洞</a>
+
+## Apache-ActiveMQ
+ - <a target=_blank href="/md/POChouse/Apache-ActiveMQ/README.md">README</a>
+
+## ActiveMQ任意文件写入漏洞（CVE-2016-3088）
+ - <a target=_blank href="/md/POChouse/Apache-ActiveMQ/ActiveMQ任意文件写入漏洞（CVE-2016-3088）/README.md">README</a>
+
+## ActiveMQ 反序列化漏洞（CVE-2015-5254）
+ - <a target=_blank href="/md/POChouse/Apache-ActiveMQ/ActiveMQ 反序列化漏洞（CVE-2015-5254）/README.md">README</a>
+
+## Apereo-CAS
+ - <a target=_blank href="/md/POChouse/Apereo-CAS/README.md">README</a>
+
+## Apereo CAS 4.1 反序列化命令执行漏洞
+ - <a target=_blank href="/md/POChouse/Apereo-CAS/Apereo CAS 4.1 反序列化命令执行漏洞/README.md">README</a>
+
+## F5-BIG-IP
+ - <a target=_blank href="/md/POChouse/F5-BIG-IP/README.md">README</a>
+
+## TMUI 远程代码执行漏洞（CVE-2020-5902）
+ - <a target=_blank href="/md/POChouse/F5-BIG-IP/TMUI 远程代码执行漏洞（CVE-2020-5902）/README.md">README</a>
+
+## BIG-IP-IQ 远程代码执行（CVE-2021-22986 ）
+ - <a target=_blank href="/md/POChouse/F5-BIG-IP/BIG-IP-IQ 远程代码执行（CVE-2021-22986 ）/README.md">README</a>
+
+## [+] 编辑器上传漏洞
+ - <a target=_blank href="/md/POChouse/[+] 编辑器上传漏洞/README.md">README</a>
+
+## Jenkins
+ - <a target=_blank href="/md/POChouse/Jenkins/README.md">README</a>
+
+## Jenkins-CI 远程代码执行漏洞（CVE-2017-1000353）
+ - <a target=_blank href="/md/POChouse/Jenkins/Jenkins-CI 远程代码执行漏洞（CVE-2017-1000353）/README.md">README</a>
+
+## Jenkins 远程命令执行漏洞（CVE-2018-1000861）
+ - <a target=_blank href="/md/POChouse/Jenkins/Jenkins 远程命令执行漏洞（CVE-2018-1000861）/README.md">README</a>
+
+## Zabbix
+ - <a target=_blank href="/md/POChouse/Zabbix/README.md">README</a>
+
+## Discuz
+ - <a target=_blank href="/md/POChouse/Discuz/README.md">README</a>
+
+## [+] 网络&安全设备
+ - <a target=_blank href="/md/POChouse/[+] 网络&安全设备/README.md">README</a>
+
+## Apache-Kylin
+ - <a target=_blank href="/md/POChouse/Apache-Kylin/README.md">README</a>
+
+## 命令注入漏洞（CVE-2020-13925）
+ - <a target=_blank href="/md/POChouse/Apache-Kylin/命令注入漏洞（CVE-2020-13925）/README.md">README</a>
+
+## Joomla
+ - <a target=_blank href="/md/POChouse/Joomla/README.md">README</a>
+
+## Joomla 3.7.0 SQL注入(CVE-2017-8917)
+ - <a target=_blank href="/md/POChouse/Joomla/Joomla 3.7.0 SQL注入(CVE-2017-8917)/README.md">README</a>
+
+## Joomla 3.9.17 后台RCE（CVE-2020-11890）
+ - <a target=_blank href="/md/POChouse/Joomla/Joomla 3.9.17 后台RCE（CVE-2020-11890）/README.md">README</a>
+
+## Joomla 3.9.24 普通管理员RCE（CVE-2021-23132 ）
+ - <a target=_blank href="/md/POChouse/Joomla/Joomla 3.9.24 普通管理员RCE（CVE-2021-23132 ）/README.md">README</a>
+
+## Cacti
+ - <a target=_blank href="/md/POChouse/Cacti/README.md">README</a>
+
+## Cacti v1.2.8 RCE（CVE-2020-8813）
+ - <a target=_blank href="/md/POChouse/Cacti/Cacti v1.2.8 RCE（CVE-2020-8813）/README.md">README</a>
+
+## Spring
+ - <a target=_blank href="/md/POChouse/Spring/spring.md">spring</a>
+ - <a target=_blank href="/md/POChouse/Spring/README.md">README</a>
+
+## Spring Data Commons 远程命令执行（CVE-2018-1273）
+ - <a target=_blank href="/md/POChouse/Spring/Spring Data Commons 远程命令执行（CVE-2018-1273）/README.md">README</a>
+
+## Spring Cloud Config Server目录遍历（CVE-2020-5410）
+ - <a target=_blank href="/md/POChouse/Spring/Spring Cloud Config Server目录遍历（CVE-2020-5410）/README.md">README</a>
+
+## Spring Boot Actuator 未授权访问
+ - <a target=_blank href="/md/POChouse/Spring/Spring Boot Actuator 未授权访问/README.md">README</a>
+
+## Vmware
+ - <a target=_blank href="/md/POChouse/Vmware/README.md">README</a>
+
+## VMware vRealize Operations Manager SSRF（CVE-2021-21975）
+ - <a target=_blank href="/md/POChouse/Vmware/VMware vRealize Operations Manager SSRF（CVE-2021-21975）/README.md">README</a>
+
+## VMware vCenter任意文件读取漏洞
+ - <a target=_blank href="/md/POChouse/Vmware/VMware vCenter任意文件读取漏洞/README.md">README</a>
+
+## VMware View Planner 未授权RCE漏洞（CVE-2021-21978）
+ - <a target=_blank href="/md/POChouse/Vmware/VMware View Planner 未授权RCE漏洞（CVE-2021-21978）/README.md">README</a>
+
+## VMware vCenter Server远程代码执行漏洞（CVE-2021-21985）
+ - <a target=_blank href="/md/POChouse/Vmware/VMware vCenter Server远程代码执行漏洞（CVE-2021-21985）/README.md">README</a>
+
+## VMware vCenter Server未授权RCE漏洞（CVE-2021-21972）
+ - <a target=_blank href="/md/POChouse/Vmware/VMware vCenter Server未授权RCE漏洞（CVE-2021-21972）/README.md">README</a>
+
+## payload
 
 ## Awesome-Cybersecurity-Handbooks
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/README.md">README</a>

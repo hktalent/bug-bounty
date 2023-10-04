@@ -4,7 +4,7 @@ function doDldZip {
   pName="$2"
   main="$3"
   wget -c -O "${pName}.zip" "https://github.com/${userName}/${pName}/archive/refs/heads/${main}.zip"
-  unzip -x -o "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github" && git add "${pName}"
+  unzip -x -O UTF-8 -o "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github" && git add "${pName}"
 }
 
 
@@ -52,10 +52,13 @@ doDldZip "arkadiyt" "bounty-targets-data" "main"
 doDldZip "Osb0rn3" "bugbounty-targets" "main"
 doDldZip "Ignitetechnologies" "Mindmap" "main"
 doDldZip "0xn3va" "cheat-sheets" "main"
+doDldZip "DawnFlame" "POChouse" "main"
+
 
 find . -type f -name ".DS_Store" -delete
 find . -type f -name "LICENSE" -delete
 find . -type f -name "LICENSE.*" -delete
 find . -type f -name "CHANGELOG.*" -delete
 find .. -name "*.py.zip" -delete 
+
 
