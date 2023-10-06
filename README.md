@@ -2019,6 +2019,7 @@
  - <a target=_blank href="/md/bugbounty-cheatsheet-special-tools.md">bugbounty cheatsheet special tools</a>
  - <a target=_blank href="/md/渗透常用命令command.md">渗透常用命令command</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountytips.md">bugbounty cheatsheet bugbountytips</a>
+ - <a target=_blank href="/md/WindowsPrivilegeEscalation.md">WindowsPrivilegeEscalation</a>
  - <a target=_blank href="/md/the-book-of-secret-knowledge.md">the book of secret knowledge</a>
  - <a target=_blank href="/md/Ignitetechnologies-bugbounty.md">Ignitetechnologies bugbounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-open-redirect.md">bugbounty cheatsheet open redirect</a>

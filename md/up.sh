@@ -15,7 +15,6 @@ mkdir -p Intruder
 wget -c -O Intruder/xss-payload-list.txt https://github.com/payloadbox/xss-payload-list/raw/master/Intruder/xss-payload-list.txt
 
 # readme
-
 wget -c -O WindowsPrivilegeEscalation.md https://github.com/ycdxsb/WindowsPrivilegeEscalation/raw/main/README.md
 wget -c -O awesome-mac-zh.md https://github.com/jaywcjlove/awesome-mac/raw/master/README-zh.md
 wget -c -O awesome-hacking.md https://github.com/carpedm20/awesome-hacking/raw/master/README.md
