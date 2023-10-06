@@ -1981,33 +1981,45 @@
  - <a target=_blank href="/data/huazhu_amass_dns.json">huazhu amass dns</a>
 
 ## md
+ - <a target=_blank href="/md/myhktools-command-line.md">myhktools command line</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-crlf.md">bugbounty cheatsheet crlf</a>
+ - <a target=_blank href="/md/Awesome-Hacking-Resources.md">Awesome Hacking Resources</a>
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks.md">Awesome Cybersecurity Handbooks</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-sqli.md">bugbounty cheatsheet sqli</a>
+ - <a target=_blank href="/md/Awesome-Hacking-Resources-tools.md">Awesome Hacking Resources tools</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-xxe.md">bugbounty cheatsheet xxe</a>
  - <a target=_blank href="/md/awesome-hacker-search-engines.md">awesome hacker search engines</a>
  - <a target=_blank href="/md/Awesome-Bugbounty-Writeups.md">Awesome Bugbounty Writeups</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-lfi.md">bugbounty cheatsheet lfi</a>
  - <a target=_blank href="/md/xss-payload-list.md">xss payload list</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-recon.md">bugbounty cheatsheet recon</a>
+ - <a target=_blank href="/md/Awesome_Penetration_Testing-command-line.md">Awesome Penetration Testing command line</a>
+ - <a target=_blank href="/md/Awesome-Fuzzing.md">Awesome Fuzzing</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-content-injection.md">bugbounty cheatsheet content injection</a>
  - <a target=_blank href="/md/A-Red-Teamer-diaries.md">A Red Teamer diaries</a>
  - <a target=_blank href="/md/djadmin-awesome-bug-bounty.md">djadmin awesome bug bounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-practice-platforms.md">bugbounty cheatsheet practice platforms</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-template-injection.md">bugbounty cheatsheet template injection</a>
+ - <a target=_blank href="/md/Awesome-Fuzzing_cn.md">Awesome Fuzzing cn</a>
+ - <a target=_blank href="/md/webPenTest.md">webPenTest</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-ssrf.md">bugbounty cheatsheet ssrf</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-xslt.md">bugbounty cheatsheet xslt</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-rce.md">bugbounty cheatsheet rce</a>
+ - <a target=_blank href="/md/awesome-mac-zh.md">awesome mac zh</a>
  - <a target=_blank href="/md/awesome-bugbounty-tools.md">awesome bugbounty tools</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountyplatforms.md">bugbounty cheatsheet bugbountyplatforms</a>
  - <a target=_blank href="/md/kali-linux-cheatsheet.md">kali linux cheatsheet</a>
+ - <a target=_blank href="/md/Awesome-Fuzzing_ch.md">Awesome Fuzzing ch</a>
  - <a target=_blank href="/md/awesome-oneliner-bugbounty.md">awesome oneliner bugbounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-xss.md">bugbounty cheatsheet xss</a>
+ - <a target=_blank href="/md/awesome-macos-command-line.md">awesome macos command line</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-csv-injection.md">bugbounty cheatsheet csv injection</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-crypto.md">bugbounty cheatsheet crypto</a>
+ - <a target=_blank href="/md/Awesome-Hacking.md">Awesome Hacking</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-special-tools.md">bugbounty cheatsheet special tools</a>
  - <a target=_blank href="/md/渗透常用命令command.md">渗透常用命令command</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountytips.md">bugbounty cheatsheet bugbountytips</a>
+ - <a target=_blank href="/md/the-book-of-secret-knowledge.md">the book of secret knowledge</a>
  - <a target=_blank href="/md/Ignitetechnologies-bugbounty.md">Ignitetechnologies bugbounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-open-redirect.md">bugbounty cheatsheet open redirect</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-cors.md">bugbounty cheatsheet cors</a>

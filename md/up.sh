@@ -15,6 +15,13 @@ mkdir -p Intruder
 wget -c -O Intruder/xss-payload-list.txt https://github.com/payloadbox/xss-payload-list/raw/master/Intruder/xss-payload-list.txt
 
 # readme
+wget -c -O awesome-mac-zh.md https://github.com/jaywcjlove/awesome-mac/raw/master/README-zh.md
+wget -c -O awesome-hacking.md https://github.com/carpedm20/awesome-hacking/raw/master/README.md
+wget -c -O Awesome-Hacking-Resources.md https://github.com/vitalysim/Awesome-Hacking-Resources/raw/master/README.md
+wget -c -O Awesome-Hacking-Resources-tools.md https://github.com/vitalysim/Awesome-Hacking-Resources/raw/master/tools.md
+wget -c -O Awesome-Fuzzing_ch.md https://github.com/secfigo/Awesome-Fuzzing/raw/master/README_ch.md
+wget -c -O Awesome-Fuzzing.md https://github.com/secfigo/Awesome-Fuzzing/raw/master/README.md
+wget -c -O the-book-of-secret-knowledge.md https://github.com/trimstray/the-book-of-secret-knowledge/raw/master/README.md
 wget -c -O awesome-bugbounty-tools.md https://github.com/vavkamil/awesome-bugbounty-tools/raw/main/README.md
 wget -c -O Awesome-Bugbounty-Writeups.md https://github.com/devanshbatham/Awesome-Bugbounty-Writeups/raw/master/README.md
 wget -c -O A-Red-Teamer-diaries.md https://github.com/ihebski/A-Red-Teamer-diaries/raw/master/README.md
@@ -26,7 +33,12 @@ wget -c -O Ignitetechnologies-bugbounty.md https://github.com/Ignitetechnologies
 wget -c -O xss-payload-list.md https://github.com/payloadbox/xss-payload-list/raw/master/README.md
 wget -c -O 渗透常用命令command.md https://github.com/safe6Sec/command/raw/master/README.md
 wget -c -O kali-linux-cheatsheet.md https://github.com/NoorQureshi/kali-linux-cheatsheet/raw/master/README.md
-
+wget -c -O Awesome-Hacking.md https://github.com/Hack-with-Github/Awesome-Hacking/raw/master/README.md
+wget -c https://raw.githubusercontent.com/hktalent/myhktools/main/tools/webPenTest.md
+wget -c https://raw.githubusercontent.com/hktalent/myhktools/main/tools/Awesome_Penetration_Testing-command-line.md
+wget -c -O myhktools-command-line.md https://github.com/hktalent/myhktools/blob/main/tools/README.md
+wget -c https://github.com/hktalent/myhktools/raw/main/tools/awesome-macos-command-line.md
+wget -c -O awesome-chatgpt-prompts.csv https://github.com/f/awesome-chatgpt-prompts/raw/main/prompts.csv
 # md
 # ssh-keys
 # https://github.com/ihebski/DefaultCreds-cheat-sheet/
