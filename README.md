@@ -2000,6 +2000,7 @@
  - <a target=_blank href="/md/bugbounty-cheatsheet-rce.md">bugbounty cheatsheet rce</a>
  - <a target=_blank href="/md/awesome-bugbounty-tools.md">awesome bugbounty tools</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountyplatforms.md">bugbounty cheatsheet bugbountyplatforms</a>
+ - <a target=_blank href="/md/kali-linux-cheatsheet.md">kali linux cheatsheet</a>
  - <a target=_blank href="/md/awesome-oneliner-bugbounty.md">awesome oneliner bugbounty</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-xss.md">bugbounty cheatsheet xss</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-csv-injection.md">bugbounty cheatsheet csv injection</a>
