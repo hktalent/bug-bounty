@@ -10,6 +10,19 @@
  - <a href="/md/BruteX">BruteX</a>
  - <a href="/md/BruteX/wordlists">wordlists</a>
  - <a href="/md/BruteX/loot">loot</a>
+ - <a href="/md/kalitools">kalitools</a>
+ - <a href="/md/kalitools/Web Applications">Web Applications</a>
+ - <a href="/md/kalitools/Hardware Hacking">Hardware Hacking</a>
+ - <a href="/md/kalitools/Sniffing-Spoofing">Sniffing Spoofing</a>
+ - <a href="/md/kalitools/Vulnerability Analysis">Vulnerability Analysis</a>
+ - <a href="/md/kalitools/Wireless Attacks">Wireless Attacks</a>
+ - <a href="/md/kalitools/Forensics Tools">Forensics Tools</a>
+ - <a href="/md/kalitools/image">image</a>
+ - <a href="/md/kalitools/Password Attacks">Password Attacks</a>
+ - <a href="/md/kalitools/Reverse-Engineering">Reverse Engineering</a>
+ - <a href="/md/kalitools/Exploitation Tools">Exploitation Tools</a>
+ - <a href="/md/kalitools/Information Gathering">Information Gathering</a>
+ - <a href="/md/kalitools/Reporting Tools">Reporting Tools</a>
  - <a href="/md/Galaxy-Bugbounty-Checklist">Galaxy Bugbounty Checklist</a>
  - <a href="/md/Galaxy-Bugbounty-Checklist/File Upload">File Upload</a>
  - <a href="/md/Galaxy-Bugbounty-Checklist/API Security">API Security</a>
@@ -554,6 +567,136 @@
 
 ## loot
  - <a target=_blank href="/md/BruteX/loot/README.md">README</a>
+
+## kalitools
+ - <a target=_blank href="/md/kalitools/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>
+ - <a target=_blank href="/md/kalitools/README.md">README</a>
+ - <a target=_blank href="/md/kalitools/CONTRIBUTING.md">CONTRIBUTING</a>
+ - <a target=_blank href="/md/kalitools/Markdown使用说明.md">Markdown使用说明</a>
+ - <a target=_blank href="/md/kalitools/志愿者名单.md">志愿者名单</a>
+ - <a target=_blank href="/md/kalitools/Kali工具清单.md">Kali工具清单</a>
+
+## Web Applications
+ - <a target=_blank href="/md/kalitools/Web Applications/dirbuster.md">dirbuster</a>
+ - <a target=_blank href="/md/kalitools/Web Applications/apache-users.md">apache users</a>
+ - <a target=_blank href="/md/kalitools/Web Applications/BurpSuite.md">BurpSuite</a>
+ - <a target=_blank href="/md/kalitools/Web Applications/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Web Applications/w3af.md">w3af</a>
+ - <a target=_blank href="/md/kalitools/Web Applications/sqlmap.md">sqlmap</a>
+
+## Hardware Hacking
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/Smali.md">Smali</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/Arduino.md">Arduino</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/ApkTool.md">ApkTool</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/Android SDK.md">Android SDK</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/Sakis 3G.md">Sakis 3G</a>
+ - <a target=_blank href="/md/kalitools/Hardware Hacking/dex2jar.md">dex2jar</a>
+
+## Sniffing-Spoofing
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/Burp Suite.md">Burp Suite</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/HexInject.md">HexInject</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/Bettercap.md">Bettercap</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/hamster-sidejack.md">hamster sidejack</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/Fiked.md">Fiked</a>
+ - <a target=_blank href="/md/kalitools/Sniffing-Spoofing/DNSChef.md">DNSChef</a>
+
+## Vulnerability Analysis
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/dotdotpwn.md">dotdotpwn</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/cisco-global-exploiter.md">cisco global exploiter</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/copy-router-config.md">copy router config</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/BED.md">BED</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/BBQSQL.md">BBQSQL</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/cisco-auditing-tool.md">cisco auditing tool</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/cisco-torch.md">cisco torch</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/Doona.md">Doona</a>
+ - <a target=_blank href="/md/kalitools/Vulnerability Analysis/cisco-ocs.md">cisco ocs</a>
+
+## Wireless Attacks
+ - <a target=_blank href="/md/kalitools/Wireless Attacks/Ghost-Phisher.md">Ghost Phisher</a>
+ - <a target=_blank href="/md/kalitools/Wireless Attacks/mfoc.md">mfoc</a>
+ - <a target=_blank href="/md/kalitools/Wireless Attacks/list.md">list</a>
+
+## Forensics Tools
+ - <a target=_blank href="/md/kalitools/Forensics Tools/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Forensics Tools/Binwalk.md">Binwalk</a>
+ - <a target=_blank href="/md/kalitools/Forensics Tools/bulk-extractor.md">bulk extractor</a>
+
+## Password Attacks
+ - <a target=_blank href="/md/kalitools/Password Attacks/crunch.md">crunch</a>
+ - <a target=_blank href="/md/kalitools/Password Attacks/list.md">list</a>
+ - <a target=_blank href="/md/kalitools/Password Attacks/hashcat.md">hashcat</a>
+ - <a target=_blank href="/md/kalitools/Password Attacks/John the Ripper.md">John the Ripper</a>
+ - <a target=_blank href="/md/kalitools/Password Attacks/acccheck.md">acccheck</a>
+ - <a target=_blank href="/md/kalitools/Password Attacks/Johnny.md">Johnny</a>
+
+## Reverse-Engineering
+ - <a target=_blank href="/md/kalitools/Reverse-Engineering/apktool.md">apktool</a>
+ - <a target=_blank href="/md/kalitools/Reverse-Engineering/list.md">list</a>
+
+## Exploitation Tools
+ - <a target=_blank href="/md/kalitools/Exploitation Tools/Armitage.md">Armitage</a>
+ - <a target=_blank href="/md/kalitools/Exploitation Tools/SET.md">SET</a>
+ - <a target=_blank href="/md/kalitools/Exploitation Tools/.list.md">.list</a>
+
+## Information Gathering
+ - <a target=_blank href="/md/kalitools/Information Gathering/DMitry.md">DMitry</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/ace-voip.md">ace voip</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/sslstrip.md">sslstrip</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/nbtscan-unixwiz.md">nbtscan unixwiz</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/DotDotPwn.md">DotDotPwn</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/golismero.md">golismero</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/CaseFile.md">CaseFile</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/dnmap.md">dnmap</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Nmap.md">Nmap</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Ghost-Phisher.md">Ghost Phisher</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/ident-user-enum.md">ident user enum</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/braa.md">braa</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/goofile.md">goofile</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/bing-ip2hosts.md">bing ip2hosts</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Firewalk.md">Firewalk</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Maltego.md">Maltego</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/SET.md">SET</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/copy-router-config.md">copy router config</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/DNSRecon.md">DNSRecon</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Xplico.md">Xplico</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/dnsmap.md">dnsmap</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/TLSSLed.md">TLSSLed</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Metagoofil.md">Metagoofil</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/lbd.md">lbd</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/cisco-torch.md">cisco torch</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/masscan.md">masscan</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Amap.md">Amap</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Fierce.md">Fierce</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/enumIAX.md">enumIAX</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/URLCrazy.md">URLCrazy</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/dnswalk.md">dnswalk</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/.list.md">.list</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/THC-IPV6.md">THC IPV6</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/fragrouter.md">fragrouter</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/APT2.md">APT2</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/dnstracer.md">dnstracer</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/iSMTP.md">iSMTP</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Automater.md">Automater</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/twofi.md">twofi</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/acccheck.md">acccheck</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/hping3.md">hping3</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Cookie Cadger.md">Cookie Cadger</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Miranda.md">Miranda</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/CDPSnarf.md">CDPSnarf</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/intrace.md">intrace</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/enum4linux.md">enum4linux</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/dnsenum.md">dnsenum</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/WOL-E.md">WOL E</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/fragroute.md">fragroute</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/theHarvester.md">theHarvester</a>
+ - <a target=_blank href="/md/kalitools/Information Gathering/Wireshark.md">Wireshark</a>
+
+## Reporting Tools
+ - <a target=_blank href="/md/kalitools/Reporting Tools/CaseFile.md">CaseFile</a>
+ - <a target=_blank href="/md/kalitools/Reporting Tools/.list.md">.list</a>
 
 ## Galaxy-Bugbounty-Checklist
  - <a target=_blank href="/md/Galaxy-Bugbounty-Checklist/README.md">README</a>

@@ -4,7 +4,7 @@ function doDldZip {
   pName="$2"
   main="$3"
   wget -c -O "${pName}.zip" "https://github.com/${userName}/${pName}/archive/refs/heads/${main}.zip"
-  unzip -x -O UTF-8 -o "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github" && git add "${pName}"
+  unzip -x "${pName}.zip" && rm -rf "${pName}" && mv "${pName}-${main}" "${pName}" && rm -rf "${pName}.zip" "${pName}/.github" && git add "${pName}"
 }
 
 
@@ -41,6 +41,8 @@ doDldZip "1N3" "Sn1per" "master"
 doDldZip "1N3" "BruteX" "master"
 doDldZip "1N3" "Findsploit" "master"
 doDldZip "nahamsec" "Resources-for-Beginner-Bug-Bounty-Hunters" "master"
+doDldZip "Jack-Liang" "kalitools" "master"
+
 
 doDldZip "0xsyr0" "OSCP" "main"
 doDldZip "0xsyr0" "Awesome-Cybersecurity-Handbooks" "main"
