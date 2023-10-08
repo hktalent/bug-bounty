@@ -58,7 +58,7 @@ doDldZip "1N3" "Findsploit" "master"
 doDldZip "nahamsec" "Resources-for-Beginner-Bug-Bounty-Hunters" "master"
 doDldZip "Jack-Liang" "kalitools" "master"
 
-
+doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
 doDldZip "0xsyr0" "Awesome-Cybersecurity-Handbooks" "main"
 doDldZip "aufzayed" "bugbounty" "main"

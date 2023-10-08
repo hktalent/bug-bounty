@@ -56,6 +56,37 @@
  - <a href="/md/bugbounty-targets">bugbounty targets</a>
  - <a href="/md/bugbounty-targets/platforms">platforms</a>
  - <a href="/md/bugbounty-targets/programs">programs</a>
+ - <a href="/md/sec-note">sec note</a>
+ - <a href="/md/sec-note/渗透思路">渗透思路</a>
+ - <a href="/md/sec-note/Java-sec">Java sec</a>
+ - <a href="/md/sec-note/工具学习">工具学习</a>
+ - <a href="/md/sec-note/信息收集">信息收集</a>
+ - <a href="/md/sec-note/漏洞研究">漏洞研究</a>
+ - <a href="/md/sec-note/漏洞研究/JWT">JWT</a>
+ - <a href="/md/sec-note/漏洞研究/Apache APISIX">Apache APISIX</a>
+ - <a href="/md/sec-note/漏洞研究/GitLab">GitLab</a>
+ - <a href="/md/sec-note/漏洞研究/Fastjson">Fastjson</a>
+ - <a href="/md/sec-note/漏洞研究/Nacos">Nacos</a>
+ - <a href="/md/sec-note/漏洞研究/Redis">Redis</a>
+ - <a href="/md/sec-note/漏洞研究/rsync">rsync</a>
+ - <a href="/md/sec-note/漏洞研究/Apache Shiro">Apache Shiro</a>
+ - <a href="/md/sec-note/漏洞研究/Grafana">Grafana</a>
+ - <a href="/md/sec-note/漏洞研究/Atlassian Confluence">Atlassian Confluence</a>
+ - <a href="/md/sec-note/漏洞研究/Memcached">Memcached</a>
+ - <a href="/md/sec-note/漏洞研究/F5-BIG-IP">F5 BIG IP</a>
+ - <a href="/md/sec-note/漏洞研究/Zyxel">Zyxel</a>
+ - <a href="/md/sec-note/漏洞研究/用友">用友</a>
+ - <a href="/md/sec-note/漏洞研究/用友/用友NC65">用友NC65</a>
+ - <a href="/md/sec-note/漏洞研究/Jenkins">Jenkins</a>
+ - <a href="/md/sec-note/漏洞研究/Log4j">Log4j</a>
+ - <a href="/md/sec-note/漏洞研究/Spring">Spring</a>
+ - <a href="/md/sec-note/漏洞研究/UEditor">UEditor</a>
+ - <a href="/md/sec-note/漏洞研究/Jackson">Jackson</a>
+ - <a href="/md/sec-note/内网渗透">内网渗透</a>
+ - <a href="/md/sec-note/内网渗透/Linux">Linux</a>
+ - <a href="/md/sec-note/内网渗透/Linux/Linux提权">Linux提权</a>
+ - <a href="/md/sec-note/内网渗透/Windows">Windows</a>
+ - <a href="/md/sec-note/内网渗透/Windows/信息收集">信息收集</a>
  - <a href="/md/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings">PayloadsAllTheThings</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Request Forgery">Server Side Request Forgery</a>
@@ -806,6 +837,127 @@
  - <a target=_blank href="/md/bugbounty-targets/programs/yeswehack.json">yeswehack</a>
  - <a target=_blank href="/md/bugbounty-targets/programs/bugcrowd.json">bugcrowd</a>
  - <a target=_blank href="/md/bugbounty-targets/programs/hackerone.json">hackerone</a>
+
+## sec-note
+ - <a target=_blank href="/md/sec-note/README.md">README</a>
+
+## 渗透思路
+ - <a target=_blank href="/md/sec-note/渗透思路/AK | SK 获取思路.md">AK | SK 获取思路</a>
+ - <a target=_blank href="/md/sec-note/渗透思路/README.md">README</a>
+ - <a target=_blank href="/md/sec-note/渗透思路/WAF绕过.md">WAF绕过</a>
+ - <a target=_blank href="/md/sec-note/渗透思路/登录框攻击面思路.md">登录框攻击面思路</a>
+
+## Java-sec
+ - <a target=_blank href="/md/sec-note/Java-sec/CC6.md">CC6</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/URLDNS.md">URLDNS</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/CC1-TransformedMap.md">CC1 TransformedMap</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/CC3.md">CC3</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/CommonsBeanutils.md">CommonsBeanutils</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/Commons-Collections4.0下的CC2和CC4.md">Commons Collections4.0下的CC2和CC4</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/原生反序列化利用链 JDK7u21.md">原生反序列化利用链 JDK7u21</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/CC5.md">CC5</a>
+ - <a target=_blank href="/md/sec-note/Java-sec/CC1-LazyMap.md">CC1 LazyMap</a>
+
+## 工具学习
+ - <a target=_blank href="/md/sec-note/工具学习/README.md">README</a>
+
+## 信息收集
+ - <a target=_blank href="/md/sec-note/信息收集/README.md">README</a>
+
+## 漏洞研究
+
+## JWT
+ - <a target=_blank href="/md/sec-note/漏洞研究/JWT/JWT介绍和渗透思路.md">JWT介绍和渗透思路</a>
+
+## Apache APISIX
+ - <a target=_blank href="/md/sec-note/漏洞研究/Apache APISIX/Apache APISIX _ 2.12.1 远程代码执行（CVE-2022-24112）.md">Apache APISIX   2.12.1 远程代码执行（CVE 2022 24112）</a>
+
+## GitLab
+ - <a target=_blank href="/md/sec-note/漏洞研究/GitLab/GitLab任意文件读取(CVE-2020-10977).md">GitLab任意文件读取(CVE 2020 10977)</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/GitLab/GitLab 未授权RCE(CVE-2021-22205).md">GitLab 未授权RCE(CVE 2021 22205)</a>
+
+## Fastjson
+ - <a target=_blank href="/md/sec-note/漏洞研究/Fastjson/Fastjson JDBC4Connection利用.md">Fastjson JDBC4Connection利用</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Fastjson/Fastjson 1.2.24 反序列化 RCE.md">Fastjson 1.2.24 反序列化 RCE</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Fastjson/Fastjson 1.2.47 远程命令执行漏洞.md">Fastjson 1.2.47 远程命令执行漏洞</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Fastjson/README.md">README</a>
+
+## Nacos
+ - <a target=_blank href="/md/sec-note/漏洞研究/Nacos/从 Nacos CVE-2021-29441 到新型利用方式探索.md">从 Nacos CVE 2021 29441 到新型利用方式探索</a>
+
+## Redis
+ - <a target=_blank href="/md/sec-note/漏洞研究/Redis/2、主从复制RCE.md">2、主从复制RCE</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Redis/1、写文件.md">1、写文件</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Redis/README.md">README</a>
+
+## rsync
+ - <a target=_blank href="/md/sec-note/漏洞研究/rsync/rsync未授权访问漏洞.md">rsync未授权访问漏洞</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/rsync/README.md">README</a>
+
+## Apache Shiro
+ - <a target=_blank href="/md/sec-note/漏洞研究/Apache Shiro/README.md">README</a>
+
+## Grafana
+ - <a target=_blank href="/md/sec-note/漏洞研究/Grafana/Grafana plugin 任意文件读取漏洞（CVE-2021-43798）.md">Grafana plugin 任意文件读取漏洞（CVE 2021 43798）</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Grafana/README.md">README</a>
+
+## Atlassian Confluence
+ - <a target=_blank href="/md/sec-note/漏洞研究/Atlassian Confluence/Confluence OGNL表达式注入代码执行漏洞(CVE-2021-26084).md">Confluence OGNL表达式注入代码执行漏洞(CVE 2021 26084)</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Atlassian Confluence/Confluence远程代码执行(CVE-2022-26134).md">Confluence远程代码执行(CVE 2022 26134)</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Atlassian Confluence/README.md">README</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Atlassian Confluence/Confluence路径穿越与命令执行漏洞(CVE-2019-3396).md">Confluence路径穿越与命令执行漏洞(CVE 2019 3396)</a>
+
+## Memcached
+ - <a target=_blank href="/md/sec-note/漏洞研究/Memcached/Memcached未授权访问漏洞.md">Memcached未授权访问漏洞</a>
+
+## F5-BIG-IP
+ - <a target=_blank href="/md/sec-note/漏洞研究/F5-BIG-IP/F5-BIG-IP iControl REST身份验证绕过漏洞 (CVE-2022-1388).md">F5 BIG IP iControl REST身份验证绕过漏洞 (CVE 2022 1388)</a>
+
+## Zyxel
+ - <a target=_blank href="/md/sec-note/漏洞研究/Zyxel/Zyxel 防火墙远程命令注入漏洞(CVE-2022-30525).md">Zyxel 防火墙远程命令注入漏洞(CVE 2022 30525)</a>
+
+## 用友
+
+## 用友NC65
+ - <a target=_blank href="/md/sec-note/漏洞研究/用友/用友NC65/BshServlet-RCE.md">BshServlet RCE</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/用友/用友NC65/用友NC65反序列化回显利用.md">用友NC65反序列化回显利用</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/用友/用友NC65/ActionHandlerServlet_Gzip反序列化.md">ActionHandlerServlet Gzip反序列化</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/用友/用友NC65/用友NC6.5_环境搭建及路由分析.md">用友NC6.5 环境搭建及路由分析</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/用友/用友NC65/IUpdateService-XXE.md">IUpdateService XXE</a>
+
+## Jenkins
+ - <a target=_blank href="/md/sec-note/漏洞研究/Jenkins/Jenkins RCE (CVE-2018-1000861).md">Jenkins RCE (CVE 2018 1000861)</a>
+
+## Log4j
+ - <a target=_blank href="/md/sec-note/漏洞研究/Log4j/Log4j2 RCE（CVE-2021-44228）.md">Log4j2 RCE（CVE 2021 44228）</a>
+
+## Spring
+ - <a target=_blank href="/md/sec-note/漏洞研究/Spring/Spring Cloud Function SpEL表达式注入.md">Spring Cloud Function SpEL表达式注入</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Spring/Spring Core-Spring4Shell RCE（CVE-2022-22965）.md">Spring Core Spring4Shell RCE（CVE 2022 22965）</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Spring/README.md">README</a>
+
+## UEditor
+ - <a target=_blank href="/md/sec-note/漏洞研究/UEditor/UEditor漏洞总结.md">UEditor漏洞总结</a>
+
+## Jackson
+ - <a target=_blank href="/md/sec-note/漏洞研究/Jackson/README.md">README</a>
+ - <a target=_blank href="/md/sec-note/漏洞研究/Jackson/Jackson-databind 反序列化漏洞（CVE-2017-7525）.md">Jackson databind 反序列化漏洞（CVE 2017 7525）</a>
+
+## 内网渗透
+ - <a target=_blank href="/md/sec-note/内网渗透/如何判断存不存在内网.md">如何判断存不存在内网</a>
+ - <a target=_blank href="/md/sec-note/内网渗透/README.md">README</a>
+
+## Linux
+ - <a target=_blank href="/md/sec-note/内网渗透/Linux/README.md">README</a>
+
+## Linux提权
+ - <a target=_blank href="/md/sec-note/内网渗透/Linux/Linux提权/4_sudo提权.md">4 sudo提权</a>
+
+## Windows
+
+## 信息收集
+ - <a target=_blank href="/md/sec-note/内网渗透/Windows/信息收集/域内信息收集.md">域内信息收集</a>
+ - <a target=_blank href="/md/sec-note/内网渗透/Windows/信息收集/本机基础信息收集.md">本机基础信息收集</a>
 
 ## PayloadsAllTheThings
  - <a target=_blank href="/md/PayloadsAllTheThings/README.md">README</a>
