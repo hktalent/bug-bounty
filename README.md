@@ -198,6 +198,10 @@
  - <a href="/md/PayloadsAllTheThings/Server Side Include Injection">Server Side Include Injection</a>
  - <a href="/md/top25-parameter">top25 parameter</a>
  - <a href="/md/top25-parameter/gf-patterns">gf patterns</a>
+ - <a href="/md/hackerone-reports">hackerone reports</a>
+ - <a href="/md/hackerone-reports/tops_by_program">tops by program</a>
+ - <a href="/md/hackerone-reports/tops_100">tops 100</a>
+ - <a href="/md/hackerone-reports/tops_by_bug_type">tops by bug type</a>
  - <a href="/md/Sn1per">Sn1per</a>
  - <a href="/md/Sn1per/pro">pro</a>
  - <a href="/md/Sn1per/modes">modes</a>
@@ -1233,6 +1237,96 @@
  - <a target=_blank href="/md/top25-parameter/gf-patterns/sqli.json">sqli</a>
  - <a target=_blank href="/md/top25-parameter/gf-patterns/openredirect.json">openredirect</a>
  - <a target=_blank href="/md/top25-parameter/gf-patterns/ssrf.json">ssrf</a>
+
+## hackerone-reports
+ - <a target=_blank href="/md/hackerone-reports/README.md">README</a>
+
+## tops_by_program
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPLOCALIZE.md">TOPLOCALIZE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPAUTOMATTIC.md">TOPAUTOMATTIC</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPGITLAB.md">TOPGITLAB</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPCONCRETECMS.md">TOPCONCRETECMS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPH1CTF.md">TOPH1CTF</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPWORDPRESS.md">TOPWORDPRESS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPPHABRICATOR.md">TOPPHABRICATOR</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPPORNHUB.md">TOPPORNHUB</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPRAZER.md">TOPRAZER</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPSIFCHAIN.md">TOPSIFCHAIN</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPWEBLATE.md">TOPWEBLATE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPBRAVESOFTWARE.md">TOPBRAVESOFTWARE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPMTNGROUP.md">TOPMTNGROUP</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPACRONIS.md">TOPACRONIS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPMAILRU.md">TOPMAILRU</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPQIWI.md">TOPQIWI</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPNEXTCLOUD.md">TOPNEXTCLOUD</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPVERIZONMEDIA.md">TOPVERIZONMEDIA</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPGITHUBSECURITYLAB.md">TOPGITHUBSECURITYLAB</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPVIMEO.md">TOPVIMEO</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPCURL.md">TOPCURL</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPSHOPIFY.md">TOPSHOPIFY</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPHACKERONE.md">TOPHACKERONE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPNODEJSTHIRDPARTYMODULES.md">TOPNODEJSTHIRDPARTYMODULES</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPSHOPIFYSCRIPTS.md">TOPSHOPIFYSCRIPTS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPTHEINTERNET.md">TOPTHEINTERNET</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPUBIQUITIINC.md">TOPUBIQUITIINC</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPROCKSTARGAMES.md">TOPROCKSTARGAMES</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPCONCRETE5.md">TOPCONCRETE5</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPNEWRELIC.md">TOPNEWRELIC</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPVKCOM.md">TOPVKCOM</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPLOCALTAPIOLA.md">TOPLOCALTAPIOLA</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPINTERNETBUGBOUNTY.md">TOPINTERNETBUGBOUNTY</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPX(FORMERLYTWITTER).md">TOPX(FORMERLYTWITTER)</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPUSDEPTOFDEFENSE.md">TOPUSDEPTOFDEFENSE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPLEGALROBOT.md">TOPLEGALROBOT</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPTWITTER.md">TOPTWITTER</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPPHP(IBB).md">TOPPHP(IBB)</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPOPENXCHANGE.md">TOPOPENXCHANGE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPCOINBASE.md">TOPCOINBASE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPGRATIPAY.md">TOPGRATIPAY</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPSTARBUCKS.md">TOPSTARBUCKS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPUBER.md">TOPUBER</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPSLACK.md">TOPSLACK</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPYAHOO!.md">TOPYAHOO!</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPTIKTOK.md">TOPTIKTOK</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPPARAGONINITIATIVEENTERPRISES.md">TOPPARAGONINITIATIVEENTERPRISES</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPVALVE.md">TOPVALVE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPZOMATO.md">TOPZOMATO</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPOWNCLOUD.md">TOPOWNCLOUD</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_program/TOPOLX.md">TOPOLX</a>
+
+## tops_100
+ - <a target=_blank href="/md/hackerone-reports/tops_100/TOP100PAID.md">TOP100PAID</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_100/TOP100UPVOTED.md">TOP100UPVOTED</a>
+
+## tops_by_bug_type
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPRACECONDITION.md">TOPRACECONDITION</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPXXE.md">TOPXXE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPMOBILE.md">TOPMOBILE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPWEBCACHE.md">TOPWEBCACHE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPIDOR.md">TOPIDOR</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPAUTHORIZATION.md">TOPAUTHORIZATION</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPOPENREDIRECT.md">TOPOPENREDIRECT</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPGRAPHQL.md">TOPGRAPHQL</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPSUBDOMAINTAKEOVER.md">TOPSUBDOMAINTAKEOVER</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPAPI.md">TOPAPI</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPAUTH.md">TOPAUTH</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPUPLOAD.md">TOPUPLOAD</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPCSRF.md">TOPCSRF</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPSQLI.md">TOPSQLI</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPXSS.md">TOPXSS</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPINFODISCLOSURE.md">TOPINFODISCLOSURE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPSSTI.md">TOPSSTI</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPACCOUNTTAKEOVER.md">TOPACCOUNTTAKEOVER</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPOPENID.md">TOPOPENID</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPRCE.md">TOPRCE</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPFILEREADING.md">TOPFILEREADING</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPCLICKJACKING.md">TOPCLICKJACKING</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPBUSINESSLOGIC.md">TOPBUSINESSLOGIC</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPOAUTH.md">TOPOAUTH</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPMFA.md">TOPMFA</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPREQUESTSMUGGLING.md">TOPREQUESTSMUGGLING</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPSSRF.md">TOPSSRF</a>
+ - <a target=_blank href="/md/hackerone-reports/tops_by_bug_type/TOPDOS.md">TOPDOS</a>
 
 ## Sn1per
  - <a target=_blank href="/md/Sn1per/README.md">README</a>
