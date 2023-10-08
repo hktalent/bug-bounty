@@ -1983,6 +1983,7 @@
 ## md
  - <a target=_blank href="/md/myhktools-command-line.md">myhktools command line</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-crlf.md">bugbounty cheatsheet crlf</a>
+ - <a target=_blank href="/md/RedTeam_CheatSheet.md">RedTeam CheatSheet</a>
  - <a target=_blank href="/md/Awesome-Hacking-Resources.md">Awesome Hacking Resources</a>
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks.md">Awesome Cybersecurity Handbooks</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-sqli.md">bugbounty cheatsheet sqli</a>
@@ -2025,4 +2026,5 @@
  - <a target=_blank href="/md/bugbounty-cheatsheet-open-redirect.md">bugbounty cheatsheet open redirect</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-cors.md">bugbounty cheatsheet cors</a>
  - <a target=_blank href="/md/study-bug-bounty.md">study bug bounty</a>
+ - <a target=_blank href="/md/CobaltStrike_BOF_Collections.md">CobaltStrike BOF Collections</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-books.md">bugbounty cheatsheet books</a>
