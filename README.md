@@ -7,6 +7,7 @@
  - <a href="/data/hk1/.DbCache">.DbCache</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets">assets</a>
+ - <a href="/md/javasec_study">javasec study</a>
  - <a href="/md/BruteX">BruteX</a>
  - <a href="/md/BruteX/wordlists">wordlists</a>
  - <a href="/md/BruteX/loot">loot</a>
@@ -592,6 +593,19 @@
  - <a target=_blank href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/health.md">health</a>
  - <a target=_blank href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/mobile.md">mobile</a>
  - <a target=_blank href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/tools.md">tools</a>
+
+## javasec_study
+ - <a target=_blank href="/md/javasec_study/java代码审计-xss.md">java代码审计 xss</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-反序列化.md">java代码审计 反序列化</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-命令执行.md">java代码审计 命令执行</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-环境搭建+前置知识.md">java代码审计 环境搭建+前置知识</a>
+ - <a target=_blank href="/md/javasec_study/README.md">README</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-ssrf.md">java代码审计 ssrf</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-xxe.md">java代码审计 xxe</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-表达式注入.md">java代码审计 表达式注入</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-ssti.md">java代码审计 ssti</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-文件操作.md">java代码审计 文件操作</a>
+ - <a target=_blank href="/md/javasec_study/java代码审计-sqli.md">java代码审计 sqli</a>
 
 ## BruteX
  - <a target=_blank href="/md/BruteX/README.md">README</a>

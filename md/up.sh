@@ -57,6 +57,8 @@ doDldZip "1N3" "BruteX" "master"
 doDldZip "1N3" "Findsploit" "master"
 doDldZip "nahamsec" "Resources-for-Beginner-Bug-Bounty-Hunters" "master"
 doDldZip "Jack-Liang" "kalitools" "master"
+doDldZip "proudwind" "javasec_study" "master"
+wget -c -O javasec_study.zip https://github.com/proudwind/javasec_study/archive/refs/heads/master.zip
 
 doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
