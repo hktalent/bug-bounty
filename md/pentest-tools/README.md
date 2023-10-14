@@ -1,0 +1,208 @@
+<h1 align="center">pentest-tools</h1>
+
+<h4 align="center">A collection of custom security tools for quick needs.</h4>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/-bash-gray" alt="bash badge">
+    <img src="https://img.shields.io/badge/python-v3-blue" alt="python badge">
+    <img src="https://img.shields.io/badge/php-%3E=5.5-blue" alt="php badge">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license badge">
+    <a href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgithub.com%2fgwen001%2fpentest-tools%2f" target="_blank"><img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fgwen001%2Fpentest-tools" alt="twitter badge"></a>
+</p>
+
+<!-- <p align="center">
+    <img src="https://img.shields.io/github/stars/gwen001/pentest-tools?style=social" alt="github stars badge">
+    <img src="https://img.shields.io/github/watchers/gwen001/pentest-tools?style=social" alt="github watchers badge">
+    <img src="https://img.shields.io/github/forks/gwen001/pentest-tools?style=social" alt="github forks badge">
+</p> -->
+
+---
+
+## Important note
+
+‼ A big clean occured in 2022-11 ‼  
+
+Some useless/not working scripts have been archived and some others have been moved to their own repository to get more visibility, feel free to check them:
+- [apk-analyzer](https://github.com/gwen001/apk-analyzer)
+- [cloudflare-origin-ip](https://github.com/gwen001/cloudflare-origin-ip)
+- [csp-analyzer](https://github.com/gwen001/csp-analyzer)
+- [detectify-cves](https://github.com/gwen001/detectify-cves)
+- [extract-endpoints](https://github.com/gwen001/extract-endpoints)
+- [favicon-hashtrick](https://github.com/gwen001/favicon-hashtrick)
+- [google-search](https://github.com/gwen001/google-search)
+- [graphql-introspection-analyzer](https://github.com/gwen001/graphql-introspection-analyzer)
+- [keyhacks.sh](https://github.com/gwen001/keyhacks.sh)
+- [related-domains](https://github.com/gwen001/related-domains)
+
+---
+
+## Install
+
+```
+git clone https://github.com/gwen001/pentest-tools
+cd pentest-tools
+pip3 install -r requirements.txt
+```
+
+---
+
+## arpa.sh
+Converts IP address in `arpa` format to classical format.
+
+## bbhost.sh
+Performs `host` command on a given hosts list using `parallel` to make it fast.
+
+## codeshare.php
+Performs a string search on [codeshare.io](https://codeshare.io/).
+
+## cors.py
+Test CORS issue on a given list of hosts.
+
+## crlf.py
+Test CRLF issue on a given list of hosts.
+
+## crtsh.php
+Grabs subdomains of a given domain from [crt.sh](https://crt.sh).
+
+## detect-vnc-rdp.sh
+Tests if ports `3389` and `5900` are open on a given IP range using `netcat`.
+
+## dnsenum-brute.sh
+Performs brute force through wordlist to find subdomains.
+
+## dnsenum-bruten.sh
+Performs brute force through numeric variation to find subdomains.
+
+## dnsenum-reverse.sh
+Apply reverse DNS method on a given IP range to find subdomains.
+
+## dnsenum-reverserange.sh
+Same thing but IP ranges are read from an input file.
+
+## dnsenum-zonetransfer.sh
+Tests Zone Transfer of a given domain.
+
+## dnsreq-alltypes.sh
+Performs all types of DNS requests for a given (sub)domain.
+
+## extract-domains.py
+Extracts domain of a given URL or a list of URLs.
+
+## extract_links.php
+Extracts links from a given HTML file.
+
+## filterurls.py
+Classifies and displays URLs by vulnerability types.
+
+## flash-regexp.sh
+Performs regexps listed in `flash-regexp.txt` for Flash apps testing purpose.
+
+## gdorks.php
+Generates Google dorks for a given domain (searches are not performed).
+
+## hashall.php
+Uses about 40 algorithms to hash a given string.
+
+## ip-converter.php
+Converts a given IP address to different format, see [Nicolas Grégoire presentation](https://www.agarri.fr/docs/AppSecEU15-Server_side_browsing_considered_harmful.pdf).
+
+## ip-listing.php
+Generates a list of IPs addresses from the given start to the given end, range and mask supported.
+
+## mass_axfr.sh
+Mass test zone transfer on a given list of domains.
+
+## mass-smtp-user-enum-bruteforce.sh
+Performs SMTP user enumeration on a given list of IP address using [smtp-user-enum](https://github.com/pentestmonkey/smtp-user-enum).
+
+## mass-smtp-user-enum-check.sh
+Tests if SMTP user enumeration is possible on a given list of IP address using [smtp-user-enum](https://github.com/pentestmonkey/smtp-user-enum).
+
+## myutils.sh
+Just few common Bash functions.
+
+## node-uuid.js
+Encode/Decode UUID using base36.
+
+## nrpe.sh
+Test Nagios Remote Plugin Executor Arbitrary Command Execution on a given host using Metasploit.
+
+## openredirect.py
+Test Open Redirect issue on a given list of hosts.
+
+## pass-permut.php
+Creates words permutation with different separators and output the hashes using about 40 algorithms.
+
+## pastebin.php
+Performs a string search on [pastebin.com](https://pastebin.com/).
+
+## phantom-xss.js
+See `xss.py`.
+
+## ping-sweep-nc.sh
+Determines what IPs are alive in a given range of IPs addresses using `netcat`.
+
+## ping-sweep-nmap.sh
+Determines what IPs are alive in a given range of IPs addresses using `nmap`.
+
+## ping-sweep-ping.sh
+Determines what IPs are alive in a given range of IPs addresses using `ping`.
+
+## portscan-nc.sh
+Determines the open ports of a given IP address using `netcat`.
+
+## quick-hits.php
+Tests a given list of path on a given list of hosts.
+
+## quickhits.py
+Same but the Python version. Tests a given list of path on a given list of hosts.
+
+## rce.py
+Test RCE issue on a given list of hosts.
+
+## resolve.py
+Resolves a give list of hosts to check which ones are alive and which ones are dead.
+
+## screensite.sh
+Takes screenshots of a given url+port using `xvfb`.
+
+## shodan.php
+Performs searches on Shodan using their API.
+
+## smuggler.py
+Test HTTP request smuggling issue on a given list of hosts.
+
+## srv_reco.sh
+Perform very small tests of a given IP address.
+
+## ssh-timing-b4-pass.sh
+Tries to guess SSH users using timing attack.
+
+## ssrf-generate-ip.php
+Generate random IP address:port inside private network range for SSRF scans.
+
+## subalt.py
+Generates subdomains alterations and permutations.
+
+## test-ip-wordlist.sh
+Brute force a wordlist on IPs range and ports list.
+
+## testhttp.php
+Tries to determine if an url (subdomain+port) is a web thing.
+
+## testnc.sh
+Performs fuzzing on a given IP address+port using `netcat`.
+
+## Utils.php
+Just few common PHP functions.
+
+## webdav-bruteforce.sh
+Perform brute force on a given url that use `WebDav` using [Davtest](https://github.com/cldrn/davtest).
+
+## xss.py
+Test XSS issue on a given list of hosts using `phantomjs`.
+
+---
+
+Feel free to [open an issue](/../../issues/) if you have any problem with the script.  
+

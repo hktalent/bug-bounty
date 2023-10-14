@@ -1342,6 +1342,8 @@
  - <a href="/md/sec-note/内网渗透/Linux/Linux提权">Linux提权</a>
  - <a href="/md/sec-note/内网渗透/Windows">Windows</a>
  - <a href="/md/sec-note/内网渗透/Windows/信息收集">信息收集</a>
+ - <a href="/md/pentest-tools">pentest tools</a>
+ - <a href="/md/pentest-tools/.github">.github</a>
  - <a href="/md/Intruder">Intruder</a>
  - <a href="/md/PayloadsAllTheThings">PayloadsAllTheThings</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Request Forgery">Server Side Request Forgery</a>
@@ -2089,7 +2091,6 @@
 
 ## 0day
  - <a target=_blank href="/md/0day/README.md">README</a>
- - <a target=_blank href="/md/0day/CONTRIBUTING.md">CONTRIBUTING</a>
  - <a target=_blank href="/md/0day/README-en.md">README en</a>
 
 ## 94-常用软件专区
@@ -4358,6 +4359,9 @@
  - <a target=_blank href="/md/sec-note/内网渗透/Windows/信息收集/域内信息收集.md">域内信息收集</a>
  - <a target=_blank href="/md/sec-note/内网渗透/Windows/信息收集/本机基础信息收集.md">本机基础信息收集</a>
 
+## pentest-tools
+ - <a target=_blank href="/md/pentest-tools/README.md">README</a>
+
 ## PayloadsAllTheThings
  - <a target=_blank href="/md/PayloadsAllTheThings/README.md">README</a>
  - <a target=_blank href="/md/PayloadsAllTheThings/CONTRIBUTING.md">CONTRIBUTING</a>
@@ -5650,6 +5654,7 @@
  - <a target=_blank href="/md/awesome-mac-zh.md">awesome mac zh</a>
  - <a target=_blank href="/md/awesome-bugbounty-tools.md">awesome bugbounty tools</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-bugbountyplatforms.md">bugbounty cheatsheet bugbountyplatforms</a>
+ - <a target=_blank href="/md/key_hacks.md">key hacks</a>
  - <a target=_blank href="/md/kali-linux-cheatsheet.md">kali linux cheatsheet</a>
  - <a target=_blank href="/md/Awesome-Fuzzing_ch.md">Awesome Fuzzing ch</a>
  - <a target=_blank href="/md/awesome-oneliner-bugbounty.md">awesome oneliner bugbounty</a>

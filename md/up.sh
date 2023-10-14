@@ -41,6 +41,8 @@ wget -c https://raw.githubusercontent.com/hktalent/myhktools/main/tools/webPenTe
 wget -c https://raw.githubusercontent.com/hktalent/myhktools/main/tools/Awesome_Penetration_Testing-command-line.md
 wget -c -O myhktools-command-line.md https://github.com/hktalent/myhktools/blob/main/tools/README.md
 wget -c https://github.com/hktalent/myhktools/raw/main/tools/awesome-macos-command-line.md
+wget -c -O key_hacks.md https://github.com/streaak/keyhacks/raw/master/README.md
+
 wget -c -O awesome-chatgpt-prompts.csv https://github.com/f/awesome-chatgpt-prompts/raw/main/prompts.csv
 # md
 # ssh-keys
@@ -60,6 +62,7 @@ doDldZip "Jack-Liang" "kalitools" "master"
 doDldZip "proudwind" "javasec_study" "master"
 doDldZip "reddelexc" "hackerone-reports" "master"
 doDldZip "helloexp" "0day" "master"
+doDldZip "gwen001" "pentest-tools" "master"
 
 doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
