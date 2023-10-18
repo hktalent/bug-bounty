@@ -66,6 +66,7 @@ doDldZip "helloexp" "0day" "master"
 doDldZip "gwen001" "pentest-tools" "master"
 doDldZip "Rhynorater" "CVE-2018-15473-Exploit" "master"
 doDldZip "EdOverflow" "can-i-take-over-xyz" "master"
+doDldZip "nidem" "kerberoast" "master"
 
 doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
