@@ -5640,6 +5640,7 @@
  - <a target=_blank href="/md/xss-payload-list.md">xss payload list</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-recon.md">bugbounty cheatsheet recon</a>
  - <a target=_blank href="/md/Awesome_Penetration_Testing-command-line.md">Awesome Penetration Testing command line</a>
+ - <a target=_blank href="/md/AD-Pentest-Notes内网渗透学习笔记.md">AD Pentest Notes内网渗透学习笔记</a>
  - <a target=_blank href="/md/Awesome-Fuzzing.md">Awesome Fuzzing</a>
  - <a target=_blank href="/md/bugbounty-cheatsheet-content-injection.md">bugbounty cheatsheet content injection</a>
  - <a target=_blank href="/md/A-Red-Teamer-diaries.md">A Red Teamer diaries</a>

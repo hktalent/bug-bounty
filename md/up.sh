@@ -42,6 +42,7 @@ wget -c https://raw.githubusercontent.com/hktalent/myhktools/main/tools/Awesome_
 wget -c -O myhktools-command-line.md https://github.com/hktalent/myhktools/blob/main/tools/README.md
 wget -c https://github.com/hktalent/myhktools/raw/main/tools/awesome-macos-command-line.md
 wget -c -O key_hacks.md https://github.com/streaak/keyhacks/raw/master/README.md
+wget -c -O AD-Pentest-Notes内网渗透学习笔记.md https://github.com/chriskaliX/AD-Pentest-Notes/raw/master/README.md
 
 wget -c -O awesome-chatgpt-prompts.csv https://github.com/f/awesome-chatgpt-prompts/raw/main/prompts.csv
 # md
@@ -63,6 +64,8 @@ doDldZip "proudwind" "javasec_study" "master"
 doDldZip "reddelexc" "hackerone-reports" "master"
 doDldZip "helloexp" "0day" "master"
 doDldZip "gwen001" "pentest-tools" "master"
+doDldZip "Rhynorater" "CVE-2018-15473-Exploit" "master"
+doDldZip "EdOverflow" "can-i-take-over-xyz" "master"
 
 doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
