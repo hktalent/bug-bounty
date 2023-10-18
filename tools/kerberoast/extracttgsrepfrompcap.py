@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 -tt
+#!/usr/local/bin/python2 -tt
 
 from scapy.all import *
 import struct
@@ -7,7 +7,7 @@ MESSAGETYPEOFFSETUDP = 17
 MESSAGETYPEOFFSETTCP = 21
 DEBUG = True
 
-TGS_REP = 13
+TGS_REP = chr(13)
 
 def findkerbpayloads(packets, verbose=False):
 	kploads = []
@@ -16,30 +16,25 @@ def findkerbpayloads(packets, verbose=False):
 	for p in packets:
 		# UDP
 		if p.haslayer(UDP) and p.sport == 88 and p[UDP].load[MESSAGETYPEOFFSETUDP] == TGS_REP:
-			if verbose: print("found UDP payload of size %i" % len(p[UDP].load)) 
+			if verbose: print "found UDP payload of size %i" % len(p[UDP].load) 
 			kploads.append(p[UDP].load)
 
 		#TCP
 		elif p.haslayer(TCP) and p.sport == 88 and p[TCP].flags & 23== 16: #ACK Only, ignore push (8), urg (32), and ECE (64+128)
 			# assumes that each TCP packet contains the full payload
 
-			try:
-				payload = p[TCP].load
-			except:
-				continue
-
-			if len(payload) > MESSAGETYPEOFFSETTCP and payload[MESSAGETYPEOFFSETTCP] == TGS_REP:
+			if len(p[TCP].load) > MESSAGETYPEOFFSETTCP and p[TCP].load[MESSAGETYPEOFFSETTCP] == TGS_REP:
 				# found start of new TGS-REP
-				size = struct.unpack(">I", payload[:4])[0]
-				if size + 4 == len(payload):
-					kploads.append(payload[4:size+4]) # strip the size field
+				size = struct.unpack(">I", p[TCP].load[:4])[0]
+				if size + 4 == len(p[TCP].load):
+					kploads.append(p[TCP].load[4:size+4]) # strip the size field
 				else:
-					#print 'ERROR: Size is incorrect: %i vs %i' % (size, len(payload))
-					unfinished[(p[IP].src, p[IP].dst, p[TCP].dport)] = (payload[4:size+4], size)
-				if verbose: print ("found TCP payload of size %i" % size)
-			elif (p[IP].src, p[IP].dst, p[TCP].dport) in unfinished:
+					#print 'ERROR: Size is incorrect: %i vs %i' % (size, len(p[TCP].load))
+					unfinished[(p[IP].src, p[IP].dst, p[TCP].dport)] = (p[TCP].load[4:size+4], size)
+				if verbose: print "found TCP payload of size %i" % size
+			elif unfinished.has_key((p[IP].src, p[IP].dst, p[TCP].dport)):
 				ticketdata, size = unfinished.pop((p[IP].src, p[IP].dst, p[TCP].dport))
-				ticketdata += payload
+				ticketdata += p[TCP].load
 				#print "cont: %i %i" % (len(ticketdata), size)
 				if len(ticketdata) == size:
 					kploads.append(ticketdata)
@@ -47,7 +42,7 @@ def findkerbpayloads(packets, verbose=False):
 					unfinished[(p[IP].src, p[IP].dst, p[TCP].dport)] = (ticketdata, size)
 				else:
 					# OH NO! Oversized!
-					print('Too much data received! Source: %s Dest: %s DPort %i' % (p[IP].src, p[IP].dst, p[TCP].dport))
+					print 'Too much data received! Source: %s Dest: %s DPort %i' % (p[IP].src, p[IP].dst, p[TCP].dport)
 
 
 	return kploads
@@ -73,11 +68,11 @@ if __name__ == '__main__':
 		packets = rdpcap(f)
 		kploads += findkerbpayloads(packets, args.verbose)
 	if len(kploads) == 0:
-		print('no payloads found')
+		print 'no payloads found'
 	else:
-		print('writing %i hex encoded payloads to %s' % (len(kploads), args.outfile.name))
+		print 'writing %i hex encoded payloads to %s' % (len(kploads), args.outfile.name)
 	for p in kploads:
-		args.outfile.write(p.hex() + '\n')
+		args.outfile.write(p.encode('hex') + '\n')
 
 	
 

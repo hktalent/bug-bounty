@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 -tt
+#!/usr/local/bin/python2 -tt
 
 import hashlib
 import hmac
@@ -31,19 +31,19 @@ def ntlmhash(s):
 
 def rc4crypt(key, data):
     x = 0
-    box = list(range(256))
+    box = range(256)
     for i in range(256):
-        x = (x + box[i] + (key[i % len(key)])) % 256
+        x = (x + box[i] + ord(key[i % len(key)])) % 256
         box[i], box[x] = box[x], box[i]
     x = 0
     y = 0
-    out = b''
+    out = []
     for char in data:
         x = (x + 1) % 256
         y = (y + box[x]) % 256
         box[x], box[y] = box[y], box[x]
-        out += bytes([char ^ box[(box[x] + box[y]) % 256]])
-    return out
+        out.append(chr(ord(char) ^ box[(box[x] + box[y]) % 256]))
+    return ''.join(out)
 
 
 
@@ -62,8 +62,7 @@ def decrypt(key, messagetype, edata):
     #    }else{ 
     #        HMAC (K, &T, 4, K1); 
     #    } 
-    #K1 = hmac.new(key, chr(messagetype) + "\x00\x00\x00", hashlib.md5).digest() # \x0b = 11
-    K1 = hmac.new(key, bytes([messagetype]) + b"\x00\x00\x00", hashlib.md5).digest() # \x0b = 11
+    K1 = hmac.new(key, chr(messagetype) + "\x00\x00\x00", hashlib.md5).digest() # \x0b = 11
     #    memcpy (K2, K1, 16); 
     K2 = K1
 
@@ -105,7 +104,7 @@ def encrypt(key, messagetype, data, nonce):
     #  }else{ 
     #      HMAC (K, &T, 4, K1); 
     #  }
-    K1 = hmac.new(key, bytes(messagetype) + b'\x00\x00\x00', hashlib.md5).digest() # \x0b = 11
+    K1 = hmac.new(key, chr(messagetype) + "\x00\x00\x00", hashlib.md5).digest() # \x0b = 11
     #  memcpy (K2, K1, 16);
     K2 = K1 
     #  if (fRC4_EXP) memset (K1+7, 0xAB, 9); 
@@ -126,7 +125,7 @@ def encrypt(key, messagetype, data, nonce):
     return checksum + edata
 
 def zerosigs(data):
-    d = list(map(ord, str(data)))
+    d = map(ord, data)
     for i in range(5, 21): # zero out the 16 char sig, KDC
         d[len(d) - i] = 0
     for i in range(29, 45): # zero out the 16 char sig, Server
@@ -136,7 +135,7 @@ def zerosigs(data):
     #print retval.encode('hex')
 
 
-    return bytearray(retval,"utf-8")
+    return retval
 
 def chksum(K, T, data):
     data = zerosigs(data)
@@ -145,7 +144,7 @@ def chksum(K, T, data):
     #T = the message type, encoded as a little-endian four-byte integer
 
     #Ksign = HMAC(K, "signaturekey")  //includes zero octet at end
-    SIGNATUREKEY = b'signaturekey\x00'
+    SIGNATUREKEY = 'signaturekey\x00'
     Ksign = hmac.new(K, SIGNATUREKEY, hashlib.md5).digest()
     #tmp = MD5(concat(T, data))
     tmp = hashlib.md5(T + data).digest()
@@ -163,34 +162,19 @@ def printdecode(kerbpayload, ktype=2):
     d = decoder.decode(kerbpayload)
     if ktype == 32:
         #print "Protocol Version (pvno):  " + str(d[0][0])
-        print("Message Type:             " + str(d[0][1]))
-        print("Realm:                    " + str(d[0][2]))
-        print("Principal:                " + str(d[0][3][1][0]))
-        print("Ticket Version (tkt-vno): " + str(d[0][4][0]))
-        print("Ticket Realm:             " + str(d[0][4][1]))
+        print "Message Type:             " + str(d[0][1])
+        print "Realm:                    " + str(d[0][2])
+        print "Principal:                " + str(d[0][3][1][0])
+        print "Ticket Version (tkt-vno): " + str(d[0][4][0])
+        print "Ticket Realm:             " + str(d[0][4][1])
         #print "Name-Type (Service & Instance): " + str(d[0][4][2][0])
-        print("Server, Name:             " + str(d[0][4][2][1][0]))
-        print("Server, Name:             " + str(d[0][4][2][1][1]))
+        print "Server, Name:             " + str(d[0][4][2][1][0])
+        print "Server, Name:             " + str(d[0][4][2][1][1])
         #print "Data:                     " + str(d[0][4][3][2]).encode('hex')
 
         #print "Encryption Type: :        " + str(d[0][5][0])
         #print "Data:                     " + str(d[0])
         #print "Server Realm:             " + str(d[0][4][2][4])
     elif ktype == 2:
-        print("a")
-
-def extract_ticket_from_kirbi(filename):
-    with open(filename, 'rb') as fd:
-        data = fd.read()
-        return extract_ticket(data)
-
-def extract_ticket(data):
-    if data[0] == 0x76:
-        # ram dump 
-        #enctickets.append(((decoder.decode(data)[0][2][0][3][2]).asOctets(), i, f))
-        return (decoder.decode(data)[0][2][0][3][2]).asOctets()
-    elif data[:2] == b'6d':
-        # honestly, i completely forgot. I think this is from a pcap -Tim
-        #enctickets.append(((decoder.decode(ticket.decode('hex'))[0][4][3][2]).asOctets(), i, f))
-        return (decoder.decode(ticket.decode('hex'))[0][4][3][2]).asOctets()
+        print "a"
 

