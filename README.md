@@ -1755,6 +1755,8 @@
  - <a href="/md/Awesome-Cybersecurity-Handbooks">Awesome Cybersecurity Handbooks</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks/handbooks">handbooks</a>
  - <a href="/md/Awesome-Cybersecurity-Handbooks/images">images</a>
+ - <a href="/md/KingOfBugBountyTips">KingOfBugBountyTips</a>
+ - <a href="/md/Hacking_Books">Hacking Books</a>
  - <a href="/data">data</a>
  - <a href="/md">md</a>
 
@@ -5618,6 +5620,24 @@
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/operational_security.md">operational security</a>
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/mobile.md">mobile</a>
  - <a target=_blank href="/md/Awesome-Cybersecurity-Handbooks/handbooks/07_reverse_engineering.md">07 reverse engineering</a>
+
+## KingOfBugBountyTips
+ - <a target=_blank href="/md/KingOfBugBountyTips/swagger.json">swagger</a>
+ - <a target=_blank href="/md/KingOfBugBountyTips/Readme.md">Readme</a>
+
+## Hacking_Books
+ - <a target=_blank href="/md/Hacking_Books/2014 - Penetration Testing - A hands-on introduction to Hacking.pdf">2014   Penetration Testing   A hands on introduction to Hacking</a>
+ - <a target=_blank href="/md/Hacking_Books/2021 - Los datos el quinto poder.pdf">2021   Los datos el quinto poder</a>
+ - <a target=_blank href="/md/Hacking_Books/2018 - hackerOne Web Hacking 101.pdf">2018   hackerOne Web Hacking 101</a>
+ - <a target=_blank href="/md/Hacking_Books/2017 - KALI LINUX COMMANDS.pdf">2017   KALI LINUX COMMANDS</a>
+ - <a target=_blank href="/md/Hacking_Books/2018 - Guía de Administración de Debian en español.pdf">2018   Guía de Administración de Debian en español</a>
+ - <a target=_blank href="/md/Hacking_Books/2015 - KALI LINUX - Hacking con Kali Linux by ReYDeS .pdf">2015   KALI LINUX   Hacking con Kali Linux by ReYDeS </a>
+ - <a target=_blank href="/md/Hacking_Books/2021 - Path Transversal LFI and RFI.pdf">2021   Path Transversal LFI and RFI</a>
+ - <a target=_blank href="/md/Hacking_Books/2017 - NMAP - Network Exploration and Security Auditing Cookbook - Second Edition.pdf">2017   NMAP   Network Exploration and Security Auditing Cookbook   Second Edition</a>
+ - <a target=_blank href="/md/Hacking_Books/2017 - OSCP - Video Notes by Matthew Brittain.pdf">2017   OSCP   Video Notes by Matthew Brittain</a>
+ - <a target=_blank href="/md/Hacking_Books/2017 - KALI LINUX  - Revealed 1st edition.pdf">2017   KALI LINUX    Revealed 1st edition</a>
+ - <a target=_blank href="/md/Hacking_Books/2017 - Kali Linux Wireless Penetration Testing Beginners Guide.pdf">2017   Kali Linux Wireless Penetration Testing Beginners Guide</a>
+ - <a target=_blank href="/md/Hacking_Books/2016 - KALI LINUX 2 - Asssuring Security by Penetration Testing - 3 Edition.pdf">2016   KALI LINUX 2   Asssuring Security by Penetration Testing   3 Edition</a>
 
 ## data
  - <a target=_blank href="/data/chaos-bugbounty-list.json">chaos bugbounty list</a>
