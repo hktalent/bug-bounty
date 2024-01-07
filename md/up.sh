@@ -55,6 +55,7 @@ doDldZip "daffainfo" "AllAboutBugBounty" "master"
 # gh repo clone swisskyrepo/PayloadsAllTheThings
 doDldZip "swisskyrepo" "PayloadsAllTheThings" "master"
 doDldZip "lutfumertceylan" "top25-parameter" "master"
+doDldZip "LandGrey" "SpringBootVulExploit" "master"
 doDldZip "1N3" "Sn1per" "master"
 doDldZip "1N3" "BruteX" "master"
 doDldZip "1N3" "Findsploit" "master"
