@@ -51,6 +51,7 @@ wget -c -O awesome-chatgpt-prompts.csv https://github.com/f/awesome-chatgpt-prom
 # cat bugbounty-cheatsheet.txt|xargs -I % proxychains4 -f /Users/51pwn/MyWork/for_hacker_md/v2ray51pwn/proxychains.conf  wget -c -O bugbounty-cheatsheet-% https://github.com/EdOverflow/bugbounty-cheatsheet/raw/master/cheatsheets/%
 cat bugbounty-cheatsheet.txt|xargs -I % wget -c -O bugbounty-cheatsheet-% https://github.com/EdOverflow/bugbounty-cheatsheet/raw/master/cheatsheets/%
 
+
 doDldZip "daffainfo" "AllAboutBugBounty" "master"
 # gh repo clone swisskyrepo/PayloadsAllTheThings
 doDldZip "swisskyrepo" "PayloadsAllTheThings" "master"
@@ -70,6 +71,8 @@ doDldZip "EdOverflow" "can-i-take-over-xyz" "master"
 doDldZip "nidem" "kerberoast" "master"
 doDldZip "KingOfBugbounty" "KingOfBugBountyTips" "master"
 
+
+doDldZip "FDlucifer" "Proxy-Attackchain" "main"
 doDldZip "reidmu" "sec-note" "main"
 doDldZip "0xsyr0" "OSCP" "main"
 doDldZip "0xsyr0" "Awesome-Cybersecurity-Handbooks" "main"

@@ -1,9 +1,101 @@
 # Contents
+ - <a href="/data/zq">zq</a>
+ - <a href="/data/zq/screenshots">screenshots</a>
+ - <a href="/data/zq/cve">cve</a>
+ - <a href="/data/zq/config">config</a>
+ - <a href="/data/zq/shell">shell</a>
+ - <a href="/data/zq/crk">crk</a>
+ - <a href="/data/zq/crk/login.5paisa.com">login.5paisa.com</a>
+ - <a href="/data/zq/crk/API.5paisa.com">API.5paisa.com</a>
+ - <a href="/data/zq/crk/AI.5paisa.com">AI.5paisa.com</a>
+ - <a href="/data/zq/crk/atlas.5paisa.com">atlas.5paisa.com</a>
+ - <a href="/data/zq/crk/test.5paisa.com">test.5paisa.com</a>
+ - <a href="/data/zq/crk/XTS.5paisa.com">XTS.5paisa.com</a>
+ - <a href="/data/zq/crk/investipo.5paisa.com">investipo.5paisa.com</a>
+ - <a href="/data/zq/crk/boapi.5paisa.com">boapi.5paisa.com</a>
+ - <a href="/data/zq/crk/UAT.5paisa.com">UAT.5paisa.com</a>
+ - <a href="/data/zq/crk/Ipo.5paisa.com">Ipo.5paisa.com</a>
+ - <a href="/data/zq/crk/LIVE.5paisa.com">LIVE.5paisa.com</a>
+ - <a href="/data/zq/crk/www.5paisa.com">www.5paisa.com</a>
+ - <a href="/data/zq/crk/atrade.5paisa.com">atrade.5paisa.com</a>
+ - <a href="/data/zq/crk/Sandbox.5paisa.com">Sandbox.5paisa.com</a>
+ - <a href="/data/zq/crk/REPORTS.5paisa.com">REPORTS.5paisa.com</a>
+ - <a href="/data/zq/crk/Trade.5paisa.com">Trade.5paisa.com</a>
+ - <a href="/data/zq/crk/fno.5paisa.com">fno.5paisa.com</a>
+ - <a href="/data/zq/crk/Website.5paisa.com">Website.5paisa.com</a>
+ - <a href="/data/zq/crk/Gold.5paisa.com">Gold.5paisa.com</a>
+ - <a href="/data/zq/crk/SUPPORT.5paisa.com">SUPPORT.5paisa.com</a>
+ - <a href="/data/zq/crk/alphapartner.5paisa.com">alphapartner.5paisa.com</a>
+ - <a href="/data/zq/crk/gateway.5paisa.com">gateway.5paisa.com</a>
+ - <a href="/data/zq/crk/chartstt.5paisa.com">chartstt.5paisa.com</a>
+ - <a href="/data/zq/crk/sensibull.5paisa.com">sensibull.5paisa.com</a>
+ - <a href="/data/zq/crk/app.5paisa.com">app.5paisa.com</a>
+ - <a href="/data/zq/crk/forum.5paisa.com">forum.5paisa.com</a>
+ - <a href="/data/zq/crk/PORTFOLIO.5paisa.com">PORTFOLIO.5paisa.com</a>
+ - <a href="/data/zq/crk/smallcases.5paisa.com">smallcases.5paisa.com</a>
+ - <a href="/data/zq/crk/Invest.5paisa.com">Invest.5paisa.com</a>
+ - <a href="/data/zq/crk/tradechart.5paisa.com">tradechart.5paisa.com</a>
+ - <a href="/data/zq/crk/IMG.5paisa.com">IMG.5paisa.com</a>
+ - <a href="/data/zq/crk/images.5paisa.com">images.5paisa.com</a>
+ - <a href="/data/zq/crk/ChartsLayout.5paisa.com">ChartsLayout.5paisa.com</a>
+ - <a href="/data/zq/crk/Cms.5paisa.com">Cms.5paisa.com</a>
+ - <a href="/data/zq/crk/refer.5paisa.com">refer.5paisa.com</a>
+ - <a href="/data/zq/crk/Crm.5paisa.com">Crm.5paisa.com</a>
+ - <a href="/data/zq/crk/aspect.5paisa.com">aspect.5paisa.com</a>
+ - <a href="/data/zq/crk/5paisa.com">5paisa.com</a>
+ - <a href="/data/zq/crk/finschool.5paisa.com">finschool.5paisa.com</a>
+ - <a href="/data/zq/crk/tradestation.5paisa.com">tradestation.5paisa.com</a>
+ - <a href="/data/zq/crk/Tv.5paisa.com">Tv.5paisa.com</a>
+ - <a href="/data/zq/crk/PartnerAPI.5paisa.com">PartnerAPI.5paisa.com</a>
+ - <a href="/data/zq/crk/Partner.5paisa.com">Partner.5paisa.com</a>
+ - <a href="/data/zq/crk/bonds.5paisa.com">bonds.5paisa.com</a>
+ - <a href="/data/zq/韩国">韩国</a>
+ - <a href="/data/zq/韩国/screenshots">screenshots</a>
+ - <a href="/data/zq/韩国/config">config</a>
+ - <a href="/data/zq/韩国/shell">shell</a>
+ - <a href="/data/zq/韩国/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/韩国/rst">rst</a>
+ - <a href="/data/zq/韩国/rst/screenshots">screenshots</a>
+ - <a href="/data/zq/韩国/rst/config">config</a>
+ - <a href="/data/zq/韩国/rst/shell">shell</a>
+ - <a href="/data/zq/韩国/rst/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/韩国/.ipgs">.ipgs</a>
+ - <a href="/data/zq/韩国/katana_out">katana out</a>
+ - <a href="/data/zq/韩国/katana_out/www.samsungpop.com">www.samsungpop.com</a>
+ - <a href="/data/zq/韩国/katana_out/rsp.shinhansec.com">rsp.shinhansec.com</a>
+ - <a href="/data/zq/韩国/katana_out/samsungpop.com:8080">samsungpop.com:8080</a>
+ - <a href="/data/zq/韩国/katana_out/tk.samsungpop.com">tk.samsungpop.com</a>
+ - <a href="/data/zq/韩国/katana_out/www.shinhansec.com">www.shinhansec.com</a>
+ - <a href="/data/zq/韩国/katana_out/www.samsungpop.com:8080">www.samsungpop.com:8080</a>
+ - <a href="/data/zq/韩国/katana_out/english.samsungpop.com:8080">english.samsungpop.com:8080</a>
+ - <a href="/data/zq/韩国/katana_out/english.samsungpop.com">english.samsungpop.com</a>
+ - <a href="/data/zq/韩国/katana_out/www.samsungbanking.com:8080">www.samsungbanking.com:8080</a>
+ - <a href="/data/zq/韩国/katana_out/pms.samsungpop.com">pms.samsungpop.com</a>
+ - <a href="/data/zq/韩国/katana_out/samsungbanking.com:8080">samsungbanking.com:8080</a>
+ - <a href="/data/zq/韩国/katana_out/www.trueetn.com">www.trueetn.com</a>
+ - <a href="/data/zq/IIFL">IIFL</a>
+ - <a href="/data/zq/rst">rst</a>
+ - <a href="/data/zq/zq_china">zq china</a>
+ - <a href="/data/zq/zq_china/config">config</a>
+ - <a href="/data/zq/zq_china/shell">shell</a>
+ - <a href="/data/zq/zq_china/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/zq_china/.ipgs">.ipgs</a>
+ - <a href="/data/zq/zq_china/email">email</a>
+ - <a href="/data/zq/.ipgs">.ipgs</a>
+ - <a href="/data/zq/印度">印度</a>
+ - <a href="/data/zq/印度/screenshots">screenshots</a>
+ - <a href="/data/zq/印度/config">config</a>
+ - <a href="/data/zq/印度/shell">shell</a>
+ - <a href="/data/ksubdomain">ksubdomain</a>
+ - <a href="/data/ksubdomain/config">config</a>
+ - <a href="/data/ksubdomain/.DbCache">.DbCache</a>
  - <a href="/data/bounty-targets-data">bounty targets data</a>
  - <a href="/data/bounty-targets-data/data">data</a>
  - <a href="/data/components">components</a>
  - <a href="/data/hk1">hk1</a>
+ - <a href="/data/hk1/config">config</a>
  - <a href="/data/hk1/node_modules">node modules</a>
+ - <a href="/data/hk1/停车">停车</a>
  - <a href="/data/hk1/.DbCache">.DbCache</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters">Resources for Beginner Bug Bounty Hunters</a>
  - <a href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets">assets</a>
@@ -1454,6 +1546,7 @@
  - <a href="/md/PayloadsAllTheThings/Server Side Include Injection">Server Side Include Injection</a>
  - <a href="/md/top25-parameter">top25 parameter</a>
  - <a href="/md/top25-parameter/gf-patterns">gf patterns</a>
+ - <a href="/md/Hydra-Cheatsheet">Hydra Cheatsheet</a>
  - <a href="/md/hackerone-reports">hackerone reports</a>
  - <a href="/md/hackerone-reports/tops_by_program">tops by program</a>
  - <a href="/md/hackerone-reports/tops_100">tops 100</a>
@@ -1472,6 +1565,134 @@
  - <a href="/md/Sn1per/templates/passive/network/recursive">recursive</a>
  - <a href="/md/Sn1per/templates/active">active</a>
  - <a href="/md/Sn1per/conf">conf</a>
+ - <a href="/md/SpringBootVulExploit">SpringBootVulExploit</a>
+ - <a href="/md/SpringBootVulExploit/repository">repository</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce">springboot spel rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-spel-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce">springboot restart rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-restart-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce">springboot eureka xstream rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-eureka-xstream-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce">springboot jolokia logback rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-jolokia-logback-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce">springboot mysql jdbc rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/resources/templates">templates</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/resources/templates/product">product</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/converters">converters</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/repositories">repositories</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/commands">commands</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/controllers">controllers</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/domain">domain</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-mysql-jdbc-rce/src/main/java/code/landgrey/services">services</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce">springboot h2 database rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springboot-h2-database-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce">springcloud snakeyaml rce</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src">src</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main">main</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main/resources">resources</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main/java">java</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main/java/code">code</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main/java/code/landgrey">landgrey</a>
+ - <a href="/md/SpringBootVulExploit/repository/springcloud-snakeyaml-rce/src/main/java/code/landgrey/controller">controller</a>
+ - <a href="/md/SpringBootVulExploit/codebase">codebase</a>
+ - <a href="/md/Proxy-Attackchain">Proxy Attackchain</a>
+ - <a href="/md/Proxy-Attackchain/proxyoracle">proxyoracle</a>
+ - <a href="/md/Proxy-Attackchain/exchange-protocols">exchange protocols</a>
+ - <a href="/md/Proxy-Attackchain/exch_CVE-2021-42321">exch CVE 2021 42321</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2020-17141 & CVE-2020-17143">CVE 2020 17141 & CVE 2020 17143</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified">ysoserial.net modified</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial">ysoserial</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/Plugins">Plugins</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/Properties">Properties</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/dlls">dlls</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/Generators">Generators</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/Helpers">Helpers</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ysoserial/Helpers/ModifiedVulnerableBinaryFormatters">ModifiedVulnerableBinaryFormatters</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/TestConsoleApp">TestConsoleApp</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/TestConsoleApp/Properties">Properties</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/.github">.github</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/.github/workflows">workflows</a>
+ - <a href="/md/Proxy-Attackchain/ysoserial.net-modified/ExploitClass">ExploitClass</a>
+ - <a href="/md/Proxy-Attackchain/pics">pics</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2020-17144-master">CVE 2020 17144 master</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581">CVE 2018 8581</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master">Exchange2domain master</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm">comm</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx">ntlmrelayx</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/clients">clients</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/utils">utils</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers">servers</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/socksplugins">socksplugins</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/attacks">attacks</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2018-8581/CVE-2018-8581-master">CVE 2018 8581 master</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2021-24085-main">CVE 2021 24085 main</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2021-24085-main/YellowCanary">YellowCanary</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2021-24085-main/YellowCanary/Poc">Poc</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2021-24085-main/YellowCanary/Poc/Properties">Properties</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2020-17083">CVE 2020 17083</a>
+ - <a href="/md/Proxy-Attackchain/research-pdfs">research pdfs</a>
+ - <a href="/md/Proxy-Attackchain/proxymaybeshell">proxymaybeshell</a>
+ - <a href="/md/Proxy-Attackchain/proxymaybeshell/ProxyMaybeShell-main">ProxyMaybeShell main</a>
+ - <a href="/md/Proxy-Attackchain/proxymaybeshell/ProxyMaybeShell-main/images">images</a>
+ - <a href="/md/Proxy-Attackchain/proxynotshell">proxynotshell</a>
+ - <a href="/md/Proxy-Attackchain/HttpListener">HttpListener</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2020-16875">CVE 2020 16875</a>
+ - <a href="/md/Proxy-Attackchain/proxytoken">proxytoken</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2022-23277-main">CVE 2022 23277 main</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2022-23277-main/images">images</a>
+ - <a href="/md/Proxy-Attackchain/proxylogon">proxylogon</a>
+ - <a href="/md/Proxy-Attackchain/.vscode">.vscode</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main">CVE 2023 21707 main</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1">ConsoleApp1</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1">ConsoleApp1</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/obj">obj</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/obj/Release">Release</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/obj/Debug">Debug</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/bin">bin</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/bin/Release">Release</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/bin/Debug">Debug</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/ConsoleApp1/Properties">Properties</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/.vs">.vs</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/.vs/ConsoleApp1">ConsoleApp1</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex">FileContentIndex</a>
+ - <a href="/md/Proxy-Attackchain/CVE-2023-21707-main/ConsoleApp1/.vs/ConsoleApp1/v17">v17</a>
+ - <a href="/md/Proxy-Attackchain/proxyshell">proxyshell</a>
  - <a href="/md/bugbounty">bugbounty</a>
  - <a href="/md/bugbounty/403-bypass">403 bypass</a>
  - <a href="/md/bugbounty/403-bypass/403-bypass-nuclei-templates">403 bypass nuclei templates</a>
@@ -1760,6 +1981,140 @@
  - <a href="/data">data</a>
  - <a href="/md">md</a>
 
+## zq
+ - <a target=_blank href="/data/zq/taobao.com.json">taobao.com</a>
+ - <a target=_blank href="/data/zq/ydHttpx1.json">ydHttpx1</a>
+ - <a target=_blank href="/data/zq/ip2gs1.json">ip2gs1</a>
+ - <a target=_blank href="/data/zq/nuclei.json">nuclei</a>
+ - <a target=_blank href="/data/zq/zq.json">zq</a>
+ - <a target=_blank href="/data/zq/allDoMain_nuclei.json">allDoMain nuclei</a>
+ - <a target=_blank href="/data/zq/grs.dbankcloud.com.json">grs.dbankcloud.com</a>
+ - <a target=_blank href="/data/zq/ip2gs_51pwn copy.json">ip2gs 51pwn copy</a>
+ - <a target=_blank href="/data/zq/173.222.61.120.json">173.222.61.120</a>
+ - <a target=_blank href="/data/zq/sina.com.cn.json">sina.com.cn</a>
+ - <a target=_blank href="/data/zq/ip2gs_51pwn.json">ip2gs 51pwn</a>
+ - <a target=_blank href="/data/zq/ydHttpx.json">ydHttpx</a>
+ - <a target=_blank href="/data/zq/www.bjhjhyjzzs.com.json">www.bjhjhyjzzs.com</a>
+ - <a target=_blank href="/data/zq/1b9e2d6d11e15f034547783819c02da6cde07a0d.json">1b9e2d6d11e15f034547783819c02da6cde07a0d</a>
+ - <a target=_blank href="/data/zq/aeb811f35b3fd41cf3c555bf77840e01e601b881.json">aeb811f35b3fd41cf3c555bf77840e01e601b881</a>
+ - <a target=_blank href="/data/zq/data-dra.push.dbankcloud.com.json">data dra.push.dbankcloud.com</a>
+ - <a target=_blank href="/data/zq/yd200_30x_tls.json">yd200 30x tls</a>
+ - <a target=_blank href="/data/zq/ip_port.json">ip port</a>
+ - <a target=_blank href="/data/zq/znz888.com.json">znz888.com</a>
+ - <a target=_blank href="/data/zq/www.qikanchina.com.json">www.qikanchina.com</a>
+ - <a target=_blank href="/data/zq/metrics1.data.hicloud.com:6447.json">metrics1.data.hicloud.com:6447</a>
+ - <a target=_blank href="/data/zq/kxlogo.knet.cn.json">kxlogo.knet.cn</a>
+ - <a target=_blank href="/data/zq/1adefbd88fc040e995b6ea27f3c897ce85227c8f.json">1adefbd88fc040e995b6ea27f3c897ce85227c8f</a>
+ - <a target=_blank href="/data/zq/allDomain.json">allDomain</a>
+ - <a target=_blank href="/data/zq/zq1_tls.json">zq1 tls</a>
+ - <a target=_blank href="/data/zq/sina.com.json">sina.com</a>
+ - <a target=_blank href="/data/zq/all_shiro.json">all shiro</a>
+ - <a target=_blank href="/data/zq/nmp2.json">nmp2</a>
+ - <a target=_blank href="/data/zq/qq.com.json">qq.com</a>
+ - <a target=_blank href="/data/zq/huazhu.com.json">huazhu.com</a>
+ - <a target=_blank href="/data/zq/www.p5w.net.json">www.p5w.net</a>
+ - <a target=_blank href="/data/zq/223.6.6.183.json">223.6.6.183</a>
+ - <a target=_blank href="/data/zq/log.mmstat.com.json">log.mmstat.com</a>
+ - <a target=_blank href="/data/zq/223.6.6.232.json">223.6.6.232</a>
+ - <a target=_blank href="/data/zq/all_sheiro.json">all sheiro</a>
+ - <a target=_blank href="/data/zq/aax-eu.amazon.sa.json">aax eu.amazon.sa</a>
+ - <a target=_blank href="/data/zq/iifl_httpx.json">iifl httpx</a>
+ - <a target=_blank href="/data/zq/nmapOtherPort.json">nmapOtherPort</a>
+ - <a target=_blank href="/data/zq/17.248.192.2.json">17.248.192.2</a>
+ - <a target=_blank href="/data/zq/ip2gs_51pwn_old.json">ip2gs 51pwn old</a>
+ - <a target=_blank href="/data/zq/all_httpx.json">all httpx</a>
+ - <a target=_blank href="/data/zq/yd_nuclei.json">yd nuclei</a>
+ - <a target=_blank href="/data/zq/zq_aList_tls.json">zq aList tls</a>
+ - <a target=_blank href="/data/zq/nmap.json">nmap</a>
+ - <a target=_blank href="/data/zq/yd_nmap_httpx.json">yd nmap httpx</a>
+ - <a target=_blank href="/data/zq/www.zetetic.net.json">www.zetetic.net</a>
+ - <a target=_blank href="/data/zq/partner.livlong.com.json">partner.livlong.com</a>
+ - <a target=_blank href="/data/zq/myNuclei.json">myNuclei</a>
+ - <a target=_blank href="/data/zq/fisbaobei.ifcert.cn.json">fisbaobei.ifcert.cn</a>
+ - <a target=_blank href="/data/zq/3ddce8b56251199bbee6ee3874a34cb46b0b4f48.json">3ddce8b56251199bbee6ee3874a34cb46b0b4f48</a>
+ - <a target=_blank href="/data/zq/b80da43bccda2259afca8af9939974b49e6576f5.json">b80da43bccda2259afca8af9939974b49e6576f5</a>
+ - <a target=_blank href="/data/zq/httpx.json">httpx</a>
+ - <a target=_blank href="/data/zq/www.g3mv.com.json">www.g3mv.com</a>
+ - <a target=_blank href="/data/zq/ip2gs_51pwnxxx.json">ip2gs 51pwnxxx</a>
+ - <a target=_blank href="/data/zq/zq2_tls.json">zq2 tls</a>
+ - <a target=_blank href="/data/zq/ydNuclei.json">ydNuclei</a>
+ - <a target=_blank href="/data/zq/ip_domain.json">ip domain</a>
+ - <a target=_blank href="/data/zq/ir.p5w.net.json">ir.p5w.net</a>
+ - <a target=_blank href="/data/zq/allDomain_httpx.json">allDomain httpx</a>
+
+## crk
+
+## 韩国
+ - <a target=_blank href="/data/zq/韩国/nuclei.json">nuclei</a>
+ - <a target=_blank href="/data/zq/韩国/katana.json">katana</a>
+ - <a target=_blank href="/data/zq/韩国/ip2gs_51pwn.json">ip2gs 51pwn</a>
+ - <a target=_blank href="/data/zq/韩国/httpx_td.json">httpx td</a>
+ - <a target=_blank href="/data/zq/韩国/tlsx.json">tlsx</a>
+ - <a target=_blank href="/data/zq/韩国/allUrl_nuclei.json">allUrl nuclei</a>
+ - <a target=_blank href="/data/zq/韩国/httpx_all_Do_urls.json">httpx all Do urls</a>
+ - <a target=_blank href="/data/zq/韩国/all_urls_td.json">all urls td</a>
+ - <a target=_blank href="/data/zq/韩国/allIp_httpx.json">allIp httpx</a>
+ - <a target=_blank href="/data/zq/韩国/httpx.json">httpx</a>
+ - <a target=_blank href="/data/zq/韩国/韩国.json">韩国</a>
+
+## rst
+ - <a target=_blank href="/data/zq/韩国/rst/ks.json">ks</a>
+ - <a target=_blank href="/data/zq/韩国/rst/nuclei.json">nuclei</a>
+ - <a target=_blank href="/data/zq/韩国/rst/katana_urls.json">katana urls</a>
+ - <a target=_blank href="/data/zq/韩国/rst/httpx_1.json">httpx 1</a>
+ - <a target=_blank href="/data/zq/韩国/rst/urls.json">urls</a>
+ - <a target=_blank href="/data/zq/韩国/rst/allExt_nuclei.json">allExt nuclei</a>
+ - <a target=_blank href="/data/zq/韩国/rst/httpx1.json">httpx1</a>
+
+## katana_out
+
+## IIFL
+ - <a target=_blank href="/data/zq/IIFL/iifl_httpx.json">iifl httpx</a>
+
+## rst
+ - <a target=_blank href="/data/zq/rst/tmp.json">tmp</a>
+ - <a target=_blank href="/data/zq/rst/ip2gs_yd.json">ip2gs yd</a>
+ - <a target=_blank href="/data/zq/rst/czq.json">czq</a>
+
+## zq_china
+ - <a target=_blank href="/data/zq/zq_china/listPhpIp_tlsx.json">listPhpIp tlsx</a>
+ - <a target=_blank href="/data/zq/zq_china/ip2gs_51pwn.json">ip2gs 51pwn</a>
+ - <a target=_blank href="/data/zq/zq_china/www.qktz.com.cn.json">www.qktz.com.cn</a>
+ - <a target=_blank href="/data/zq/zq_china/x22.json">x22</a>
+ - <a target=_blank href="/data/zq/zq_china/listPhpIp_httpx.json">listPhpIp httpx</a>
+
+## 印度
+ - <a target=_blank href="/data/zq/印度/yd_all.json">yd all</a>
+ - <a target=_blank href="/data/zq/印度/IIFL_urls_inputs.json">IIFL urls inputs</a>
+ - <a target=_blank href="/data/zq/印度/allYd_domain_idx_httpx.json">allYd domain idx httpx</a>
+ - <a target=_blank href="/data/zq/印度/ip2gs_51pwn.json">ip2gs 51pwn</a>
+ - <a target=_blank href="/data/zq/印度/wgetIdx1.json">wgetIdx1</a>
+ - <a target=_blank href="/data/zq/印度/httpx_IIFL.json">httpx IIFL</a>
+ - <a target=_blank href="/data/zq/印度/IIFL.json">IIFL</a>
+ - <a target=_blank href="/data/zq/印度/IIFL_nuclei_as.json">IIFL nuclei as</a>
+
+## config
+ - <a target=_blank href="/data/zq/印度/config/config.json">config</a>
+
+## ksubdomain
+ - <a target=_blank href="/data/ksubdomain/nuclei_microsoft.json">nuclei microsoft</a>
+ - <a target=_blank href="/data/ksubdomain/hk1.json">hk1</a>
+ - <a target=_blank href="/data/ksubdomain/list_All.json">list All</a>
+ - <a target=_blank href="/data/ksubdomain/edu.json">edu</a>
+ - <a target=_blank href="/data/ksubdomain/zqX.json">zqX</a>
+ - <a target=_blank href="/data/ksubdomain/PayPal_httpx.json">PayPal httpx</a>
+ - <a target=_blank href="/data/ksubdomain/gov_httpx.json">gov httpx</a>
+ - <a target=_blank href="/data/ksubdomain/PayPal_ksubdomain.json">PayPal ksubdomain</a>
+ - <a target=_blank href="/data/ksubdomain/twitter.com2.json">twitter.com2</a>
+ - <a target=_blank href="/data/ksubdomain/microsoft_httpx.json">microsoft httpx</a>
+ - <a target=_blank href="/data/ksubdomain/qq.com.json">qq.com</a>
+ - <a target=_blank href="/data/ksubdomain/chinatax.gov.cn.json">chinatax.gov.cn</a>
+ - <a target=_blank href="/data/ksubdomain/edu.cn.json">edu.cn</a>
+ - <a target=_blank href="/data/ksubdomain/edu.cn.txt.json">edu.cn.txt</a>
+ - <a target=_blank href="/data/ksubdomain/zq2.json">zq2</a>
+ - <a target=_blank href="/data/ksubdomain/httpx.json">httpx</a>
+ - <a target=_blank href="/data/ksubdomain/microsoft.com.json">microsoft.com</a>
+
 ## bounty-targets-data
  - <a target=_blank href="/data/bounty-targets-data/README.md">README</a>
 
@@ -1773,69 +2128,6 @@
 
 ## hk1
  - <a target=_blank href="/data/hk1/hk1_httpx.json">hk1 httpx</a>
- - <a target=_blank href="/data/hk1/abnamroinvestmentsolutions.com.json">abnamroinvestmentsolutions.com</a>
- - <a target=_blank href="/data/hk1/accountscore.net.json">accountscore.net</a>
- - <a target=_blank href="/data/hk1/abb.com.cn.json">abb.com.cn</a>
- - <a target=_blank href="/data/hk1/acrobat.com.json">acrobat.com</a>
- - <a target=_blank href="/data/hk1/FAN.GOV.json">FAN.GOV</a>
- - <a target=_blank href="/data/hk1/8x8cloud.net.json">8x8cloud.net</a>
- - <a target=_blank href="/data/hk1/abnamrocomfin.com.json">abnamrocomfin.com</a>
- - <a target=_blank href="/data/hk1/OSAC.GOV.json">OSAC.GOV</a>
- - <a target=_blank href="/data/hk1/USEMBASSY.GOV.json">USEMBASSY.GOV</a>
- - <a target=_blank href="/data/hk1/FSGB.GOV.json">FSGB.GOV</a>
- - <a target=_blank href="/data/hk1/abnamro.nl.json">abnamro.nl</a>
- - <a target=_blank href="/data/hk1/accountscore.co.uk.json">accountscore.co.uk</a>
- - <a target=_blank href="/data/hk1/USCONSULATE.GOV.json">USCONSULATE.GOV</a>
- - <a target=_blank href="/data/hk1/abnamro.org.json">abnamro.org</a>
- - <a target=_blank href="/data/hk1/acronis.work.json">acronis.work</a>
- - <a target=_blank href="/data/hk1/DEVTESTFAN1.GOV.json">DEVTESTFAN1.GOV</a>
- - <a target=_blank href="/data/hk1/acronis.com.json">acronis.com</a>
- - <a target=_blank href="/data/hk1/1debit.com.json">1debit.com</a>
- - <a target=_blank href="/data/hk1/5nine.com.json">5nine.com</a>
- - <a target=_blank href="/data/hk1/a.exodus.io.json">a.exodus.io</a>
- - <a target=_blank href="/data/hk1/adgjmp.net.json">adgjmp.net</a>
- - <a target=_blank href="/data/hk1/abb.com.tr.json">abb.com.tr</a>
- - <a target=_blank href="/data/hk1/abnamro.com.json">abnamro.com</a>
- - <a target=_blank href="/data/hk1/SUPPORTFAN.GOV.json">SUPPORTFAN.GOV</a>
- - <a target=_blank href="/data/hk1/8x8.com.json">8x8.com</a>
- - <a target=_blank href="/data/hk1/abritel.fr.json">abritel.fr</a>
- - <a target=_blank href="/data/hk1/8x8.uk.json">8x8.uk</a>
- - <a target=_blank href="/data/hk1/3lateral.com.json">3lateral.com</a>
- - <a target=_blank href="/data/hk1/SECURITYTESTFAN.GOV.json">SECURITYTESTFAN.GOV</a>
- - <a target=_blank href="/data/hk1/accountscore.com.json">accountscore.com</a>
- - <a target=_blank href="/data/hk1/adobe.com.json">adobe.com</a>
- - <a target=_blank href="/data/hk1/PEPFAR.GOV.json">PEPFAR.GOV</a>
- - <a target=_blank href="/data/hk1/abnamro.be.json">abnamro.be</a>
- - <a target=_blank href="/data/hk1/hey.com.json">hey.com</a>
- - <a target=_blank href="/data/hk1/abb.com.json">abb.com</a>
- - <a target=_blank href="/data/hk1/huazhu.json">huazhu</a>
- - <a target=_blank href="/data/hk1/8x8e2e.com.json">8x8e2e.com</a>
- - <a target=_blank href="/data/hk1/hk1_tlsx.json">hk1 tlsx</a>
- - <a target=_blank href="/data/hk1/8x8.vc.json">8x8.vc</a>
- - <a target=_blank href="/data/hk1/USDOSCLOUD.GOV.json">USDOSCLOUD.GOV</a>
- - <a target=_blank href="/data/hk1/ELGUARDIA.NET.json">ELGUARDIA.NET</a>
- - <a target=_blank href="/data/hk1/Daraz.com.json">Daraz.com</a>
- - <a target=_blank href="/data/hk1/USMISSION.GOV.json">USMISSION.GOV</a>
- - <a target=_blank href="/data/hk1/8x8staging.com.json">8x8staging.com</a>
- - <a target=_blank href="/data/hk1/abnamrolease.com.json">abnamrolease.com</a>
- - <a target=_blank href="/data/hk1/8x8pilot.com.json">8x8pilot.com</a>
- - <a target=_blank href="/data/hk1/accessibility.gov.json">accessibility.gov</a>
- - <a target=_blank href="/data/hk1/18f.gov.json">18f.gov</a>
- - <a target=_blank href="/data/hk1/IBWC.GOV.json">IBWC.GOV</a>
- - <a target=_blank href="/data/hk1/8x8.id.json">8x8.id</a>
- - <a target=_blank href="/data/hk1/8x8.co.uk.json">8x8.co.uk</a>
- - <a target=_blank href="/data/hk1/aboitizpower.com.json">aboitizpower.com</a>
- - <a target=_blank href="/data/hk1/REWARDSFORJUSTICE.NET.json">REWARDSFORJUSTICE.NET</a>
- - <a target=_blank href="/data/hk1/acquisition.gov.json">acquisition.gov</a>
- - <a target=_blank href="/data/hk1/10ktf.com.json">10ktf.com</a>
- - <a target=_blank href="/data/hk1/PREPRODFAN.GOV.json">PREPRODFAN.GOV</a>
- - <a target=_blank href="/data/hk1/STATE.GOV.json">STATE.GOV</a>
- - <a target=_blank href="/data/hk1/acertandosuascontas.com.br.json">acertandosuascontas.com.br</a>
- - <a target=_blank href="/data/hk1/3ce.com.json">3ce.com</a>
- - <a target=_blank href="/data/hk1/xxx.json">xxx</a>
- - <a target=_blank href="/data/hk1/AMERICA.GOV.json">AMERICA.GOV</a>
- - <a target=_blank href="/data/hk1/IAWG.GOV.json">IAWG.GOV</a>
- - <a target=_blank href="/data/hk1/1688.com.json">1688.com</a>
 
 ## Resources-for-Beginner-Bug-Bounty-Hunters
  - <a target=_blank href="/md/Resources-for-Beginner-Bug-Bounty-Hunters/README.md">README</a>
@@ -4625,6 +4917,10 @@
  - <a target=_blank href="/md/top25-parameter/gf-patterns/openredirect.json">openredirect</a>
  - <a target=_blank href="/md/top25-parameter/gf-patterns/ssrf.json">ssrf</a>
 
+## Hydra-Cheatsheet
+ - <a target=_blank href="/md/Hydra-Cheatsheet/Hydra-Password-Cracking-Cheatsheet.pdf">Hydra Password Cracking Cheatsheet</a>
+ - <a target=_blank href="/md/Hydra-Cheatsheet/README.md">README</a>
+
 ## hackerone-reports
  - <a target=_blank href="/md/hackerone-reports/README.md">README</a>
 
@@ -4728,6 +5024,319 @@
 ## web
 
 ## network
+
+## SpringBootVulExploit
+ - <a target=_blank href="/md/SpringBootVulExploit/README.md">README</a>
+
+## repository
+
+## springboot-spel-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## springboot-restart-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## springboot-eureka-xstream-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## springboot-jolokia-logback-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## springboot-mysql-jdbc-rce
+
+## src
+
+## main
+
+## resources
+
+## templates
+
+## java
+
+## code
+
+## landgrey
+
+## springboot-h2-database-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## springcloud-snakeyaml-rce
+
+## src
+
+## main
+
+## java
+
+## code
+
+## landgrey
+
+## Proxy-Attackchain
+ - <a target=_blank href="/md/Proxy-Attackchain/README.md">README</a>
+
+## exchange-protocols
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOABKT].pdf">[MS OXOABKT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCEXT].pdf">[MS OXWSCEXT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASCON].pdf">[MS ASCON]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSLVID].pdf">[MS OXWSLVID]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCMAIL].pdf">[MS OXCMAIL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSRULES].pdf">[MS OXWSRULES]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSPSNTIF].pdf">[MS OXWSPSNTIF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCOS].pdf">[MS OXWSCOS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXRTFEX].pdf">[MS OXRTFEX]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOUM].pdf">[MS OXOUM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCDATA].pdf">[MS OXCDATA]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCORE].pdf">[MS OXWSCORE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOPOST].pdf">[MS OXOPOST]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSPERS].pdf">[MS OXWSPERS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSITEMID].pdf">[MS OXWSITEMID]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPFOAB].pdf">[MS OXPFOAB]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCDATA].pdf">[MS OXWSCDATA]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPHISH].pdf">[MS OXPHISH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXVCARD].pdf">[MS OXVCARD]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSMTGS].pdf">[MS OXWSMTGS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-XOAUTH].pdf">[MS XOAUTH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXBBODY].pdf">[MS OXBBODY]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOSFLD].pdf">[MS OXOSFLD]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASCAL].pdf">[MS ASCAL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOFLAG].pdf">[MS OXOFLAG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCROPS].pdf">[MS OXCROPS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOMSG].pdf">[MS OXOMSG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSURPT].pdf">[MS OXWSURPT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCICAL].pdf">[MS OXCICAL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXODOC].pdf">[MS OXODOC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXODLGT].pdf">[MS OXODLGT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCONV].pdf">[MS OXWSCONV]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-XLOGIN].pdf">[MS XLOGIN]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXSHRMSG].pdf">[MS OXSHRMSG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXMSG].pdf">[MS OXMSG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOAB].pdf">[MS OXOAB]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXORMMS].pdf">[MS OXORMMS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWMT].pdf">[MS OXWMT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASCNTC].pdf">[MS ASCNTC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSDLGM].pdf">[MS OXWSDLGM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSDLIST].pdf">[MS OXWSDLIST]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCMAPIHTTP].pdf">[MS OXCMAPIHTTP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWAVLS].pdf">[MS OXWAVLS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSPHOTO].pdf">[MS OXWSPHOTO]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPSVAL].pdf">[MS OXPSVAL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSATT].pdf">[MS OXWSATT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASCMD].pdf">[MS ASCMD]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOJRNL].pdf">[MS OXOJRNL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSRSLNM].pdf">[MS OXWSRSLNM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASHTTP].pdf">[MS ASHTTP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASNOTE].pdf">[MS ASNOTE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPROPS].pdf">[MS OXPROPS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASAIRS].pdf">[MS ASAIRS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSMSHR].pdf">[MS OXWSMSHR]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-PATCH].pdf">[MS PATCH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-MCI].pdf">[MS MCI]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCNOTIF].pdf">[MS OXCNOTIF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCTABL].pdf">[MS OXCTABL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWCONFIG].pdf">[MS OXWCONFIG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSBTRF].pdf">[MS OXWSBTRF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXABREF].pdf">[MS OXABREF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSPOST].pdf">[MS OXWSPOST]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCPERM].pdf">[MS OXCPERM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCEXT].pdf">[MS OXCEXT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCSPAM].pdf">[MS OXCSPAM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSADISC].pdf">[MS OXWSADISC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOSMMS].pdf">[MS OXOSMMS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSMSG].pdf">[MS OXWSMSG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASTASK].pdf">[MS ASTASK]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSARCH].pdf">[MS OXWSARCH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOSRCH].pdf">[MS OXOSRCH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCFXICS].pdf">[MS OXCFXICS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXONOTE].pdf">[MS OXONOTE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXSMTP].pdf">[MS OXSMTP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASPROV].pdf">[MS ASPROV]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWOOF].pdf">[MS OXWOOF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCVTID].pdf">[MS OXWSCVTID]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSXPROP].pdf">[MS OXWSXPROP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXTNEF].pdf">[MS OXTNEF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOCNTC].pdf">[MS OXOCNTC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSNTIF].pdf">[MS OXWSNTIF]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWUMS].pdf">[MS OXWUMS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASEMAIL].pdf">[MS ASEMAIL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASMS].pdf">[MS ASMS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCFOLD].pdf">[MS OXCFOLD]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSEDISC].pdf">[MS OXWSEDISC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOTASK].pdf">[MS OXOTASK]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSOLPS].pdf">[MS OXWSOLPS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXRTFCP].pdf">[MS OXRTFCP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-XWDVSEC].pdf">[MS XWDVSEC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCSTOR].pdf">[MS OXCSTOR]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXSHARE].pdf">[MS OXSHARE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSFOLD].pdf">[MS OXWSFOLD]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCMSG].pdf">[MS OXCMSG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-XWDCAL].pdf">[MS XWDCAL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSTASK].pdf">[MS OXWSTASK]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSSMBX].pdf">[MS OXWSSMBX]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXORSS].pdf">[MS OXORSS]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSGTZ].pdf">[MS OXWSGTZ]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSUSRCFG].pdf">[MS OXWSUSRCFG]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-XJRNL].pdf">[MS XJRNL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXDISCO].pdf">[MS OXDISCO]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXLDAP].pdf">[MS OXLDAP]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSGNI].pdf">[MS OXWSGNI]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCRPC].pdf">[MS OXCRPC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXNSPI].pdf">[MS OXNSPI]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSPED].pdf">[MS OXWSPED]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXCPRPT].pdf">[MS OXCPRPT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSMTRK].pdf">[MS OXWSMTRK]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOABK].pdf">[MS OXOABK]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASDTYPE].pdf">[MS ASDTYPE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASRM].pdf">[MS ASRM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPROTO].pdf">[MS OXPROTO]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSSRCH].pdf">[MS OXWSSRCH]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOSMIME].pdf">[MS OXOSMIME]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXDSCLI].pdf">[MS OXDSCLI]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXORMDR].pdf">[MS OXORMDR]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASDOC].pdf">[MS ASDOC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXORULE].pdf">[MS OXORULE]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWOAB].pdf">[MS OXWOAB]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-ASWBXML].pdf">[MS ASWBXML]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOCAL].pdf">[MS OXOCAL]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXIMAP4].pdf">[MS OXIMAP4]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSGTRM].pdf">[MS OXWSGTRM]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXPOP3].pdf">[MS OXPOP3]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSSYNC].pdf">[MS OXWSSYNC]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOPFFB].pdf">[MS OXOPFFB]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXWSCONT].pdf">[MS OXWSCONT]</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/exchange-protocols/[MS-OXOCFG].pdf">[MS OXOCFG]</a>
+
+## ysoserial.net-modified
+ - <a target=_blank href="/md/Proxy-Attackchain/ysoserial.net-modified/README.md">README</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/ysoserial.net-modified/CONTRIBUTING.md">CONTRIBUTING</a>
+
+## ysoserial
+
+## Helpers
+
+## TestConsoleApp
+
+## .github
+
+## CVE-2020-17144-master
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2020-17144-master/README.md">README</a>
+
+## CVE-2018-8581
+
+## Exchange2domain-master
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/README.md">README</a>
+
+## comm
+
+## ntlmrelayx
+
+## servers
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/domain_groups.json">domain groups</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/domain_users.json">domain users</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/domain_computers.json">domain computers</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/domain_policy.json">domain policy</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/Exchange2domain-master/comm/ntlmrelayx/servers/domain_trusts.json">domain trusts</a>
+
+## CVE-2018-8581-master
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2018-8581/CVE-2018-8581-master/README.md">README</a>
+
+## CVE-2021-24085-main
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2021-24085-main/README.md">README</a>
+
+## YellowCanary
+
+## Poc
+
+## research-pdfs
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/us-18-Thomas-Its-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-Know-It-wp.pdf">us 18 Thomas Its A PHP Unserialization Vulnerability Jim But Not As We Know It wp</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/How I Hacked pwn2own2022.pdf">How I Hacked pwn2own2022</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/us-21-ProxyLogon-Is-Just-The-Tip-Of-The-Iceberg-A-New-Attack-Surface-On-Microsoft-Exchange-Server.pdf">us 21 ProxyLogon Is Just The Tip Of The Iceberg A New Attack Surface On Microsoft Exchange Server</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/D2T2 - NTLM Relay Is Dead Long Live NTLM Relay - Jianing Wang and Junyu Zhou.pdf">D2T2   NTLM Relay Is Dead Long Live NTLM Relay   Jianing Wang and Junyu Zhou</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/An ACE Up the Sleeve.pdf">An ACE Up the Sleeve</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/us-17-Munoz-Friday-The-13th-JSON-Attacks-wp.pdf">us 17 Munoz Friday The 13th JSON Attacks wp</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf">BH US 12 Forshaw Are You My Type WP</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/crackingthelens-whitepaper.pdf">crackingthelens whitepaper</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/Tianze Ding - Vulnerability Exchange - One Domain Account For More Than Exchange Server RCE.pdf">Tianze Ding   Vulnerability Exchange   One Domain Account For More Than Exchange Server RCE</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf">04262018 Webcast Toxic Waste Removal by Andy Robbins</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/DPAPI exploitation during pentest.pdf">DPAPI exploitation during pentest</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/高级攻防演练下的Webshell.pdf">高级攻防演练下的Webshell</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/SCALEABLE HASH.TABLE FOR SHARED.pdf">SCALEABLE HASH.TABLE FOR SHARED</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/us-17-Robbins-An-ACE-Up-The-Sleeve-Designing-Active-Directory-DACL-Backdoors-wp.pdf">us 17 Robbins An ACE Up The Sleeve Designing Active Directory DACL Backdoors wp</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/web-cache-poisoning.pdf">web cache poisoning</a>
+ - <a target=_blank href="/md/Proxy-Attackchain/research-pdfs/us-21-Timeless-Timing-Attacks.pdf">us 21 Timeless Timing Attacks</a>
+
+## proxymaybeshell
+ - <a target=_blank href="/md/Proxy-Attackchain/proxymaybeshell/记一次曲折的exchange漏洞利用-ProxyMaybeShell.pdf">记一次曲折的exchange漏洞利用 ProxyMaybeShell</a>
+
+## ProxyMaybeShell-main
+ - <a target=_blank href="/md/Proxy-Attackchain/proxymaybeshell/ProxyMaybeShell-main/README.md">README</a>
+
+## CVE-2022-23277-main
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2022-23277-main/README.md">README</a>
+
+## .vscode
+ - <a target=_blank href="/md/Proxy-Attackchain/.vscode/settings.json">settings</a>
+
+## CVE-2023-21707-main
+ - <a target=_blank href="/md/Proxy-Attackchain/CVE-2023-21707-main/README.md">README</a>
+
+## ConsoleApp1
+
+## ConsoleApp1
+
+## obj
+
+## bin
+
+## .vs
+
+## ConsoleApp1
 
 ## bugbounty
  - <a target=_blank href="/md/bugbounty/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>
