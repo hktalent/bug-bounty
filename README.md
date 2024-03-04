@@ -75,6 +75,44 @@
  - <a href="/data/zq/韩国/katana_out/www.trueetn.com">www.trueetn.com</a>
  - <a href="/data/zq/IIFL">IIFL</a>
  - <a href="/data/zq/rst">rst</a>
+ - <a href="/data/zq/all">all</a>
+ - <a href="/data/zq/all/screenshots">screenshots</a>
+ - <a href="/data/zq/all/config">config</a>
+ - <a href="/data/zq/all/shell">shell</a>
+ - <a href="/data/zq/all/.DbCache">.DbCache</a>
+ - <a href="/data/zq/Yn">Yn</a>
+ - <a href="/data/zq/Yn/screenshots">screenshots</a>
+ - <a href="/data/zq/Yn/xxx3">xxx3</a>
+ - <a href="/data/zq/Yn/xxx3/motaikhoan.finavi.com.vn">motaikhoan.finavi.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/rhbsecurities.vn">rhbsecurities.vn</a>
+ - <a href="/data/zq/Yn/xxx3/dvsc.com.vn">dvsc.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/wts.finavi.com.vn">wts.finavi.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/www.dvsc.com.vn">www.dvsc.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/finavi.com.vn">finavi.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/cvs.vn">cvs.vn</a>
+ - <a href="/data/zq/Yn/xxx3/ekyc.rhbsecurities.vn">ekyc.rhbsecurities.vn</a>
+ - <a href="/data/zq/Yn/xxx3/tradingonline.dvsc.com.vn">tradingonline.dvsc.com.vn</a>
+ - <a href="/data/zq/Yn/xxx3/banggia.dvsc.com.vn">banggia.dvsc.com.vn</a>
+ - <a href="/data/zq/Yn/config">config</a>
+ - <a href="/data/zq/Yn/shell">shell</a>
+ - <a href="/data/zq/Yn/.DbCache">.DbCache</a>
+ - <a href="/data/zq/Yn/out11">out11</a>
+ - <a href="/data/zq/Yn/out11/Default">Default</a>
+ - <a href="/data/zq/Yn/out11/Default/blob_storage">blob storage</a>
+ - <a href="/data/zq/Yn/out11/Default/blob_storage/5f117c52-8707-46f0-8f54-b958f6c62093">5f117c52 8707 46f0 8f54 b958f6c62093</a>
+ - <a href="/data/zq/Yn/out11/Default/Cache">Cache</a>
+ - <a href="/data/zq/Yn/out11/Default/Cache/Cache_Data">Cache Data</a>
+ - <a href="/data/zq/Yn/out11/Default/PersistentOriginTrials">PersistentOriginTrials</a>
+ - <a href="/data/zq/Yn/out11/Default/Shared Dictionary">Shared Dictionary</a>
+ - <a href="/data/zq/Yn/out11/Default/shared_proto_db">shared proto db</a>
+ - <a href="/data/zq/Yn/out11/Default/shared_proto_db/metadata">metadata</a>
+ - <a href="/data/zq/Yn/out11/Default/Code Cache">Code Cache</a>
+ - <a href="/data/zq/Yn/out11/Default/Code Cache/js">js</a>
+ - <a href="/data/zq/Yn/out11/Default/Code Cache/js/index-dir">index dir</a>
+ - <a href="/data/zq/Yn/out11/Default/Code Cache/wasm">wasm</a>
+ - <a href="/data/zq/Yn/out11/Default/Code Cache/wasm/index-dir">index dir</a>
+ - <a href="/data/zq/Yn/out11/Default/Local Storage">Local Storage</a>
+ - <a href="/data/zq/Yn/out11/Default/Local Storage/leveldb">leveldb</a>
  - <a href="/data/zq/zq_china">zq china</a>
  - <a href="/data/zq/zq_china/config">config</a>
  - <a href="/data/zq/zq_china/shell">shell</a>
@@ -86,12 +124,81 @@
  - <a href="/data/zq/印度/screenshots">screenshots</a>
  - <a href="/data/zq/印度/config">config</a>
  - <a href="/data/zq/印度/shell">shell</a>
+ - <a href="/data/zq/印度/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/印度/xx">xx</a>
+ - <a href="/data/zq/印度/xx/screenshots">screenshots</a>
+ - <a href="/data/zq/印度/xx/config">config</a>
+ - <a href="/data/zq/印度/xx/shell">shell</a>
+ - <a href="/data/zq/印度/xx/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/印度/xx/.ipgs">.ipgs</a>
+ - <a href="/data/zq/Jp">Jp</a>
+ - <a href="/data/zq/Jp/screenshots">screenshots</a>
+ - <a href="/data/zq/Jp/xxx3">xxx3</a>
+ - <a href="/data/zq/Jp/xxx3/research.lycorp.co.jp">research.lycorp.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/fx-sys.himawari-group.co.jp">fx sys.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www.lycorp.co.jp">www.lycorp.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/toku.yahoo.co.jp">toku.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/notice-toku.yahoo.co.jp">notice toku.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www.dmc-aizu.co.jp">www.dmc aizu.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/fx-web-demo.himawari-group.co.jp">fx web demo.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/form-business.yahoo.co.jp">form business.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/himawari-partners.co.jp">himawari partners.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www.nbld-dev.co.jp">www.nbld dev.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/donation.yahoo.co.jp">donation.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/qn.sbineotrade.jp">qn.sbineotrade.jp</a>
+ - <a href="/data/zq/Jp/xxx3/page.auctions.yahoo.co.jp">page.auctions.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www2.himawari-group.co.jp">www2.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www.arc-vacations.co.jp">www.arc vacations.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/auctions.yahoo.co.jp">auctions.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/b97.yahoo.co.jp">b97.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/sakidori.himawari-group.co.jp">sakidori.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/sec.himawari-group.co.jp">sec.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/search.yahoo.co.jp">search.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/ebookjapan.yahoo.co.jp">ebookjapan.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/tf1.himawari-group.co.jp">tf1.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/b99.yahoo.co.jp">b99.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/account.edit.yahoo.co.jp">account.edit.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/ncaptcha.yahoo.co.jp">ncaptcha.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/promo-search.yahoo.co.jp">promo search.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/fxdemo-sys.himawari-group.co.jp">fxdemo sys.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/web-yunz.yahoo.co.jp">web yunz.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/login.yahoo.co.jp">login.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/www.google.co.jp">www.google.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/yads.yjtag.yahoo.co.jp">yads.yjtag.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/yjtag.yahoo.co.jp">yjtag.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/transit.yahoo.co.jp">transit.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/nova.kiraboshi-ld-sec.co.jp">nova.kiraboshi ld sec.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/fx-web.himawari-group.co.jp">fx web.himawari group.co.jp</a>
+ - <a href="/data/zq/Jp/xxx3/fpr.yahoo.co.jp">fpr.yahoo.co.jp</a>
+ - <a href="/data/zq/Jp/config">config</a>
+ - <a href="/data/zq/Jp/shell">shell</a>
+ - <a href="/data/zq/Jp/.ppUrls">.ppUrls</a>
+ - <a href="/data/zq/Jp/katana_field">katana field</a>
+ - <a href="/data/zq/Jp/.DbCache">.DbCache</a>
+ - <a href="/data/zq/Jp/out11">out11</a>
+ - <a href="/data/zq/Jp/out11/Default">Default</a>
+ - <a href="/data/zq/Jp/out11/Default/blob_storage">blob storage</a>
+ - <a href="/data/zq/Jp/out11/Default/blob_storage/d1803140-d30f-49ee-9ef2-fb0f2438c6b5">d1803140 d30f 49ee 9ef2 fb0f2438c6b5</a>
+ - <a href="/data/zq/Jp/out11/Default/Cache">Cache</a>
+ - <a href="/data/zq/Jp/out11/Default/Cache/Cache_Data">Cache Data</a>
+ - <a href="/data/zq/Jp/out11/Default/PersistentOriginTrials">PersistentOriginTrials</a>
+ - <a href="/data/zq/Jp/out11/Default/Shared Dictionary">Shared Dictionary</a>
+ - <a href="/data/zq/Jp/out11/Default/shared_proto_db">shared proto db</a>
+ - <a href="/data/zq/Jp/out11/Default/shared_proto_db/metadata">metadata</a>
+ - <a href="/data/zq/Jp/out11/Default/Code Cache">Code Cache</a>
+ - <a href="/data/zq/Jp/out11/Default/Code Cache/js">js</a>
+ - <a href="/data/zq/Jp/out11/Default/Code Cache/js/index-dir">index dir</a>
+ - <a href="/data/zq/Jp/out11/Default/Code Cache/wasm">wasm</a>
+ - <a href="/data/zq/Jp/out11/Default/Code Cache/wasm/index-dir">index dir</a>
+ - <a href="/data/zq/Jp/out11/Default/Local Storage">Local Storage</a>
+ - <a href="/data/zq/Jp/out11/Default/Local Storage/leveldb">leveldb</a>
  - <a href="/data/ksubdomain">ksubdomain</a>
  - <a href="/data/ksubdomain/config">config</a>
  - <a href="/data/ksubdomain/.DbCache">.DbCache</a>
  - <a href="/data/bounty-targets-data">bounty targets data</a>
  - <a href="/data/bounty-targets-data/data">data</a>
  - <a href="/data/components">components</a>
+ - <a href="/data/paypal">paypal</a>
  - <a href="/data/hk1">hk1</a>
  - <a href="/data/hk1/config">config</a>
  - <a href="/data/hk1/node_modules">node modules</a>
@@ -1773,6 +1880,8 @@
  - <a href="/md/Mindmap/Wireshark">Wireshark</a>
  - <a href="/md/Mindmap/Google Dorks">Google Dorks</a>
  - <a href="/md/Mindmap/hydra">hydra</a>
+ - <a href="/md/Security-101">Security 101</a>
+ - <a href="/md/Security-101/images">images</a>
  - <a href="/md/cheat-sheets">cheat sheets</a>
  - <a href="/md/cheat-sheets/Framework">Framework</a>
  - <a href="/md/cheat-sheets/Framework/React">React</a>
@@ -2050,6 +2159,7 @@
  - <a target=_blank href="/data/zq/韩国/ip2gs_51pwn.json">ip2gs 51pwn</a>
  - <a target=_blank href="/data/zq/韩国/httpx_td.json">httpx td</a>
  - <a target=_blank href="/data/zq/韩国/tlsx.json">tlsx</a>
+ - <a target=_blank href="/data/zq/韩国/jp_yn_hg_nuclei.json">jp yn hg nuclei</a>
  - <a target=_blank href="/data/zq/韩国/allUrl_nuclei.json">allUrl nuclei</a>
  - <a target=_blank href="/data/zq/韩国/httpx_all_Do_urls.json">httpx all Do urls</a>
  - <a target=_blank href="/data/zq/韩国/all_urls_td.json">all urls td</a>
@@ -2076,6 +2186,50 @@
  - <a target=_blank href="/data/zq/rst/ip2gs_yd.json">ip2gs yd</a>
  - <a target=_blank href="/data/zq/rst/czq.json">czq</a>
 
+## all
+ - <a target=_blank href="/data/zq/all/x.json">x</a>
+ - <a target=_blank href="/data/zq/all/all_nuclei.json">all nuclei</a>
+ - <a target=_blank href="/data/zq/all/all_tlxs.json">all tlxs</a>
+ - <a target=_blank href="/data/zq/all/all_httpx.json">all httpx</a>
+
+## config
+ - <a target=_blank href="/data/zq/all/config/config.json">config</a>
+
+## Yn
+ - <a target=_blank href="/data/zq/Yn/shodan_securities-CN_httpx.json">shodan securities CN httpx</a>
+ - <a target=_blank href="/data/zq/Yn/yn_tlsx_shodan.json">yn tlsx shodan</a>
+ - <a target=_blank href="/data/zq/Yn/shodan_securities-CN_tlsx.json">shodan securities CN tlsx</a>
+ - <a target=_blank href="/data/zq/Yn/yn_ksubdomain.json">yn ksubdomain</a>
+ - <a target=_blank href="/data/zq/Yn/xxx2.json">xxx2</a>
+ - <a target=_blank href="/data/zq/Yn/yn_httpx.json">yn httpx</a>
+ - <a target=_blank href="/data/zq/Yn/yn_tlsx_shodan2.json">yn tlsx shodan2</a>
+ - <a target=_blank href="/data/zq/Yn/28aa6fe3-4e4d-4711-9c22-c0e515e9e96b.json">28aa6fe3 4e4d 4711 9c22 c0e515e9e96b</a>
+ - <a target=_blank href="/data/zq/Yn/727e1fa7-8ba6-4572-a96e-630953dbefe3.json">727e1fa7 8ba6 4572 a96e 630953dbefe3</a>
+ - <a target=_blank href="/data/zq/Yn/d1dfcbad-4a69-47c6-8188-2886e26dcad8.json">d1dfcbad 4a69 47c6 8188 2886e26dcad8</a>
+
+## xxx3
+
+## config
+ - <a target=_blank href="/data/zq/Yn/config/config.json">config</a>
+
+## out11
+
+## Default
+
+## blob_storage
+
+## Cache
+
+## shared_proto_db
+
+## Code Cache
+
+## js
+
+## wasm
+
+## Local Storage
+
 ## zq_china
  - <a target=_blank href="/data/zq/zq_china/listPhpIp_tlsx.json">listPhpIp tlsx</a>
  - <a target=_blank href="/data/zq/zq_china/ip2gs_51pwn.json">ip2gs 51pwn</a>
@@ -2084,6 +2238,7 @@
  - <a target=_blank href="/data/zq/zq_china/listPhpIp_httpx.json">listPhpIp httpx</a>
 
 ## 印度
+ - <a target=_blank href="/data/zq/印度/allYd_domain_httpx.json">allYd domain httpx</a>
  - <a target=_blank href="/data/zq/印度/yd_all.json">yd all</a>
  - <a target=_blank href="/data/zq/印度/IIFL_urls_inputs.json">IIFL urls inputs</a>
  - <a target=_blank href="/data/zq/印度/allYd_domain_idx_httpx.json">allYd domain idx httpx</a>
@@ -2091,10 +2246,51 @@
  - <a target=_blank href="/data/zq/印度/wgetIdx1.json">wgetIdx1</a>
  - <a target=_blank href="/data/zq/印度/httpx_IIFL.json">httpx IIFL</a>
  - <a target=_blank href="/data/zq/印度/IIFL.json">IIFL</a>
+ - <a target=_blank href="/data/zq/印度/allYd_domain_httpx1.json">allYd domain httpx1</a>
  - <a target=_blank href="/data/zq/印度/IIFL_nuclei_as.json">IIFL nuclei as</a>
+ - <a target=_blank href="/data/zq/印度/allYd_tlsx.json">allYd tlsx</a>
+ - <a target=_blank href="/data/zq/印度/allYd_domain_tlsx.json">allYd domain tlsx</a>
 
 ## config
  - <a target=_blank href="/data/zq/印度/config/config.json">config</a>
+
+## xx
+ - <a target=_blank href="/data/zq/印度/xx/ip2gs_51pwn.json">ip2gs 51pwn</a>
+ - <a target=_blank href="/data/zq/印度/xx/channel.zhelibao.com.json">channel.zhelibao.com</a>
+
+## config
+ - <a target=_blank href="/data/zq/印度/xx/config/config.json">config</a>
+
+## Jp
+ - <a target=_blank href="/data/zq/Jp/jp_ksubdomain.json">jp ksubdomain</a>
+ - <a target=_blank href="/data/zq/Jp/jp_nuclei.json">jp nuclei</a>
+ - <a target=_blank href="/data/zq/Jp/httpx_jp.json">httpx jp</a>
+ - <a target=_blank href="/data/zq/Jp/Jp_tlsx.json">Jp tlsx</a>
+ - <a target=_blank href="/data/zq/Jp/b78c6a0f6d3cd7c782111549ac1eae21d51d2742.json">b78c6a0f6d3cd7c782111549ac1eae21d51d2742</a>
+ - <a target=_blank href="/data/zq/Jp/jp.json">jp</a>
+
+## xxx3
+
+## config
+ - <a target=_blank href="/data/zq/Jp/config/config.json">config</a>
+
+## out11
+
+## Default
+
+## blob_storage
+
+## Cache
+
+## shared_proto_db
+
+## Code Cache
+
+## js
+
+## wasm
+
+## Local Storage
 
 ## ksubdomain
  - <a target=_blank href="/data/ksubdomain/nuclei_microsoft.json">nuclei microsoft</a>
@@ -5596,6 +5792,40 @@
 
 ## hydra
  - <a target=_blank href="/md/Mindmap/hydra/hydra.pdf">hydra</a>
+
+## Security-101
+ - <a target=_blank href="/md/Security-101/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>
+ - <a target=_blank href="/md/Security-101/2.1 IAM key concepts.md">2.1 IAM key concepts</a>
+ - <a target=_blank href="/md/Security-101/2.3 IAM capabilities.md">2.3 IAM capabilities</a>
+ - <a target=_blank href="/md/Security-101/3.2 Networking zero trust architecture.md">3.2 Networking zero trust architecture</a>
+ - <a target=_blank href="/md/Security-101/7.3 End of module quiz.md">7.3 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/1.6 Shared responsibility model.md">1.6 Shared responsibility model</a>
+ - <a target=_blank href="/md/Security-101/3.1 Networking key concepts.md">3.1 Networking key concepts</a>
+ - <a target=_blank href="/md/Security-101/2.4 End of module quiz.md">2.4 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/4.2 SecOps zero trust architecture.md">4.2 SecOps zero trust architecture</a>
+ - <a target=_blank href="/md/Security-101/5.1 AppSec key concepts.md">5.1 AppSec key concepts</a>
+ - <a target=_blank href="/md/Security-101/7.2 Data security capabilities.md">7.2 Data security capabilities</a>
+ - <a target=_blank href="/md/Security-101/2.2 IAM zero trust architecture.md">2.2 IAM zero trust architecture</a>
+ - <a target=_blank href="/md/Security-101/1.7 End of module quiz.md">1.7 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/README.md">README</a>
+ - <a target=_blank href="/md/Security-101/SUPPORT.md">SUPPORT</a>
+ - <a target=_blank href="/md/Security-101/6.3 End of module quiz.md">6.3 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/4.4 End of module quiz.md">4.4 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/4.1 SecOps key concepts.md">4.1 SecOps key concepts</a>
+ - <a target=_blank href="/md/Security-101/7.1 Data security key concepts.md">7.1 Data security key concepts</a>
+ - <a target=_blank href="/md/Security-101/1.2 Common cybersecurity threats.md">1.2 Common cybersecurity threats</a>
+ - <a target=_blank href="/md/Security-101/1.3 Understanding risk management.md">1.3 Understanding risk management</a>
+ - <a target=_blank href="/md/Security-101/4.3 SecOps capabilities.md">4.3 SecOps capabilities</a>
+ - <a target=_blank href="/md/Security-101/1.5 Zero trust.md">1.5 Zero trust</a>
+ - <a target=_blank href="/md/Security-101/1.4 Security practices and documentation.md">1.4 Security practices and documentation</a>
+ - <a target=_blank href="/md/Security-101/3.3 Network security capabilities.md">3.3 Network security capabilities</a>
+ - <a target=_blank href="/md/Security-101/3.4 End of module quiz.md">3.4 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/6.2 Infrastructure security capabilities.md">6.2 Infrastructure security capabilities</a>
+ - <a target=_blank href="/md/Security-101/1.1 The CIA triad and other key concepts.md">1.1 The CIA triad and other key concepts</a>
+ - <a target=_blank href="/md/Security-101/SECURITY.md">SECURITY</a>
+ - <a target=_blank href="/md/Security-101/5.3 End of module quiz.md">5.3 End of module quiz</a>
+ - <a target=_blank href="/md/Security-101/5.2 AppSec key capabilities.md">5.2 AppSec key capabilities</a>
+ - <a target=_blank href="/md/Security-101/6.1 Infrastructure security key concepts.md">6.1 Infrastructure security key concepts</a>
 
 ## cheat-sheets
  - <a target=_blank href="/md/cheat-sheets/SUMMARY.md">SUMMARY</a>
