@@ -1,0 +1,11 @@
+# Python artifacts
+*.pyc
+
+# Responder logs
+*.db
+*.txt
+*.log
+
+# Generated certificates and keys
+certs/*.crt
+certs/*.key
