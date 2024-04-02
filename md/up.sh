@@ -70,7 +70,7 @@ doDldZip "Rhynorater" "CVE-2018-15473-Exploit" "master"
 doDldZip "EdOverflow" "can-i-take-over-xyz" "master"
 doDldZip "nidem" "kerberoast" "master"
 doDldZip "KingOfBugbounty" "KingOfBugBountyTips" "master"
-
+doDldZip "gobysec" "GobyVuls" "master"
 
 doDldZip "microsoft" "Security-101" "main"
 doDldZip "FDlucifer" "Proxy-Attackchain" "main"
