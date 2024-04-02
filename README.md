@@ -1549,6 +1549,7 @@
  - <a href="/md/pentest-tools">pentest tools</a>
  - <a href="/md/pentest-tools/.github">.github</a>
  - <a href="/md/Intruder">Intruder</a>
+ - <a href="/md/CVE-2024-21413">CVE 2024 21413</a>
  - <a href="/md/PayloadsAllTheThings">PayloadsAllTheThings</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Request Forgery">Server Side Request Forgery</a>
  - <a href="/md/PayloadsAllTheThings/Server Side Request Forgery/Images">Images</a>
@@ -4868,6 +4869,9 @@
 
 ## pentest-tools
  - <a target=_blank href="/md/pentest-tools/README.md">README</a>
+
+## CVE-2024-21413
+ - <a target=_blank href="/md/CVE-2024-21413/README.md">README</a>
 
 ## PayloadsAllTheThings
  - <a target=_blank href="/md/PayloadsAllTheThings/README.md">README</a>
