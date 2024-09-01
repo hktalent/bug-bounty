@@ -19,7 +19,7 @@ Extra files:
 
 ### Status
 
-The last change was detected on `Monday 09/11/2023 02:30 (UTC)`. New changes (if any) are picked up every 30 minutes.
+The last change was detected on `Sunday 09/01/2024 05:00 (UTC)`. New changes (if any) are picked up every 30 minutes.
 
 ### Code
 
@@ -27,4 +27,4 @@ The code used to generate these files lives in the [bounty-targets](https://gith
 
 ### Getting in touch
 
-Feel free to contact me on twitter: https://twitter.com/arkadiyt
+Feel free to contact me on Signal: @arkadiyt.01

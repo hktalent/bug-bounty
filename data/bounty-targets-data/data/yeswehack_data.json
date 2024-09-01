@@ -194,6 +194,14 @@
           "type": "other"
         },
         {
+          "target": "explore.alasco.com",
+          "type": "other"
+        },
+        {
+          "target": "explore.alasco.de",
+          "type": "other"
+        },
+        {
           "target": "www.alasco.de",
           "type": "other"
         },
@@ -217,6 +225,120 @@
     }
   },
   {
+    "id": "log4j-bug-bounty-program",
+    "name": "Apache Log4j - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Log4j 2.x",
+          "type": "other"
+        },
+        {
+          "target": "Log4j API for Kotlin",
+          "type": "other"
+        },
+        {
+          "target": "Log4j API for Scala",
+          "type": "other"
+        },
+        {
+          "target": "Log4cxx",
+          "type": "other"
+        },
+        {
+          "target": "Log4net",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "https://logging.apache.org",
+          "type": "other"
+        },
+        {
+          "target": "Anything related to mailing lists or other ASF infrastructure topics.",
+          "type": "other"
+        },
+        {
+          "target": "Cassandra Appender",
+          "type": "other"
+        },
+        {
+          "target": "Kafka Appender",
+          "type": "other"
+        },
+        {
+          "target": "CouchDB components",
+          "type": "other"
+        },
+        {
+          "target": "JSP Tag library",
+          "type": "other"
+        },
+        {
+          "target": "Everything which is excluded on this page is also out-of-scope: https://logging.apache.org/security.html",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "agora",
+    "name": "BETA.GOUV.FR - AGORA GOUV - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://app.sandbox.agora.incubateur.net",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
+          "type": "api"
+        },
+        {
+          "target": "https://content.agora.beta.gouv.fr",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All assets not listed as in scope must be considered as out of the scope of this program",
+          "type": "other"
+        },
+        {
+          "target": "Production environments are out of the scope of this program",
+          "type": "other"
+        },
+        {
+          "target": "agora.beta.gouv.fr",
+          "type": "other"
+        },
+        {
+          "target": "Web application's Github repository (https://github.com/agora-gouv/agora-webapp), you may refer to the mobile app's repository",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "bookbeat",
     "name": "BookBeat",
     "public": true,
@@ -228,10 +350,6 @@
       "in_scope": [
         {
           "target": "https://www.bookbeat.com",
-          "type": "web-application"
-        },
-        {
-          "target": "https://www.bookbeat.[se|fi|dk|co.uk|de|pl|dk|ch|at|no|nl|be|es|it|fr]",
           "type": "web-application"
         }
       ],
@@ -309,6 +427,65 @@
         },
         {
           "target": "However, though listed in the out-of-scope list, if you really feel that a bug will leave an impact on our platform, please come up with a convincing and working POC. If that convinces us to change our code, we will reward you with a bounty.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "coindcx-bug-bounty-program",
+    "name": "Coindcx - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.coindcx.com",
+          "type": "web-application"
+        },
+        {
+          "target": "api.coindcx.com",
+          "type": "api"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Zendesk and other third parties",
+          "type": "other"
+        },
+        {
+          "target": "CMS websites own by Coindcx (Anything related to Wordpress etc)",
+          "type": "other"
+        },
+        {
+          "target": "coindcx.com/blog",
+          "type": "other"
+        },
+        {
+          "target": "info.coindcx.com",
+          "type": "other"
+        },
+        {
+          "target": "otcdesk.coindcx.com",
+          "type": "other"
+        },
+        {
+          "target": "careers.coindcx.com",
           "type": "other"
         }
       ]
@@ -425,6 +602,14 @@
         {
           "target": "explore.contentsquare.com",
           "type": "other"
+        },
+        {
+          "target": "get.contentsquare.com",
+          "type": "other"
+        },
+        {
+          "target": "trust.contentsquare.com",
+          "type": "other"
         }
       ]
     }
@@ -444,17 +629,17 @@
           "type": "web-application"
         },
         {
-          "target": "https://bounty.cryptobox.com",
+          "target": "https://apps.apple.com/fr/app/cryptobox/id972602802",
           "type": "mobile-application-android"
         },
         {
-          "target": "https://bounty.cryptobox.com",
+          "target": "https://apps.apple.com/fr/app/cryptobox/id972602802",
           "type": "mobile-application-ios"
         }
       ],
       "out_of_scope": [
         {
-          "target": "Testing any other system than https://bounty.cryptobox.com, in particular *.cryptobox.com or *.ercom.com.",
+          "target": "Testing any other system than https://bounty.cryptobox.com, in particular *.cryptobox.com or *.ercom.fr.",
           "type": "other"
         }
       ]
@@ -471,7 +656,7 @@
     "targets": {
       "in_scope": [
         {
-          "target": "https://pprd2020.cybermalveillance.gouv.fr",
+          "target": "https://pprd.cybermalveillance.gouv.fr",
           "type": "web-application"
         }
       ],
@@ -484,6 +669,30 @@
           "target": "Anything that is not explicitely listed in scope section",
           "type": "other"
         }
+      ]
+    }
+  },
+  {
+    "id": "cyclonedx-rust-cargo-bounty-program",
+    "name": "CycloneDX Rust Cargo Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 250,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "cyclonedx-bom",
+          "type": "application"
+        },
+        {
+          "target": "cargo-cyclonedx",
+          "type": "application"
+        }
+      ],
+      "out_of_scope": [
+
       ]
     }
   },
@@ -559,6 +768,286 @@
     }
   },
   {
+    "id": "demarches-simplifiees-public",
+    "name": "DINUM - Démarches Simplifiées - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.demarches-simplifiees.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.demarches-simplifiees.fr/graphql",
+          "type": "api"
+        },
+        {
+          "target": "https://www.demarches-simplifiees.fr/api/v2/graphql",
+          "type": "api"
+        },
+        {
+          "target": "https://static.demarches-simplifiees.fr",
+          "type": "api"
+        },
+        {
+          "target": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of \"Scopes\" are considered out of scope",
+          "type": "other"
+        },
+        {
+          "target": "https://doc.demarches-simplifiees.fr",
+          "type": "other"
+        },
+        {
+          "target": "https://beta.gouv.fr/startups/demarches-simplifiees.fr",
+          "type": "other"
+        },
+        {
+          "target": "'démarches' other than the two provided for the prupose of your tests",
+          "type": "other"
+        },
+        {
+          "target": "AgentConnect/FranceConnect authentication feature",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "franceconnect-agentconnect-public",
+    "name": "DINUM - FranceConnect / FranceConnect+ / AgentConnect - Public Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 20000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Specific scenarios (see program description)",
+          "type": "other"
+        },
+        {
+          "target": "AgentConnect (see program description for github link)",
+          "type": "web-application"
+        },
+        {
+          "target": "FranceConnect+ (see program description for github link)",
+          "type": "web-application"
+        },
+        {
+          "target": "FranceConnect (see program description for github link)",
+          "type": "web-application"
+        },
+        {
+          "target": "eIDAS Bridge  (see program description for github link)",
+          "type": "web-application"
+        },
+        {
+          "target": "User Dashboard  (see program description for github link)",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All partners and all mocks are out of scope (but you can use the deployed mocks at your discretion to attack the scope).",
+          "type": "other"
+        },
+        {
+          "target": "The local stack (*.docker.dev-franceconnect) is a powerful tool for you to understand the internals processes but is out of scope (the exploit should as well work in the scope to qualify).",
+          "type": "other"
+        },
+        {
+          "target": "The  production environment (*.gouv.fr) is out of scope.",
+          "type": "other"
+        },
+        {
+          "target": "https://fcp.integ01.dev-franceconnect.fr",
+          "type": "other"
+        },
+        {
+          "target": "https://tableaudebord.integ01.dev-franceconnect.fr",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tchap-public",
+    "name": "DINUM - Tchap - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.tchap.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://matrix.agent.tchap.gouv.fr",
+          "type": "api"
+        },
+        {
+          "target": "https://matrix.agent.*.tchap.gouv.fr",
+          "type": "api"
+        },
+        {
+          "target": "https://github.com/tchapgouv",
+          "type": "other"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/tchap/id1446253779",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://www.beta.tchap.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://matrix.i.tchap.gouv.fr",
+          "type": "api"
+        },
+        {
+          "target": "https://matrix.e.tchap.gouv.fr",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Everything that not listed as in scope is to be considered as out of scope of this program",
+          "type": "other"
+        },
+        {
+          "target": "Please note that Tchap is hosted by a third party and thus vulnerabilities related to the host are out of the scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dracoon-bug-bounty-program",
+    "name": "DRACOON – Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 1,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://bounty-cloud.dracoon.app/api",
+          "type": "api"
+        },
+        {
+          "target": "https://bounty-cloud.dracoon.app/oauth",
+          "type": "other"
+        },
+        {
+          "target": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+          "type": "other"
+        },
+        {
+          "target": "https://bounty-cloud.dracoon.app/mediaserver",
+          "type": "other"
+        },
+        {
+          "target": "https://bounty-cloud.dracoon.app/reporting/api",
+          "type": "api"
+        },
+        {
+          "target": "https://bounty-cloud.dracoon.app/webdav",
+          "type": "other"
+        },
+        {
+          "target": "https://bounty-cloud.dracoon.app/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://bounty-server.dracoon.app/api",
+          "type": "api"
+        },
+        {
+          "target": "https://bounty-server.dracoon.app/oauth",
+          "type": "other"
+        },
+        {
+          "target": "https://bounty-server.dracoon.app/reporting/api",
+          "type": "api"
+        },
+        {
+          "target": "https://bounty-server.dracoon.app/webdav",
+          "type": "other"
+        },
+        {
+          "target": "https://bounty-server.dracoon.app/",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Any other host, tenant or service than the ones explicitly stated.",
+          "type": "other"
+        },
+        {
+          "target": "www.dracoon.com",
+          "type": "other"
+        },
+        {
+          "target": "*.dracoon.com",
+          "type": "other"
+        },
+        {
+          "target": "*.dracoon.net",
+          "type": "other"
+        },
+        {
+          "target": "*.dracoon.team",
+          "type": "other"
+        },
+        {
+          "target": "*.dracoon.app (with the exceptions of bounty-cloud.dracoon.app and bounty-server.dracoon.app)",
+          "type": "other"
+        },
+        {
+          "target": "*.dracoon.io (with the exception of https://0-2744452194.s3.nbg01.de.dracoon.io)",
+          "type": "other"
+        },
+        {
+          "target": "*.fp-sign.com",
+          "type": "other"
+        },
+        {
+          "target": "*.usersnap.com",
+          "type": "other"
+        },
+        {
+          "target": "*.gdata.com",
+          "type": "other"
+        },
+        {
+          "target": "*.retarus.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "dailymotion-public-bug-bounty",
     "name": "Dailymotion public bug bounty",
     "public": true,
@@ -607,11 +1096,58 @@
         {
           "target": "*.dm.gg",
           "type": "web-application"
+        },
+        {
+          "target": "Google Cloud Plateform Instances",
+          "type": "other"
         }
       ],
       "out_of_scope": [
         {
           "target": "Anything not specifically listed as in-scope is out-of-scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "datadome-bot-bounty",
+    "name": "DataDome Bot Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 200,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://bounty-nodejs.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://bounty-fastly.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "https://bounty-nginx.datashield.co",
+          "type": "web-application"
+        },
+        {
+          "target": "*.captcha-delivery.com",
+          "type": "web-application"
+        },
+        {
+          "target": "js.datadome.co",
+          "type": "web-application"
+        },
+        {
+          "target": "api-js.datadome.co",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Distributed attacks (scraping must be done using only 1 IP at a time).",
           "type": "other"
         }
       ]
@@ -658,14 +1194,6 @@
         {
           "target": "https://bot-tester.datadome.co/",
           "type": "web-application"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=co.datadome.app",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/fr/app/datadome/id1492490972",
-          "type": "mobile-application-ios"
         }
       ],
       "out_of_scope": [
@@ -712,6 +1240,26 @@
         },
         {
           "target": "iOS Deezer App",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "zen.deezer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "wellbeing.deezer.com",
+          "type": "api"
+        },
+        {
+          "target": "wellbeing.dzcdn.net",
+          "type": "other"
+        },
+        {
+          "target": "Android Zen App",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "iOS Zen App",
           "type": "mobile-application-ios"
         }
       ],
@@ -770,7 +1318,7 @@
     "disabled": false,
     "managed": null,
     "min_bounty": 0,
-    "max_bounty": 25000,
+    "max_bounty": 50000,
     "targets": {
       "in_scope": [
         {
@@ -778,7 +1326,7 @@
           "type": "web-application"
         },
         {
-          "target": "pro.doctolib.(fr|de|it) (see \"about freemium scope\")",
+          "target": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
           "type": "web-application"
         },
         {
@@ -796,11 +1344,27 @@
         {
           "target": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
           "type": "mobile-application-android"
+        },
+        {
+          "target": "*.siilo.com",
+          "type": "application"
+        },
+        {
+          "target": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+          "type": "mobile-application-android"
         }
       ],
       "out_of_scope": [
         {
-          "target": "community.doctolib.com",
+          "target": "Note: should you discover a critical issue within an asset that falls outside the program's scope, we would appreciate it and may choose to offer a reward at our discretion.",
+          "type": "other"
+        },
+        {
+          "target": "community.doctolib.com|.fr|.de|.it",
           "type": "other"
         },
         {
@@ -858,122 +1422,12 @@
     }
   },
   {
-    "id": "egerie-bug-bounty",
-    "name": "EGERIE BUG BOUNTY",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 2000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://saas.egerie.eu/*",
-          "type": "web-application"
-        },
-        {
-          "target": "https://saas.egerie.eu/v4/EgerieRM/api/*",
-          "type": "api"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "Anything that's not listed as part of the scope.",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "echobox-bug-bounty-program",
-    "name": "Echobox Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 100,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://login.echobox.dev/",
-          "type": "web-application"
-        },
-        {
-          "target": "http://stage.sl.echobox.dev/",
-          "type": "web-application"
-        },
-        {
-          "target": "http://stage.nl.echobox.dev/",
-          "type": "web-application"
-        },
-        {
-          "target": "https://socialapi-stage.service.echobox.com/v3/serviceauth",
-          "type": "api"
-        },
-        {
-          "target": "https://campaignapi-stage.service.echobox.com/v3/serviceauth",
-          "type": "api"
-        },
-        {
-          "target": "https://github.com/ebx/ebx-clientauth-backend-sdk",
-          "type": "other"
-        },
-        {
-          "target": "https://github.com/ebx/ebx-serviceauth-sdk",
-          "type": "other"
-        },
-        {
-          "target": "https://coreapi-stage.service.echobox.com (aka https://properties.service.echobox.com)",
-          "type": "api"
-        },
-        {
-          "target": "https://socialapi-stage.service.echobox.com",
-          "type": "api"
-        },
-        {
-          "target": "https://campaignapi-stage.service.echobox.com",
-          "type": "api"
-        },
-        {
-          "target": "https://stage.emailreporting.service.echobox.com/",
-          "type": "api"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "auth.echobox.com (as this is just a cname of AWS Cognito)",
-          "type": "other"
-        },
-        {
-          "target": "cognito-idp.*.amazonaws.com",
-          "type": "other"
-        },
-        {
-          "target": "www.echobox.com",
-          "type": "other"
-        },
-        {
-          "target": "Any APIs that do not include ‘stage’ in the hostname.",
-          "type": "other"
-        },
-        {
-          "target": "Anything else that is not explicitly listed in the scope section.",
-          "type": "other"
-        },
-        {
-          "target": "Reusing JWT sessions during their expected validity period.",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
     "id": "ezviz-bug-bounty-program",
     "name": "Ezviz - Bug Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
-    "min_bounty": 30,
+    "min_bounty": 10,
     "max_bounty": 3000,
     "targets": {
       "in_scope": [
@@ -984,137 +1438,224 @@
         {
           "target": "Hardware found on https://www.ezviz.com/category/smart-home",
           "type": "other"
+        },
+        {
+          "target": "i.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "open.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "auth.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "api.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": "api.ezvizlife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "usauth.ezvizlife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "ius.ezvizlife.com",
+          "type": "web-application"
+        },
+        {
+          "target": "*.ys7.com",
+          "type": "web-application"
+        },
+        {
+          "target": ".eziot.com",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
         {
-          "target": "https://www.ezviz.com web application",
+          "target": "scc-chat.ys7.com",
+          "type": "other"
+        },
+        {
+          "target": "Test environment (for example: test.ys7.com)",
+          "type": "other"
+        },
+        {
+          "target": "Pre-release environment (for example: pb.ys7.com)",
           "type": "other"
         }
       ]
     }
   },
   {
-    "id": "franceconnect-agentconnect-public",
-    "name": "FranceConnect+ / AgentConnect",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 0,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://auth.integ01.dev-franceconnect.fr",
-          "type": "web-application"
-        },
-        {
-          "target": "https://fca.integ01.dev-agentconnect.fr",
-          "type": "web-application"
-        },
-        {
-          "target": "https://eidas-bridge.integ01.dev-franceconnect.fr",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "All partners and all mocks are out of scope (but you can use the deployed mocks at your discretion to attack the scope).",
-          "type": "other"
-        },
-        {
-          "target": "The local stack (*.docker.dev-franceconnect) is a powerful tool for you to understand the internals processes but is out of scope (the exploit should as well work in the scope to qualify).",
-          "type": "other"
-        },
-        {
-          "target": "The  production environment (*.gouv.fr) is out of scope.",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "harman-international-public-bug-bounty",
-    "name": "Harman International Lifestyle JBL",
+    "id": "france-identite-numerique-public-bug-bounty-program",
+    "name": "France Identité Numérique - Public Bug Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
     "min_bounty": 100,
-    "max_bounty": 4000,
+    "max_bounty": 25000,
     "targets": {
       "in_scope": [
         {
-          "target": "Device: JBL Bar 300",
-          "type": "other"
+          "target": "France Identité mobile application for Android (see link in program description)",
+          "type": "mobile-application-android"
         },
         {
-          "target": "Device: JBL Bar 500",
-          "type": "other"
-        },
-        {
-          "target": "Device: JBL Bar 700",
-          "type": "other"
-        },
-        {
-          "target": "Device: JBL Bar 800",
-          "type": "other"
-        },
-        {
-          "target": "Device: JBL Bar 1000",
-          "type": "other"
-        },
-        {
-          "target": "Device: JBL Bar 1300",
-          "type": "other"
-        },
-        {
-          "target": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
-          "type": "other"
-        },
-        {
-          "target": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
-          "type": "other"
-        },
-        {
-          "target": "lsaconsumerevents2.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "lsaconsumerevents3.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "lsaconsumerevents1.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "events.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "ota-staging.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "ota.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "apis.onecloud.harman.com",
-          "type": "api"
-        },
-        {
-          "target": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+          "target": "France Identité mobile application for iOS (see link in program description)",
           "type": "mobile-application-ios"
         },
         {
-          "target": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
-          "type": "mobile-application-android"
+          "target": "https://mobile.france-identite.gouv.fr",
+          "type": "api"
+        },
+        {
+          "target": "Specific scenarios",
+          "type": "other"
         }
       ],
       "out_of_scope": [
         {
-          "target": "Anything not explicitly listed in the Scope section is Out-Of-Scope. For example, our e-commerce websites are out of scope in this program.",
+          "target": "Any asset not specified in the scope section",
+          "type": "other"
+        },
+        {
+          "target": "https://france-identite.gouv.fr",
+          "type": "other"
+        },
+        {
+          "target": "https://idp.france-identite.gouv.fr",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gnome-bug-bounty-program",
+    "name": "GNOME Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 500,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "GLib",
+          "type": "other"
+        },
+        {
+          "target": "glib-networking",
+          "type": "other"
+        },
+        {
+          "target": "libsoup",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Only the list of modules in the description is in scope. We may add more modules in the future such as",
+          "type": "other"
+        },
+        {
+          "target": "json-glib",
+          "type": "other"
+        },
+        {
+          "target": "libxml2",
+          "type": "other"
+        },
+        {
+          "target": "libxslt",
+          "type": "other"
+        },
+        {
+          "target": "gdk-pixbuf",
+          "type": "other"
+        },
+        {
+          "target": "librsvg",
+          "type": "other"
+        },
+        {
+          "target": "vte",
+          "type": "other"
+        },
+        {
+          "target": "gtk",
+          "type": "other"
+        },
+        {
+          "target": "flatpak",
+          "type": "other"
+        },
+        {
+          "target": "xdg-desktop-portal",
+          "type": "other"
+        },
+        {
+          "target": "xdg-desktop-portal-gnome",
+          "type": "other"
+        },
+        {
+          "target": "GNOME Shell (particularly lock screen)",
+          "type": "other"
+        },
+        {
+          "target": "gdm",
+          "type": "other"
+        },
+        {
+          "target": "tracker-miners",
+          "type": "other"
+        },
+        {
+          "target": "libsecret",
+          "type": "other"
+        },
+        {
+          "target": "oo7",
+          "type": "other"
+        },
+        {
+          "target": "libsecret",
+          "type": "other"
+        },
+        {
+          "target": "json-glib",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "govtech-vulnerability-disclosure-programme-policy",
+    "name": "GovTech - Vulnerability Disclosure Programme",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": null,
+    "max_bounty": null,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.gov.sg",
+          "type": "other"
+        },
+        {
+          "target": "Domains where GovTech is the registrar",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
           "type": "other"
         }
       ]
@@ -1127,7 +1668,7 @@
     "disabled": false,
     "managed": null,
     "min_bounty": 100,
-    "max_bounty": 3500,
+    "max_bounty": 5000,
     "targets": {
       "in_scope": [
         {
@@ -1183,6 +1724,10 @@
           "type": "web-application"
         },
         {
+          "target": "player-radio.infomaniak.com",
+          "type": "web-application"
+        },
+        {
           "target": "welcome.infomaniak.com",
           "type": "web-application"
         },
@@ -1195,7 +1740,27 @@
           "type": "web-application"
         },
         {
-          "target": "*.infomaniak.site",
+          "target": "chk.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "ai-tools.infomaniak.com",
+          "type": "mobile-application"
+        },
+        {
+          "target": "ix2smbdyjt.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "5k8vrbdyje.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "fv3lfbdyjh.infomaniak.site",
+          "type": "web-application"
+        },
+        {
+          "target": "l75pvbdyjo.infomaniak.site",
           "type": "web-application"
         },
         {
@@ -1209,6 +1774,30 @@
         {
           "target": "developer.infomaniak.com",
           "type": "web-application"
+        },
+        {
+          "target": "invitation.infomaniak.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://github.com/Infomaniak/desktop-kDrive",
+          "type": "application"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+          "type": "mobile-application-android"
         }
       ],
       "out_of_scope": [
@@ -1307,135 +1896,8 @@
     }
   },
   {
-    "id": "lazada",
-    "name": "Lazada",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 0,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.redmart.com (+++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.redmart.com (++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.redmart.com (+)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lel.asia (+++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lel.asia (++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lel.asia (+)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lex.(co.id|com.my|in.th|ph|vn) (+++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lex.(co.id|com.my|in.th|ph|vn) (++)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lex.(co.id|com.my|in.th|ph|vn) (+)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazada-seller.cn",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazada-seller.cn",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazada-seller.cn",
-          "type": "web-application"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.lazada.android&hl=en_SG",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.sc.lazada&hl=en_SG",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/us/app/lazada-best-shopping-online/id785385147",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "https://apps.apple.com/sg/app/lazada-seller-center/id1315605408",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-          "type": "web-application"
-        },
-        {
-          "target": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "sellersupport.redmart.com",
-          "type": "other"
-        },
-        {
-          "target": "*-lel-(vn|id|in|th|ph|my|sg)-stg.lazada.(vn|id|in|th|ph|my|sg)",
-          "type": "other"
-        },
-        {
-          "target": "*.pickmee.(vn|id|in.th|ph|my|sg)",
-          "type": "other"
-        },
-        {
-          "target": "fms.lazada.com",
-          "type": "other"
-        },
-        {
-          "target": "sellercenter.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) User Management Access Control issues",
-          "type": "other"
-        },
-        {
-          "target": "In-scope subdomains that are running 3rd party services (i.e. SaaS). When in doubt, please raise a report to confirm the application is in scope",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
     "id": "legapass-bug-bounty-program",
-    "name": "Legapass Bug Bounty Program",
+    "name": "Legapass",
     "public": true,
     "disabled": false,
     "managed": null,
@@ -1496,7 +1958,81 @@
         }
       ],
       "out_of_scope": [
-
+        {
+          "target": "https://matrixreq.com",
+          "type": "other"
+        },
+        {
+          "target": "https://demo.matrixreq.com",
+          "type": "other"
+        },
+        {
+          "target": "Any domain not explicitely listed in scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "maya-public-bug-bounty-program",
+    "name": "Maya - Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.paymaya",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://appgallery.huawei.com/app/C101186357",
+          "type": "mobile-application"
+        },
+        {
+          "target": "https://api.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://pg.paymaya.com",
+          "type": "api"
+        },
+        {
+          "target": "https://payoutapi.maya.ph/",
+          "type": "api"
+        },
+        {
+          "target": "https://op.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://connect.paymaya.com/",
+          "type": "api"
+        },
+        {
+          "target": "https://paymayabiller-prod.paymaya.com/",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "Other subdomain of paymaya.com that has no direct integration/part of the mobile application",
+          "type": "other"
+        },
+        {
+          "target": "Non-Production environments (test, dev, staging, or sandbox)",
+          "type": "other"
+        }
       ]
     }
   },
@@ -1698,80 +2234,9 @@
         {
           "target": "Content served by the Cloudflare Access service (https://moneyboxapp.cloudflareaccess.com/*) is out of scope. These pages intentionally do not set a CORS Allow-Origin policy. We have seen this reported several times as a vulnerability, but it is intended behaviour and is considered out of scope.",
           "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "muslim-pro",
-    "name": "Muslim Pro",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 2000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "*.muslimpro.com",
-          "type": "web-application"
         },
         {
-          "target": "muslim-pro-app.firebaseapp.com",
-          "type": "web-application"
-        },
-        {
-          "target": "muslim-pro-app.firebaseio.com",
-          "type": "api"
-        },
-        {
-          "target": "muslim-pro-app.appspot.com",
-          "type": "api"
-        },
-        {
-          "target": "muslimproapi.appspot.com",
-          "type": "api"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro&hl=en",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/us/app/muslim-pro-azan-quran-qibla/id388389451",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "api.muslimpro.com",
-          "type": "api"
-        },
-        {
-          "target": "muslim-pro-app.web.app",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "support.muslimpro.com",
-          "type": "other"
-        },
-        {
-          "target": "translate.muslimpro.com",
-          "type": "other"
-        },
-        {
-          "target": "media.muslimpro.com",
-          "type": "other"
-        },
-        {
-          "target": "go.muslimpro.com",
-          "type": "other"
-        },
-        {
-          "target": "app.muslimpro.com/qalbox",
-          "type": "other"
-        },
-        {
-          "target": "qalbox (iOS, Android)",
+          "target": "Security concerns originating from https://moneyboxapp.onelogin.com/ are typically considered out of scope. These pages and their content are served by OneLogin, and any issues should be reported to them directly. However, if an exploit explicitly enables bypassing OneLogin to access Moneybox systems or leaking Moneybox sensitive data, it is crucial to raise the concerns to both OneLogin and Moneybox.",
           "type": "other"
         }
       ]
@@ -1811,57 +2276,6 @@
         },
         {
           "target": "*.osp.ovh.com",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "ovo-bug-bounty-program",
-    "name": "OVO Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 5000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://play.google.com/store/apps/details?id=ovo.id",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/ID/app/id1142114207",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "*.ovo.id",
-          "type": "web-application"
-        },
-        {
-          "target": "*.taralite.com",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "Staging/Development/UAT environments are considered out-of-scope, such as:",
-          "type": "other"
-        },
-        {
-          "target": "- *.byte-stack.net",
-          "type": "other"
-        },
-        {
-          "target": "- *.dududev",
-          "type": "other"
-        },
-        {
-          "target": "- *.uat-ovo.net",
-          "type": "other"
-        },
-        {
-          "target": "and other assets that might not be explicitly listed.",
           "type": "other"
         }
       ]
@@ -1911,106 +2325,39 @@
     }
   },
   {
-    "id": "october-marketplace",
-    "name": "October Marketplace",
+    "id": "okto-bug-bounty-program",
+    "name": "Okto - Bug Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
-    "min_bounty": 50,
+    "min_bounty": 0,
     "max_bounty": 2000,
     "targets": {
       "in_scope": [
         {
-          "target": "api.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "app.october.eu",
-          "type": "web-application"
-        },
-        {
-          "target": "engine.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "xray.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "staging-api.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "staging-app.october.eu",
-          "type": "web-application"
-        },
-        {
-          "target": "staging-engine.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "staging-xray.october.eu",
-          "type": "api"
-        },
-        {
-          "target": "October - https://apps.apple.com/fr/app/october/id1167975760",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "October - https://play.google.com/store/apps/details?id=mobile.lendix.com&hl=en&gl=US",
-          "type": "mobile-application-ios"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "The front website in all locales on https://october.eu, https://it.october.eu, https://es.october.eu, https://nl.october.eu, https://de.october.eu",
-          "type": "other"
-        },
-        {
-          "target": "Vulnerability in a third-party vendor we use",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "olvid-the-most-secure-messaging-app-in-the-world",
-    "name": "Olvid - Open source end-to-end encrypted messaging",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 2000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://play.google.com/store/apps/details?id=io.olvid.messenger",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/us/app/olvid/id1414865219",
+          "target": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
           "type": "mobile-application-ios"
         },
         {
-          "target": "https://server.olvid.io",
+          "target": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "*.okto.tech",
           "type": "api"
         }
       ],
       "out_of_scope": [
         {
-          "target": "Attacks requiring root access on the device",
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
           "type": "other"
         },
         {
-          "target": "Any attack consisting in spying on the Olvid app through another app on the device (devices are considered healthy/malware free)",
+          "target": "CMS websites own by Okto (Anything related to Wordpress etc)",
           "type": "other"
         },
         {
-          "target": "Social Engineering attacks to impersonate someone",
-          "type": "other"
-        },
-        {
-          "target": "Attacks on assets not related to the application itself (like on our web page at https://olvid.io)",
+          "target": "All other third parties",
           "type": "other"
         }
       ]
@@ -2052,13 +2399,52 @@
     }
   },
   {
+    "id": "openpgp-js-bug-bounty-program",
+    "name": "OpenPGP.js Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 250,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Security Vulnerability in OpenPGP.js's high-level API",
+          "type": "other"
+        },
+        {
+          "target": "Security Vulnerability in the OpenPGP Standard",
+          "type": "other"
+        },
+        {
+          "target": "Interoperability Issue in OpenPGP.js",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Security Vulnerabilities that can only be caused by using OpenPGP.js's low-level API, or by using OpenPGP.js's high-level API in an incorrect or unintended way",
+          "type": "other"
+        },
+        {
+          "target": "Security Vulnerabilities in the OpenPGP Standard that are not possible to fix or work around in OpenPGP.js (without causing interoperability issues)",
+          "type": "other"
+        },
+        {
+          "target": "Interoperability Issues that are caused by other OpenPGP implementations' non-compliance with the OpenPGP Standard",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "pine-labs-bug-bounty-program",
     "name": "Pine Labs Bug Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 2000,
+    "min_bounty": 0,
+    "max_bounty": 1000,
     "targets": {
       "in_scope": [
         {
@@ -2102,10 +2488,6 @@
           "type": "web-application"
         },
         {
-          "target": "trm.pinelabs.com",
-          "type": "web-application"
-        },
-        {
           "target": "https://trm.pinelabs.ae",
           "type": "web-application"
         },
@@ -2122,24 +2504,12 @@
           "type": "web-application"
         },
         {
-          "target": "https://developer.pluralonline.com",
-          "type": "web-application"
-        },
-        {
-          "target": "https://api-staging.pluralonline.com",
-          "type": "api"
-        },
-        {
           "target": "https://apps.apple.com/in/app/pineperks/id908644471",
           "type": "mobile-application-ios"
         },
         {
           "target": "https://play.google.com/store/apps/details?id=com.pinegift",
           "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/in/app/myplutus/id1042552445",
-          "type": "mobile-application-ios"
         },
         {
           "target": "https://play.google.com/store/apps/details?id=com.pinelabs.fave",
@@ -2152,6 +2522,34 @@
         {
           "target": "https://play.google.com/store/apps/details?id=com.pinelabs.favebiz",
           "type": "mobile-application-android"
+        },
+        {
+          "target": "https://credit.pinelabs.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.pinelabs.pinelabsone",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/in/app/pine-labs-one/id6444654068",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://one.pinelabs.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://plmcixt.pinelabs.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://emistores.pinelabs.com/",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -2228,10 +2626,6 @@
           "type": "web-application"
         },
         {
-          "target": "https://preprod.explosifs.sq.gouv.qc.ca",
-          "type": "web-application"
-        },
-        {
           "target": "https://profile.pentest.clicsante.ca",
           "type": "web-application"
         },
@@ -2260,10 +2654,6 @@
           "type": "api"
         },
         {
-          "target": "https://preprod-habilitation.sq.gouv.qc.ca",
-          "type": "web-application"
-        },
-        {
           "target": "https://www.cyber.gouv.qc.ca",
           "type": "web-application"
         },
@@ -2277,6 +2667,18 @@
         },
         {
           "target": "https://test.m4sv.bugbounty.akinox.dev",
+          "type": "web-application"
+        },
+        {
+          "target": "https://pbgq.upac.gouv.qc.ca/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://pbgq-pes.upac.gouv.qc.ca/denonciation/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
           "type": "web-application"
         }
       ],
@@ -2392,6 +2794,113 @@
     }
   },
   {
+    "id": "sequoia-pgp-bug-bounty-program",
+    "name": "Sequoia PGP Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 500,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "buffered-reader",
+          "type": "other"
+        },
+        {
+          "target": "nettle-sys",
+          "type": "other"
+        },
+        {
+          "target": "nettle-rs",
+          "type": "other"
+        },
+        {
+          "target": "SHA1-CD",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-openpgp",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-autocrypt",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-ipc",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-net",
+          "type": "other"
+        },
+        {
+          "target": "Shared OpenPGP Certificate Directory",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-cert-store",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-wot",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-policy-config",
+          "type": "other"
+        },
+        {
+          "target": "rpm-sequoia",
+          "type": "other"
+        },
+        {
+          "target": "sqv",
+          "type": "other"
+        },
+        {
+          "target": "sq",
+          "type": "other"
+        },
+        {
+          "target": "sqop",
+          "type": "other"
+        },
+        {
+          "target": "octopus",
+          "type": "other"
+        },
+        {
+          "target": "sequoia-git",
+          "type": "other"
+        },
+        {
+          "target": "OpenPGP Cert Directory Specification",
+          "type": "other"
+        },
+        {
+          "target": "Web of Trust Specification",
+          "type": "other"
+        },
+        {
+          "target": "Sequoia git Specification",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "chameleon: https://gitlab.com/sequoia-pgp/sequoia-chameleon-gnupg",
+          "type": "other"
+        },
+        {
+          "target": "Anything related to https://sequoia-pgp.org",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "sogexia",
     "name": "Sogexia",
     "public": true,
@@ -2445,15 +2954,31 @@
     "disabled": false,
     "managed": null,
     "min_bounty": 50,
-    "max_bounty": 3000,
+    "max_bounty": 3600,
     "targets": {
       "in_scope": [
         {
           "target": "https://*.app.spacelift.dev",
           "type": "web-application"
+        },
+        {
+          "target": "Native K8S workers and operator",
+          "type": "application"
+        },
+        {
+          "target": "OIDC-based API keys",
+          "type": "application"
+        },
+        {
+          "target": "MFA",
+          "type": "application"
         }
       ],
       "out_of_scope": [
+        {
+          "target": "Session keeps using old user group permissions if user group permissions are changed during a given session's lifespan",
+          "type": "other"
+        },
         {
           "target": "Contact form (especially HubSpot ones)",
           "type": "other"
@@ -2476,97 +3001,6 @@
         },
         {
           "target": "Third-party companies that perform business transactions for Spacelift",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "spin-by-oxxo-mobile",
-    "name": "Spin by OXXO Mobile",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 3000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://prod.api.oxxofintech.com.mx/",
-          "type": "api"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.pagopopmobile&hl=fr&gl=US",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/mx/app/spin-by-oxxo/id1511764877?l=en",
-          "type": "mobile-application-ios"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "https://www.oxxo.com/*",
-          "type": "other"
-        },
-        {
-          "target": "*.oxxo.com",
-          "type": "other"
-        },
-        {
-          "target": "https://www.femsa.com/*",
-          "type": "other"
-        },
-        {
-          "target": "*.femsa.com/",
-          "type": "other"
-        },
-        {
-          "target": "https://oxxogas.com/*",
-          "type": "other"
-        },
-        {
-          "target": "*.oxxogas.com/",
-          "type": "other"
-        },
-        {
-          "target": "https://donatota.com/",
-          "type": "other"
-        },
-        {
-          "target": "*.donatota.com/*",
-          "type": "other"
-        },
-        {
-          "target": "https://www.coca-cola.com.mx/*",
-          "type": "other"
-        },
-        {
-          "target": "*.coca-cola.com.mx/",
-          "type": "other"
-        },
-        {
-          "target": "https://oxxopremia.oxxo.com/",
-          "type": "other"
-        },
-        {
-          "target": "*.oxxopremia.oxxo.com/",
-          "type": "other"
-        },
-        {
-          "target": "https://coca-colafemsa.com/",
-          "type": "other"
-        },
-        {
-          "target": "*.coca-colafemsa.com/",
-          "type": "other"
-        },
-        {
-          "target": "*.yza.mx",
-          "type": "other"
-        },
-        {
-          "target": "https://www.yza.mx",
           "type": "other"
         }
       ]
@@ -2679,10 +3113,6 @@
         {
           "target": "www.swapcard.com (static corporate website)",
           "type": "other"
-        },
-        {
-          "target": "Registration and ticketing feature scope",
-          "type": "other"
         }
       ]
     }
@@ -2786,47 +3216,55 @@
     }
   },
   {
-    "id": "tchap",
-    "name": "Tchap",
+    "id": "teamviewer-bounty-program",
+    "name": "TeamViewer - Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
     "min_bounty": 100,
-    "max_bounty": 4000,
+    "max_bounty": 10000,
     "targets": {
       "in_scope": [
         {
-          "target": "https://matrix.agent.*.tchap.gouv.fr",
-          "type": "api"
+          "target": "https://www.teamviewer.com/en/products/teamviewer/",
+          "type": "application"
         },
         {
-          "target": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+          "target": "https://web.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://account.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://login.teamviewer.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
           "type": "mobile-application-android"
         },
         {
-          "target": "https://apps.apple.com/fr/app/tchap/id1446253779",
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
           "type": "mobile-application-ios"
         },
         {
-          "target": "https://www.tchap.gouv.fr",
-          "type": "web-application"
-        },
-        {
-          "target": "https://matrix.i.tchap.gouv.fr",
-          "type": "api"
-        },
-        {
-          "target": "https://matrix.e.tchap.gouv.fr",
-          "type": "api"
-        },
-        {
-          "target": "https://www.beta.tchap.gouv.fr",
-          "type": "web-application"
+          "target": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+          "type": "mobile-application-ios"
         }
       ],
       "out_of_scope": [
         {
-          "target": "Everythings that not listed in scope is out of scope.",
+          "target": "All domains not listed In-Scope",
           "type": "other"
         }
       ]
@@ -2857,6 +3295,18 @@
         {
           "target": "*.ownit.se",
           "type": "web-application"
+        },
+        {
+          "target": "*.vimla.se",
+          "type": "web-application"
+        },
+        {
+          "target": "*.vimla.work",
+          "type": "web-application"
+        },
+        {
+          "target": "*.vimla.io",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -2882,6 +3332,10 @@
         },
         {
           "target": "*.cust.ownit.se",
+          "type": "other"
+        },
+        {
+          "target": "stage-vimla-se.vimla.io",
           "type": "other"
         },
         {
@@ -2947,6 +3401,41 @@
     }
   },
   {
+    "id": "thuringer-aufbaubank-bug-bounty-program",
+    "name": "Thüringer Aufbaubank Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://thueringer-foerderportal.eu",
+          "type": "web-application"
+        },
+        {
+          "target": "https://ecohesion.aufbaubank.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://login.aufbaubank.de",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        {
+          "target": "All 3rd parties are out of scope",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "vfs-global-bug-bounty-program",
     "name": "VFS Global Bug Bounty Program",
     "public": true,
@@ -2962,14 +3451,6 @@
         },
         {
           "target": "*.vfsevisa.com",
-          "type": "web-application"
-        },
-        {
-          "target": "www.vfstasheel.com",
-          "type": "web-application"
-        },
-        {
-          "target": "agents.vfstasheel.com",
           "type": "web-application"
         },
         {
@@ -2990,10 +3471,6 @@
         },
         {
           "target": "www.vfsvisaservicesrussia.com",
-          "type": "web-application"
-        },
-        {
-          "target": "vfstasheer.com",
           "type": "web-application"
         },
         {
@@ -3042,6 +3519,42 @@
         },
         {
           "target": "https://equatorialguinea-evisa.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://online.srilankaevisa.lk/lka/en/login",
+          "type": "web-application"
+        },
+        {
+          "target": "https://online.mustaqel.qa/qat/en/login",
+          "type": "web-application"
+        },
+        {
+          "target": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vfs.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://vfseu.mioot.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.vfsvisaservice.com/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://indonesiavoa.vfsevisa.id/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
           "type": "web-application"
         }
       ],
@@ -3124,7 +3637,7 @@
     "disabled": false,
     "managed": null,
     "min_bounty": 0,
-    "max_bounty": 2000,
+    "max_bounty": 3000,
     "targets": {
       "in_scope": [
         {
@@ -3142,6 +3655,38 @@
         {
           "target": "https://app.withings.com",
           "type": "web-application"
+        },
+        {
+          "target": "https://developer.withings.com/dashboard/",
+          "type": "web-application"
+        },
+        {
+          "target": "https://scalews.withings.com",
+          "type": "api"
+        },
+        {
+          "target": "Body Scan scale",
+          "type": "other"
+        },
+        {
+          "target": "Body Comp scale",
+          "type": "other"
+        },
+        {
+          "target": "Scanwatch Light",
+          "type": "other"
+        },
+        {
+          "target": "Scanwatch 2",
+          "type": "other"
+        },
+        {
+          "target": "Scanwatch Nova",
+          "type": "other"
+        },
+        {
+          "target": "Scanwatch",
+          "type": "other"
         }
       ],
       "out_of_scope": [
@@ -3189,7 +3734,7 @@
   },
   {
     "id": "dojo",
-    "name": "YesWeHack DOJO",
+    "name": "YesWeHack Dojo",
     "public": true,
     "disabled": false,
     "managed": null,
@@ -3198,7 +3743,7 @@
     "targets": {
       "in_scope": [
         {
-          "target": "https://dojo-yeswehack.com/Playground",
+          "target": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-35",
           "type": "web-application"
         }
       ],
@@ -3221,11 +3766,7 @@
     "targets": {
       "in_scope": [
         {
-          "target": "141.94.220.124",
-          "type": "ip-address"
-        },
-        {
-          "target": "serveur10.notebleue.com",
+          "target": "serveur12.notebleue.com",
           "type": "web-application"
         },
         {
@@ -3306,27 +3847,260 @@
     }
   },
   {
-    "id": "zte-products-bug-bounty-program",
-    "name": "ZTE Products Bug Bounty Program",
+    "id": "pendulum-bug-bounty-program",
+    "name": "ntpd-rs Bug Bounty Program",
     "public": true,
     "disabled": false,
     "managed": null,
-    "min_bounty": 30,
+    "min_bounty": 250,
     "max_bounty": 10000,
     "targets": {
       "in_scope": [
         {
-          "target": "Products in Scope (see https://www.zte.com.cn/global/cybersecurity/ztepsirt/bug-bounty/products.html for more details)",
+          "target": "https://github.com/pendulum-project/ntpd-rs",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/pendulum-project/timestamped-socket",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/pendulum-project/clock-steering",
           "type": "other"
         }
       ],
       "out_of_scope": [
         {
-          "target": "ZTE Devices not listed above",
+          "target": "Known protocol limitations related to the NTP protocol",
           "type": "other"
         },
         {
-          "target": "ZTE Web applications",
+          "target": "Anything related to the NTPv5 and/or NTS Pool KE features (both disabled by default), unless it impacts other parts of the software",
+          "type": "other"
+        },
+        {
+          "target": "Anything related to *.ntpd-rs.pendulum-project.org",
+          "type": "other"
+        },
+        {
+          "target": "Anything related to the CI pipeline or GitHub related hosting",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "owncloud-bug-bounty-program",
+    "name": "ownCloud - Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://owncloud.org/install/#install-clients",
+          "type": "application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/app/id1359583808",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://github.com/owncloud/customgroups",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/guests",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/richdocuments",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/notifications",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/client",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/core",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/gallery",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/ocis",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/user_ldap",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/oauth2",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/activity",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/updater",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/core/tree/master/apps/files",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/android",
+          "type": "other"
+        },
+        {
+          "target": "https://github.com/owncloud/ios-app",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        {
+          "target": "*.owncloud.org",
+          "type": "other"
+        },
+        {
+          "target": "*.owncloud.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "systemd-bug-bounty-program",
+    "name": "systemd Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 250,
+    "max_bounty": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "systemd (the manager itself)",
+          "type": "other"
+        },
+        {
+          "target": "systemd-boot",
+          "type": "other"
+        },
+        {
+          "target": "systemd-stub",
+          "type": "other"
+        },
+        {
+          "target": "systemd-udev",
+          "type": "other"
+        },
+        {
+          "target": "systemd-journald",
+          "type": "other"
+        },
+        {
+          "target": "systemd-logind",
+          "type": "other"
+        },
+        {
+          "target": "systemd-networkd",
+          "type": "other"
+        },
+        {
+          "target": "libsystemd",
+          "type": "other"
+        },
+        {
+          "target": "systemd-timesyncd",
+          "type": "other"
+        },
+        {
+          "target": "systemd-hostnamed",
+          "type": "other"
+        },
+        {
+          "target": "systemd-resolved",
+          "type": "other"
+        },
+        {
+          "target": "systemd-cryptenroll",
+          "type": "other"
+        },
+        {
+          "target": "systemd-cryptsetup",
+          "type": "other"
+        },
+        {
+          "target": "systemd-veritysetup",
+          "type": "other"
+        },
+        {
+          "target": "systemd-fstab-generator",
+          "type": "other"
+        },
+        {
+          "target": "systemd-gpt-auto-generator",
+          "type": "other"
+        },
+        {
+          "target": "systemd-ask-password",
+          "type": "other"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "journal sealing in systemd-journald: there are known issue that need to be solved first, before this feature can be included in the program",
+          "type": "other"
+        },
+        {
+          "target": "Anything related to https://systemd.io",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "toom-baumarkt-gmbh-bug-bounty-program",
+    "name": "toom Baumarkt GmbH - Bug Bounty Program (toom.de)",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://toom.de",
+          "type": "web-application"
+        },
+        {
+          "target": "https://api.toom.de",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'.",
           "type": "other"
         }
       ]
