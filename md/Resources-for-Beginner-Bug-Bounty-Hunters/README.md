@@ -23,18 +23,18 @@ I have also put together my own resource:
 ---
 ## Table of Contents
 
-- [Basics](/assets/basics.md)
-- [Blog posts & Talks](/assets/blogposts.md)
-- [Books](/assets/books.md)
-- [Setup](/assets/setup.md)
-- [Tools](/assets/tools.md)
-- [Labs & Testing Environments](/assets/labs.md)
-- [Talks](/assets/talks.md)
-- [Vulnerability Types](/assets/vulns.md)
-- [Mobile Hacking](/assets/mobile.md)
-- [Coding & Scripting](/assets/coding.md)
-- [Media Resources](/assets/media.md)
-- [Mindset & Mental Health](/assets/health.md)
+- [Basics](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/basics.md)
+- [Blog posts & Talks](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/blogposts.md)
+- [Books](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/books.md)
+- [Setup](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/setup.md)
+- [Tools](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/tools.md)
+- [Labs & Testing Environments](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/labs.md)
+- [Talks](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/talks.md)
+- [Vulnerability Types](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/vulns.md)
+- [Mobile Hacking](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/mobile.md)
+- [Coding & Scripting](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/coding.md)
+- [Media Resources](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/media.md)
+- [Mindset & Mental Health](/md/Resources-for-Beginner-Bug-Bounty-Hunters/assets/health.md)
 
 ---
 If you have more questions or suggestions, check out [NahamSec's Discord](https://discord.gg/9jZxjQ5)!<br>
